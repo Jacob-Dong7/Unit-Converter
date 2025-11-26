@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1214</width>
+    <height>588</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1211</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="mainmenu">
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>-20</y>
+        <width>1181</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Elephant</family>
+        <pointsize>28</pointsize>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Shape::NoFrame</enum>
+      </property>
+      <property name="text">
+       <string>UniConvert Pro</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QWidget" name="">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>70</y>
+        <width>521</width>
+        <height>441</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QPushButton" name="btnLength">
+         <property name="font">
+          <font>
+           <family>Modern No. 20</family>
+           <pointsize>24</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Length</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnWeight">
+         <property name="font">
+          <font>
+           <family>Modern No. 20</family>
+           <pointsize>24</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Weight</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnTemp">
+         <property name="font">
+          <font>
+           <family>Modern No. 20</family>
+           <pointsize>24</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Temperature</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnCurrency">
+         <property name="font">
+          <font>
+           <family>Modern No. 20</family>
+           <pointsize>24</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Currency</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="pageLength">
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>-10</y>
+        <width>1181</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Elephant</family>
+        <pointsize>28</pointsize>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Shape::NoFrame</enum>
+      </property>
+      <property name="text">
+       <string>UniConvert Pro</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QSplitter" name="splitter_3">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>180</y>
+        <width>1141</width>
+        <height>72</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Orientation::Vertical</enum>
+      </property>
+      <widget class="QSplitter" name="splitter">
+       <property name="orientation">
+        <enum>Qt::Orientation::Horizontal</enum>
+       </property>
+       <property name="handleWidth">
+        <number>50</number>
+       </property>
+       <widget class="QSpinBox" name="sbLengthOne"/>
+       <widget class="QSpinBox" name="sbLengthTwo"/>
+      </widget>
+      <widget class="QSplitter" name="splitter_2">
+       <property name="orientation">
+        <enum>Qt::Orientation::Horizontal</enum>
+       </property>
+       <property name="handleWidth">
+        <number>50</number>
+       </property>
+       <widget class="QComboBox" name="cmbLengthOne">
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="currentText">
+         <string>Kilometre</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>Kilometre</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Metre</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Centimetre</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Millimetre</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Micrometre</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Nanometre</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mile</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Yard</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Foot</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Inch</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Nautical mile</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QComboBox" name="cmbLengthTwo">
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <item>
+         <property name="text">
+          <string>Kilometre</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Metre</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Centimetre</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Millimetre</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Micrometre</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Nanometre</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mile</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Yard</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Foot</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Inch</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Nautical mile</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>270</y>
+        <width>1141</width>
+        <height>251</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QPushButton" name="btnConvertLength">
+         <property name="font">
+          <font>
+           <family>Modern No. 20</family>
+           <pointsize>24</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Convert</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnClearLength">
+         <property name="font">
+          <font>
+           <family>Modern No. 20</family>
+           <pointsize>24</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Clear</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnReturnLength">
+         <property name="font">
+          <font>
+           <family>Modern No. 20</family>
+           <pointsize>24</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Return</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1214</width>
+     <height>33</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

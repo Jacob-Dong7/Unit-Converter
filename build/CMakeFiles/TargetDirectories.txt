@@ -1,0 +1,5 @@
+C:/Programming/CPP/Unit-Converter/build/CMakeFiles/UnitConverter.dir
+C:/Programming/CPP/Unit-Converter/build/CMakeFiles/edit_cache.dir
+C:/Programming/CPP/Unit-Converter/build/CMakeFiles/rebuild_cache.dir
+C:/Programming/CPP/Unit-Converter/build/CMakeFiles/UnitConverter_autogen_timestamp_deps.dir
+C:/Programming/CPP/Unit-Converter/build/CMakeFiles/UnitConverter_autogen.dir
