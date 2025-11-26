@@ -1,9 +1,9 @@
-CMakeFiles/UnitConverter.dir/UnitConverter/mainwindow.cpp.obj: \
- C:\Programming\CPP\Unit-Converter\UnitConverter\mainwindow.cpp \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/QMainWindow \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/qmainwindow.h \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
- C:/Qt/6.10.1/mingw_64/include/QtGui/qtguiglobal.h \
+CMakeFiles/UnitConverter.dir/UnitConverter/weight.cpp.obj: \
+ C:\Programming\CPP\Unit-Converter\UnitConverter\weight.cpp \
+ C:\Programming\CPP\Unit-Converter\UnitConverter\weight.h \
+ C:/Qt/6.10.1/mingw_64/include/QtCore/QString \
+ C:/Qt/6.10.1/mingw_64/include/QtCore/qstring.h \
+ C:/Qt/6.10.1/mingw_64/include/QtCore/qchar.h \
  C:/Qt/6.10.1/mingw_64/include/QtCore/qglobal.h \
  C:/msys64/ucrt64/include/c++/15.2.0/type_traits \
  C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -151,14 +151,6 @@ CMakeFiles/UnitConverter.dir/UnitConverter/mainwindow.cpp.obj: \
  C:/Qt/6.10.1/mingw_64/include/QtCore/qtresource.h \
  C:/Qt/6.10.1/mingw_64/include/QtCore/qttranslation.h \
  C:/Qt/6.10.1/mingw_64/include/QtCore/qversiontagging.h \
- C:/Qt/6.10.1/mingw_64/include/QtGui/qtgui-config.h \
- C:/Qt/6.10.1/mingw_64/include/QtGui/qtguiexports.h \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/qtwidgets-config.h \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/qtwidgetsexports.h \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/qwidget.h \
- C:/Qt/6.10.1/mingw_64/include/QtGui/qwindowdefs.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qobjectdefs.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qnamespace.h \
  C:/Qt/6.10.1/mingw_64/include/QtCore/qcompare.h \
  C:/Qt/6.10.1/mingw_64/include/QtCore/qstdlibdetection.h \
  C:/Qt/6.10.1/mingw_64/include/QtCore/qcomparehelpers.h \
@@ -189,14 +181,22 @@ CMakeFiles/UnitConverter.dir/UnitConverter/mainwindow.cpp.obj: \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/vector.tcc \
  C:/msys64/ucrt64/include/c++/15.2.0/array \
  C:/msys64/ucrt64/include/c++/15.2.0/compare \
+ C:/Qt/6.10.1/mingw_64/include/QtCore/qstringview.h \
+ C:/Qt/6.10.1/mingw_64/include/QtCore/qbytearray.h \
+ C:/Qt/6.10.1/mingw_64/include/QtCore/qrefcount.h \
+ C:/Qt/6.10.1/mingw_64/include/QtCore/qnamespace.h \
  C:/Qt/6.10.1/mingw_64/include/QtCore/qtmetamacros.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qobjectdefs_impl.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qfunctionaltools_impl.h \
- C:/msys64/ucrt64/include/c++/15.2.0/memory \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_raw_storage_iter.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/align.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/unique_ptr.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/shared_ptr.h \
+ C:/Qt/6.10.1/mingw_64/include/QtCore/qarraydata.h \
+ C:/Qt/6.10.1/mingw_64/include/QtCore/qpair.h \
+ C:/msys64/ucrt64/include/string.h \
+ C:/msys64/ucrt64/include/sec_api/string_s.h \
+ C:/Qt/6.10.1/mingw_64/include/QtCore/qarraydatapointer.h \
+ C:/Qt/6.10.1/mingw_64/include/QtCore/qarraydataops.h \
+ C:/Qt/6.10.1/mingw_64/include/QtCore/qcontainertools_impl.h \
+ C:/Qt/6.10.1/mingw_64/include/QtCore/qxptype_traits.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/cstring \
+ C:/msys64/ucrt64/include/c++/15.2.0/iterator \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/stream_iterator.h \
  C:/msys64/ucrt64/include/c++/15.2.0/iosfwd \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/stringfwd.h \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/postypes.h \
@@ -208,8 +208,16 @@ CMakeFiles/UnitConverter.dir/UnitConverter/mainwindow.cpp.obj: \
  C:/msys64/ucrt64/include/_mingw_stat64.h \
  C:/msys64/ucrt64/include/swprintf.inl \
  C:/msys64/ucrt64/include/sec_api/wchar_s.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/shared_ptr_base.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/allocated_ptr.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/streambuf_iterator.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/streambuf \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/localefwd.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++locale.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/clocale \
+ C:/msys64/ucrt64/include/locale.h C:/msys64/ucrt64/include/stdio.h \
+ C:/msys64/ucrt64/include/sec_api/stdio_s.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/cctype \
+ C:/msys64/ucrt64/include/ctype.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/ios_base.h \
  C:/msys64/ucrt64/include/c++/15.2.0/ext/atomicity.h \
  C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/gthr.h \
  C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/gthr-default.h \
@@ -226,38 +234,6 @@ CMakeFiles/UnitConverter.dir/UnitConverter/mainwindow.cpp.obj: \
  C:/msys64/ucrt64/include/sched.h \
  C:/msys64/ucrt64/include/pthread_unistd.h \
  C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/atomic_word.h \
- C:/msys64/ucrt64/include/c++/15.2.0/ext/concurrence.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/shared_ptr_atomic.h \
- C:/msys64/ucrt64/include/c++/15.2.0/backward/auto_ptr.h \
- C:/msys64/ucrt64/include/c++/15.2.0/pstl/glue_memory_defs.h \
- C:/Qt/6.10.1/mingw_64/include/QtGui/qwindowdefs_win.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qobject.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qstring.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qchar.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qstringview.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qbytearray.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qrefcount.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qarraydata.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qpair.h \
- C:/msys64/ucrt64/include/string.h \
- C:/msys64/ucrt64/include/sec_api/string_s.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qarraydatapointer.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qarraydataops.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qcontainertools_impl.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qxptype_traits.h \
- C:/msys64/ucrt64/include/c++/15.2.0/cstring \
- C:/msys64/ucrt64/include/c++/15.2.0/iterator \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/stream_iterator.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/streambuf_iterator.h \
- C:/msys64/ucrt64/include/c++/15.2.0/streambuf \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/localefwd.h \
- C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++locale.h \
- C:/msys64/ucrt64/include/c++/15.2.0/clocale \
- C:/msys64/ucrt64/include/locale.h C:/msys64/ucrt64/include/stdio.h \
- C:/msys64/ucrt64/include/sec_api/stdio_s.h \
- C:/msys64/ucrt64/include/c++/15.2.0/cctype \
- C:/msys64/ucrt64/include/ctype.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/ios_base.h \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/locale_classes.h \
  C:/msys64/ucrt64/include/c++/15.2.0/string \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/char_traits.h \
@@ -276,6 +252,17 @@ CMakeFiles/UnitConverter.dir/UnitConverter/mainwindow.cpp.obj: \
  C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/error_constants.h \
  C:/msys64/ucrt64/include/c++/15.2.0/stdexcept \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/streambuf.tcc \
+ C:/msys64/ucrt64/include/c++/15.2.0/memory \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_raw_storage_iter.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/align.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/unique_ptr.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/shared_ptr.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/shared_ptr_base.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/allocated_ptr.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/ext/concurrence.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/shared_ptr_atomic.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/backward/auto_ptr.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/pstl/glue_memory_defs.h \
  C:/Qt/6.10.1/mingw_64/include/QtCore/q20functional.h \
  C:/Qt/6.10.1/mingw_64/include/QtCore/q20memory.h \
  C:/Qt/6.10.1/mingw_64/include/QtCore/q17memory.h \
@@ -292,161 +279,6 @@ CMakeFiles/UnitConverter.dir/UnitConverter/mainwindow.cpp.obj: \
  C:/Qt/6.10.1/mingw_64/include/QtCore/qstringtokenizer.h \
  C:/Qt/6.10.1/mingw_64/include/QtCore/q23type_traits.h \
  C:/Qt/6.10.1/mingw_64/include/QtCore/qstringbuilder.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qstringconverter.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qstringconverter_base.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qlist.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qhashfunctions.h \
- C:/msys64/ucrt64/include/c++/15.2.0/numeric \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_numeric.h \
- C:/msys64/ucrt64/include/c++/15.2.0/pstl/glue_numeric_defs.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qiterator.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qbytearraylist.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qstringlist.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qalgorithms.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qstringmatcher.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qscopedpointer.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qmetatype.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qdatastream.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qiodevicebase.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qfloat16.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qmath.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qtformat_impl.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qiterable.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qtaggedpointer.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qmetacontainer.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qcontainerinfo.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qscopeguard.h \
- C:/msys64/ucrt64/include/c++/15.2.0/list \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_list.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/list.tcc \
- C:/msys64/ucrt64/include/c++/15.2.0/map \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_tree.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_map.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_multimap.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qobject_impl.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qbindingstorage.h \
- C:/msys64/ucrt64/include/c++/15.2.0/chrono \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/chrono.h \
- C:/msys64/ucrt64/include/c++/15.2.0/ratio \
- C:/msys64/ucrt64/include/c++/15.2.0/ctime \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qmargins.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qcheckedint_impl.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/q23utility.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/q20utility.h \
- C:/Qt/6.10.1/mingw_64/include/QtGui/qaction.h \
- C:/Qt/6.10.1/mingw_64/include/QtGui/qkeysequence.h \
- C:/Qt/6.10.1/mingw_64/include/QtGui/qicon.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qsize.h \
- C:/Qt/6.10.1/mingw_64/include/QtGui/qpixmap.h \
- C:/Qt/6.10.1/mingw_64/include/QtGui/qpaintdevice.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qrect.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qpoint.h \
- C:/Qt/6.10.1/mingw_64/include/QtGui/qcolor.h \
- C:/Qt/6.10.1/mingw_64/include/QtGui/qrgb.h \
- C:/Qt/6.10.1/mingw_64/include/QtGui/qrgba64.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qshareddata.h \
- C:/Qt/6.10.1/mingw_64/include/QtGui/qimage.h \
- C:/Qt/6.10.1/mingw_64/include/QtGui/qpixelformat.h \
- C:/Qt/6.10.1/mingw_64/include/QtGui/qtransform.h \
- C:/Qt/6.10.1/mingw_64/include/QtGui/qpolygon.h \
- C:/Qt/6.10.1/mingw_64/include/QtGui/qregion.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qspan.h \
- C:/msys64/ucrt64/include/c++/15.2.0/cassert \
- C:/Qt/6.10.1/mingw_64/include/QtCore/q20iterator.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qline.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qvariant.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qdebug.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qtextstream.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qcontiguouscache.h \
- C:/msys64/ucrt64/include/c++/15.2.0/climits \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qsharedpointer.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qsharedpointer_impl.h \
- C:/msys64/ucrt64/include/c++/15.2.0/set \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_set.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_multiset.h \
- C:/msys64/ucrt64/include/c++/15.2.0/unordered_set \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/unordered_set.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qmap.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qshareddata_impl.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qset.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qhash.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qvarlengtharray.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qalloc.h \
- C:/Qt/6.10.1/mingw_64/include/QtGui/qpalette.h \
- C:/Qt/6.10.1/mingw_64/include/QtGui/qbrush.h \
- C:/Qt/6.10.1/mingw_64/include/QtGui/qfont.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qendian.h \
- C:/Qt/6.10.1/mingw_64/include/QtGui/qfontmetrics.h \
- C:/Qt/6.10.1/mingw_64/include/QtGui/qfontinfo.h \
- C:/Qt/6.10.1/mingw_64/include/QtGui/qfontvariableaxis.h \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/qsizepolicy.h \
- C:/Qt/6.10.1/mingw_64/include/QtGui/qcursor.h \
- C:/Qt/6.10.1/mingw_64/include/QtGui/qbitmap.h \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/qtabwidget.h \
- C:\Programming\CPP\Unit-Converter\UnitConverter\mainwindow.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/QString \
  C:/Qt/6.10.1/mingw_64/include/QtCore/qstring.h \
- C:\Programming\CPP\Unit-Converter\UnitConverter\length.h \
- C:\Programming\CPP\Unit-Converter\UnitConverter\weight.h \
- C:/Programming/CPP/Unit-Converter/build/UnitConverter_autogen/include/ui_mainwindow.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/QVariant \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qvariant.h \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/QApplication \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/qapplication.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qcoreapplication.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qcoreevent.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qbasictimer.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qabstracteventdispatcher.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qeventloop.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qdeadlinetimer.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qnativeinterface.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
- C:/Qt/6.10.1/mingw_64/include/QtGui/qguiapplication.h \
- C:/Qt/6.10.1/mingw_64/include/QtGui/qinputmethod.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qlocale.h \
- C:/Qt/6.10.1/mingw_64/include/QtGui/qguiapplication_platform.h \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/QComboBox \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/qcombobox.h \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/qstyleoption.h \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/qabstractspinbox.h \
- C:/Qt/6.10.1/mingw_64/include/QtGui/qvalidator.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qregularexpression.h \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/qslider.h \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/qabstractslider.h \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/qstyle.h \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/qtabbar.h \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/qrubberband.h \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/qframe.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qabstractitemmodel.h \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/QDoubleSpinBox \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/qspinbox.h \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/QGridLayout \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/qgridlayout.h \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/qlayout.h \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/qlayoutitem.h \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/qboxlayout.h \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/qgridlayout.h \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/QLabel \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/qlabel.h \
- C:/Qt/6.10.1/mingw_64/include/QtGui/qpicture.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qiodevice.h \
- C:/Qt/6.10.1/mingw_64/include/QtGui/qtextdocument.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qurl.h \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/QMainWindow \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/QMenuBar \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/qmenubar.h \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/qmenu.h \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/QPushButton \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/qpushbutton.h \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/qabstractbutton.h \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/QSplitter \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/qsplitter.h \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/QStackedWidget \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/qstackedwidget.h \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/QStatusBar \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/qstatusbar.h \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/QVBoxLayout \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/qboxlayout.h \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/QWidget \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/qwidget.h
+ C:/Qt/6.10.1/mingw_64/include/QtCore/qstringconverter.h \
+ C:/Qt/6.10.1/mingw_64/include/QtCore/qstringconverter_base.h

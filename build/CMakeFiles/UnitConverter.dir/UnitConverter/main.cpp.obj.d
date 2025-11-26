@@ -397,4 +397,8 @@ CMakeFiles/UnitConverter.dir/UnitConverter/main.cpp.obj: \
  C:/Qt/6.10.1/mingw_64/include/QtGui/qfontinfo.h \
  C:/Qt/6.10.1/mingw_64/include/QtGui/qfontvariableaxis.h \
  C:/Qt/6.10.1/mingw_64/include/QtWidgets/qsizepolicy.h \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/qtabwidget.h
+ C:/Qt/6.10.1/mingw_64/include/QtWidgets/qtabwidget.h \
+ C:/Qt/6.10.1/mingw_64/include/QtCore/QString \
+ C:/Qt/6.10.1/mingw_64/include/QtCore/qstring.h \
+ C:\Programming\CPP\Unit-Converter\UnitConverter\length.h \
+ C:\Programming\CPP\Unit-Converter\UnitConverter\weight.h

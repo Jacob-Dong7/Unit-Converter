@@ -154,6 +154,30 @@ UnitConverter_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UnitConverter_autogen.dir\build.make CMakeFiles/UnitConverter_autogen.dir/build
 .PHONY : UnitConverter_autogen/fast
 
+UnitConverter/length.obj: UnitConverter/length.cpp.obj
+.PHONY : UnitConverter/length.obj
+
+# target to build an object file
+UnitConverter/length.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UnitConverter.dir\build.make CMakeFiles/UnitConverter.dir/UnitConverter/length.cpp.obj
+.PHONY : UnitConverter/length.cpp.obj
+
+UnitConverter/length.i: UnitConverter/length.cpp.i
+.PHONY : UnitConverter/length.i
+
+# target to preprocess a source file
+UnitConverter/length.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UnitConverter.dir\build.make CMakeFiles/UnitConverter.dir/UnitConverter/length.cpp.i
+.PHONY : UnitConverter/length.cpp.i
+
+UnitConverter/length.s: UnitConverter/length.cpp.s
+.PHONY : UnitConverter/length.s
+
+# target to generate assembly for a file
+UnitConverter/length.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UnitConverter.dir\build.make CMakeFiles/UnitConverter.dir/UnitConverter/length.cpp.s
+.PHONY : UnitConverter/length.cpp.s
+
 UnitConverter/main.obj: UnitConverter/main.cpp.obj
 .PHONY : UnitConverter/main.obj
 
@@ -202,6 +226,30 @@ UnitConverter/mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UnitConverter.dir\build.make CMakeFiles/UnitConverter.dir/UnitConverter/mainwindow.cpp.s
 .PHONY : UnitConverter/mainwindow.cpp.s
 
+UnitConverter/weight.obj: UnitConverter/weight.cpp.obj
+.PHONY : UnitConverter/weight.obj
+
+# target to build an object file
+UnitConverter/weight.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UnitConverter.dir\build.make CMakeFiles/UnitConverter.dir/UnitConverter/weight.cpp.obj
+.PHONY : UnitConverter/weight.cpp.obj
+
+UnitConverter/weight.i: UnitConverter/weight.cpp.i
+.PHONY : UnitConverter/weight.i
+
+# target to preprocess a source file
+UnitConverter/weight.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UnitConverter.dir\build.make CMakeFiles/UnitConverter.dir/UnitConverter/weight.cpp.i
+.PHONY : UnitConverter/weight.cpp.i
+
+UnitConverter/weight.s: UnitConverter/weight.cpp.s
+.PHONY : UnitConverter/weight.s
+
+# target to generate assembly for a file
+UnitConverter/weight.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UnitConverter.dir\build.make CMakeFiles/UnitConverter.dir/UnitConverter/weight.cpp.s
+.PHONY : UnitConverter/weight.cpp.s
+
 UnitConverter_autogen/mocs_compilation.obj: UnitConverter_autogen/mocs_compilation.cpp.obj
 .PHONY : UnitConverter_autogen/mocs_compilation.obj
 
@@ -237,12 +285,18 @@ help:
 	@echo ... UnitConverter_autogen
 	@echo ... UnitConverter_autogen_timestamp_deps
 	@echo ... UnitConverter
+	@echo ... UnitConverter/length.obj
+	@echo ... UnitConverter/length.i
+	@echo ... UnitConverter/length.s
 	@echo ... UnitConverter/main.obj
 	@echo ... UnitConverter/main.i
 	@echo ... UnitConverter/main.s
 	@echo ... UnitConverter/mainwindow.obj
 	@echo ... UnitConverter/mainwindow.i
 	@echo ... UnitConverter/mainwindow.s
+	@echo ... UnitConverter/weight.obj
+	@echo ... UnitConverter/weight.i
+	@echo ... UnitConverter/weight.s
 	@echo ... UnitConverter_autogen/mocs_compilation.obj
 	@echo ... UnitConverter_autogen/mocs_compilation.i
 	@echo ... UnitConverter_autogen/mocs_compilation.s

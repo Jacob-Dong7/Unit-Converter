@@ -385,6 +385,10 @@ CMakeFiles/UnitConverter.dir/UnitConverter_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.10.1/mingw_64/include/QtGui/qcursor.h \
  C:/Qt/6.10.1/mingw_64/include/QtGui/qbitmap.h \
  C:/Qt/6.10.1/mingw_64/include/QtWidgets/qtabwidget.h \
+ C:/Qt/6.10.1/mingw_64/include/QtCore/QString \
+ C:/Qt/6.10.1/mingw_64/include/QtCore/qstring.h \
+ C:/Programming/CPP/Unit-Converter/UnitConverter/length.h \
+ C:/Programming/CPP/Unit-Converter/UnitConverter/weight.h \
  C:/Qt/6.10.1/mingw_64/include/QtCore/qtmochelpers.h \
  C:/Qt/6.10.1/mingw_64/include/QtCore/qtmocconstants.h \
  C:/Qt/6.10.1/mingw_64/include/QtCore/q20algorithm.h

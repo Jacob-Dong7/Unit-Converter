@@ -109,14 +109,18 @@ C:/Programming/CPP/Unit-Converter/build/UnitConverter_autogen/timestamp
  C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows.cmake
  C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/WindowsPaths.cmake
  C:/Programming/CPP/Unit-Converter/CMakeLists.txt
+ C:/Programming/CPP/Unit-Converter/UnitConverter/length.cpp
+ C:/Programming/CPP/Unit-Converter/UnitConverter/length.h
  C:/Programming/CPP/Unit-Converter/UnitConverter/main.cpp
  C:/Programming/CPP/Unit-Converter/UnitConverter/mainwindow.cpp
  C:/Programming/CPP/Unit-Converter/UnitConverter/mainwindow.h
  C:/Programming/CPP/Unit-Converter/UnitConverter/mainwindow.ui
+ C:/Programming/CPP/Unit-Converter/UnitConverter/weight.h
  C:/Programming/CPP/Unit-Converter/build/CMakeFiles/4.2.0/CMakeCXXCompiler.cmake
  C:/Programming/CPP/Unit-Converter/build/CMakeFiles/4.2.0/CMakeRCCompiler.cmake
  C:/Programming/CPP/Unit-Converter/build/CMakeFiles/4.2.0/CMakeSystem.cmake
  C:/Programming/CPP/Unit-Converter/build/UnitConverter_autogen/moc_predefs.h
+ C:/Qt/6.10.1/mingw_64/include/QtCore/QString
  C:/Qt/6.10.1/mingw_64/include/QtCore/q17memory.h
  C:/Qt/6.10.1/mingw_64/include/QtCore/q20functional.h
  C:/Qt/6.10.1/mingw_64/include/QtCore/q20iterator.h

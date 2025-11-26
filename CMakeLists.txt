@@ -19,6 +19,10 @@ set(PROJECT_SOURCES
     UnitConverter/mainwindow.cpp
     UnitConverter/mainwindow.h
     UnitConverter/mainwindow.ui
+    UnitConverter/length.h
+    UnitConverter/length.cpp
+    UnitConverter/weight.cpp
+    UnitConverter/weight.cpp
 )
 
 # Create the executable

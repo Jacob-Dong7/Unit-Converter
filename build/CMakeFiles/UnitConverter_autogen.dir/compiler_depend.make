@@ -108,14 +108,18 @@ UnitConverter_autogen/timestamp: C:/Program\ Files/CMake/bin/cmake.exe \
   C:/Program\ Files/CMake/share/cmake-4.2/Modules/Platform/Windows.cmake \
   C:/Program\ Files/CMake/share/cmake-4.2/Modules/Platform/WindowsPaths.cmake \
   C:/Programming/CPP/Unit-Converter/CMakeLists.txt \
+  C:/Programming/CPP/Unit-Converter/UnitConverter/length.cpp \
+  C:/Programming/CPP/Unit-Converter/UnitConverter/length.h \
   C:/Programming/CPP/Unit-Converter/UnitConverter/main.cpp \
   C:/Programming/CPP/Unit-Converter/UnitConverter/mainwindow.cpp \
   C:/Programming/CPP/Unit-Converter/UnitConverter/mainwindow.h \
   C:/Programming/CPP/Unit-Converter/UnitConverter/mainwindow.ui \
+  C:/Programming/CPP/Unit-Converter/UnitConverter/weight.h \
   CMakeFiles/4.2.0/CMakeCXXCompiler.cmake \
   CMakeFiles/4.2.0/CMakeRCCompiler.cmake \
   CMakeFiles/4.2.0/CMakeSystem.cmake \
   UnitConverter_autogen/moc_predefs.h \
+  C:/Qt/6.10.1/mingw_64/include/QtCore/QString \
   C:/Qt/6.10.1/mingw_64/include/QtCore/q17memory.h \
   C:/Qt/6.10.1/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.10.1/mingw_64/include/QtCore/q20iterator.h \
@@ -914,11 +918,11 @@ C:/Program\ Files/CMake/share/cmake-4.2/Modules/Compiler/PGI-DetermineCompiler.c
 
 C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_iterator.h:
 
-C:/Program\ Files/CMake/share/cmake-4.2/Modules/Compiler/PathScale-DetermineCompiler.cmake:
+C:/msys64/ucrt64/include/c++/15.2.0/bits/localefwd.h:
 
 C:/msys64/ucrt64/include/c++/15.2.0/bits/stream_iterator.h:
 
-C:/msys64/ucrt64/include/c++/15.2.0/bits/localefwd.h:
+C:/Program\ Files/CMake/share/cmake-4.2/Modules/Compiler/PathScale-DetermineCompiler.cmake:
 
 C:/Program\ Files/CMake/share/cmake-4.2/Modules/Compiler/Renesas-DetermineCompiler.cmake:
 
@@ -980,6 +984,8 @@ C:/Program\ Files/CMake/share/cmake-4.2/Modules/Internal/CMakeInspectCXXLinker.c
 
 C:/Program\ Files/CMake/share/cmake-4.2/Modules/Internal/CheckCompilerFlag.cmake:
 
+C:/Programming/CPP/Unit-Converter/UnitConverter/weight.h:
+
 C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake:
 
 C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake:
@@ -1000,6 +1006,8 @@ C:/Program\ Files/CMake/share/cmake-4.2/Modules/Platform/Windows-GNU-CXX-ABI.cma
 
 C:/Program\ Files/CMake/share/cmake-4.2/Modules/Platform/Windows-GNU-CXX.cmake:
 
+C:/Programming/CPP/Unit-Converter/UnitConverter/length.cpp:
+
 C:/Program\ Files/CMake/share/cmake-4.2/Modules/Platform/Windows-GNU.cmake:
 
 C:/Program\ Files/CMake/share/cmake-4.2/Modules/Platform/Windows-Initialize.cmake:
@@ -1010,11 +1018,15 @@ C:/Program\ Files/CMake/share/cmake-4.2/Modules/Platform/Windows-windres.cmake:
 
 C:/Program\ Files/CMake/share/cmake-4.2/Modules/Platform/Windows.cmake:
 
+C:/Qt/6.10.1/mingw_64/include/QtCore/QString:
+
 C:/Program\ Files/CMake/share/cmake-4.2/Modules/Platform/WindowsPaths.cmake:
 
 C:/Qt/6.10.1/mingw_64/include/QtCore/qsharedpointer.h:
 
 C:/Programming/CPP/Unit-Converter/CMakeLists.txt:
+
+C:/Programming/CPP/Unit-Converter/UnitConverter/length.h:
 
 C:/Programming/CPP/Unit-Converter/UnitConverter/main.cpp:
 
@@ -1136,11 +1148,11 @@ C:/Qt/6.10.1/mingw_64/include/QtGui/qimage.h:
 
 C:/Qt/6.10.1/mingw_64/include/QtCore/qcontainertools_impl.h:
 
+C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_vector.h:
+
 C:/Qt/6.10.1/mingw_64/include/QtCore/qcontiguouscache.h:
 
 C:/msys64/ucrt64/include/c++/15.2.0/bits/refwrap.h:
-
-C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_vector.h:
 
 C:/Qt/6.10.1/mingw_64/include/QtCore/qdarwinhelpers.h:
 
@@ -1680,9 +1692,9 @@ C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake:
 
 C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake:
 
-C:/msys64/ucrt64/include/_mingw.h:
-
 C:/msys64/ucrt64/include/c++/15.2.0/bits/streambuf.tcc:
+
+C:/msys64/ucrt64/include/_mingw.h:
 
 C:/msys64/ucrt64/include/_mingw_mac.h:
 
