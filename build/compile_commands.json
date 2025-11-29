@@ -28,5 +28,11 @@
   "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/UnitConverter.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\UnitConverter.dir\\UnitConverter\\weight.cpp.obj -c C:\\Programming\\CPP\\Unit-Converter\\UnitConverter\\weight.cpp",
   "file": "C:/Programming/CPP/Unit-Converter/UnitConverter/weight.cpp",
   "output": "CMakeFiles/UnitConverter.dir/UnitConverter/weight.cpp.obj"
+},
+{
+  "directory": "C:/Programming/CPP/Unit-Converter/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/UnitConverter.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\UnitConverter.dir\\UnitConverter\\scientific.cpp.obj -c C:\\Programming\\CPP\\Unit-Converter\\UnitConverter\\scientific.cpp",
+  "file": "C:/Programming/CPP/Unit-Converter/UnitConverter/scientific.cpp",
+  "output": "CMakeFiles/UnitConverter.dir/UnitConverter/scientific.cpp.obj"
 }
 ]

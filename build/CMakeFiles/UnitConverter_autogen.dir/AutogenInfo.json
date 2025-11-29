@@ -277,6 +277,12 @@
 			null
 		],
 		[
+			"C:/Programming/CPP/Unit-Converter/UnitConverter/scientific.h",
+			"MU",
+			"EIFJRY36SK/moc_scientific.cpp",
+			null
+		],
+		[
 			"C:/Programming/CPP/Unit-Converter/UnitConverter/weight.h",
 			"MU",
 			"EIFJRY36SK/moc_weight.cpp",
@@ -308,6 +314,7 @@
 	],
 	"MOC_INCLUDES" : 
 	[
+		"C:/Programming/CPP/Unit-Converter/UnitConverter",
 		"C:/Qt/6.10.1/mingw_64/include/QtCore",
 		"C:/Qt/6.10.1/mingw_64/include",
 		"C:/Qt/6.10.1/mingw_64/mkspecs/win32-g++",
@@ -365,6 +372,11 @@
 		],
 		[
 			"C:/Programming/CPP/Unit-Converter/UnitConverter/mainwindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Programming/CPP/Unit-Converter/UnitConverter/scientific.cpp",
 			"MU",
 			null
 		],

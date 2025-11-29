@@ -226,6 +226,30 @@ UnitConverter/mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UnitConverter.dir\build.make CMakeFiles/UnitConverter.dir/UnitConverter/mainwindow.cpp.s
 .PHONY : UnitConverter/mainwindow.cpp.s
 
+UnitConverter/scientific.obj: UnitConverter/scientific.cpp.obj
+.PHONY : UnitConverter/scientific.obj
+
+# target to build an object file
+UnitConverter/scientific.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UnitConverter.dir\build.make CMakeFiles/UnitConverter.dir/UnitConverter/scientific.cpp.obj
+.PHONY : UnitConverter/scientific.cpp.obj
+
+UnitConverter/scientific.i: UnitConverter/scientific.cpp.i
+.PHONY : UnitConverter/scientific.i
+
+# target to preprocess a source file
+UnitConverter/scientific.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UnitConverter.dir\build.make CMakeFiles/UnitConverter.dir/UnitConverter/scientific.cpp.i
+.PHONY : UnitConverter/scientific.cpp.i
+
+UnitConverter/scientific.s: UnitConverter/scientific.cpp.s
+.PHONY : UnitConverter/scientific.s
+
+# target to generate assembly for a file
+UnitConverter/scientific.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UnitConverter.dir\build.make CMakeFiles/UnitConverter.dir/UnitConverter/scientific.cpp.s
+.PHONY : UnitConverter/scientific.cpp.s
+
 UnitConverter/weight.obj: UnitConverter/weight.cpp.obj
 .PHONY : UnitConverter/weight.obj
 
@@ -294,6 +318,9 @@ help:
 	@echo ... UnitConverter/mainwindow.obj
 	@echo ... UnitConverter/mainwindow.i
 	@echo ... UnitConverter/mainwindow.s
+	@echo ... UnitConverter/scientific.obj
+	@echo ... UnitConverter/scientific.i
+	@echo ... UnitConverter/scientific.s
 	@echo ... UnitConverter/weight.obj
 	@echo ... UnitConverter/weight.i
 	@echo ... UnitConverter/weight.s

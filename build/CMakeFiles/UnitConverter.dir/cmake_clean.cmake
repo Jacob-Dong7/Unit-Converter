@@ -8,6 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/UnitConverter.dir/UnitConverter/main.cpp.obj.d"
   "CMakeFiles/UnitConverter.dir/UnitConverter/mainwindow.cpp.obj"
   "CMakeFiles/UnitConverter.dir/UnitConverter/mainwindow.cpp.obj.d"
+  "CMakeFiles/UnitConverter.dir/UnitConverter/scientific.cpp.obj"
+  "CMakeFiles/UnitConverter.dir/UnitConverter/scientific.cpp.obj.d"
   "CMakeFiles/UnitConverter.dir/UnitConverter/weight.cpp.obj"
   "CMakeFiles/UnitConverter.dir/UnitConverter/weight.cpp.obj.d"
   "CMakeFiles/UnitConverter.dir/UnitConverter_autogen/mocs_compilation.cpp.obj"

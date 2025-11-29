@@ -44,6 +44,8 @@ UnitConverter_autogen/timestamp: \
 	C:/Programming/CPP/Unit-Converter/UnitConverter/main.cpp \
 	C:/Programming/CPP/Unit-Converter/UnitConverter/mainwindow.cpp \
 	C:/Programming/CPP/Unit-Converter/UnitConverter/mainwindow.h \
+	C:/Programming/CPP/Unit-Converter/UnitConverter/scientific.cpp \
+	C:/Programming/CPP/Unit-Converter/UnitConverter/scientific.h \
 	C:/Programming/CPP/Unit-Converter/UnitConverter/weight.cpp \
 	C:/Programming/CPP/Unit-Converter/UnitConverter/weight.h \
 	C:/Programming/CPP/Unit-Converter/build/CMakeFiles/4.2.0/CMakeCXXCompiler.cmake \
@@ -107,6 +109,7 @@ UnitConverter_autogen/timestamp: \
 	C:/Qt/6.10.1/mingw_64/include/QtCore/qlatin1stringview.h \
 	C:/Qt/6.10.1/mingw_64/include/QtCore/qline.h \
 	C:/Qt/6.10.1/mingw_64/include/QtCore/qlist.h \
+	C:/Qt/6.10.1/mingw_64/include/QtCore/qlocale.h \
 	C:/Qt/6.10.1/mingw_64/include/QtCore/qlogging.h \
 	C:/Qt/6.10.1/mingw_64/include/QtCore/qmalloc.h \
 	C:/Qt/6.10.1/mingw_64/include/QtCore/qmap.h \
@@ -127,6 +130,7 @@ UnitConverter_autogen/timestamp: \
 	C:/Qt/6.10.1/mingw_64/include/QtCore/qprocessordetection.h \
 	C:/Qt/6.10.1/mingw_64/include/QtCore/qrect.h \
 	C:/Qt/6.10.1/mingw_64/include/QtCore/qrefcount.h \
+	C:/Qt/6.10.1/mingw_64/include/QtCore/qregularexpression.h \
 	C:/Qt/6.10.1/mingw_64/include/QtCore/qscopedpointer.h \
 	C:/Qt/6.10.1/mingw_64/include/QtCore/qscopeguard.h \
 	C:/Qt/6.10.1/mingw_64/include/QtCore/qset.h \
@@ -202,11 +206,15 @@ UnitConverter_autogen/timestamp: \
 	C:/Qt/6.10.1/mingw_64/include/QtGui/qtguiexports.h \
 	C:/Qt/6.10.1/mingw_64/include/QtGui/qtguiglobal.h \
 	C:/Qt/6.10.1/mingw_64/include/QtGui/qtransform.h \
+	C:/Qt/6.10.1/mingw_64/include/QtGui/qvalidator.h \
 	C:/Qt/6.10.1/mingw_64/include/QtGui/qwindowdefs.h \
 	C:/Qt/6.10.1/mingw_64/include/QtGui/qwindowdefs_win.h \
+	C:/Qt/6.10.1/mingw_64/include/QtWidgets/QDoubleSpinBox \
 	C:/Qt/6.10.1/mingw_64/include/QtWidgets/QMainWindow \
+	C:/Qt/6.10.1/mingw_64/include/QtWidgets/qabstractspinbox.h \
 	C:/Qt/6.10.1/mingw_64/include/QtWidgets/qmainwindow.h \
 	C:/Qt/6.10.1/mingw_64/include/QtWidgets/qsizepolicy.h \
+	C:/Qt/6.10.1/mingw_64/include/QtWidgets/qspinbox.h \
 	C:/Qt/6.10.1/mingw_64/include/QtWidgets/qtabwidget.h \
 	C:/Qt/6.10.1/mingw_64/include/QtWidgets/qtwidgets-config.h \
 	C:/Qt/6.10.1/mingw_64/include/QtWidgets/qtwidgetsexports.h \

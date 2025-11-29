@@ -1,9 +1,12 @@
 #include <QMainWindow>
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
+#include "scientific.h"
 #include "length.h"
 #include "weight.h"
+#include <iomanip>
 #include <QString>
+#include <iostream>
 
 MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWindow) {
     ui->setupUi(this);
@@ -28,8 +31,8 @@ void MainWindow::on_btnConvertLength_clicked() {
     unit = ui->cmbLengthOne->currentText();
     target = ui->cmbLengthTwo->currentText();
     currentValue = ui->sbLengthOne->value();
-
     convertedValue = convertLength.convert(currentValue, unit, target);
+    std::cout << convertedValue << std::endl;
     ui->sbLengthTwo->setValue(convertedValue);
 }
 

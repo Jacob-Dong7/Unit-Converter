@@ -23,11 +23,17 @@ set(PROJECT_SOURCES
     UnitConverter/length.cpp
     UnitConverter/weight.cpp
     UnitConverter/weight.cpp
+    UnitConverter/scientific.cpp
+    UnitConverter/scientific.h
 )
 
 # Create the executable
 qt_add_executable(UnitConverter
     ${PROJECT_SOURCES}
+)
+
+target_include_directories(UnitConverter PRIVATE
+    ${CMAKE_CURRENT_SOURCE_DIR}/UnitConverter
 )
 
 # Link against Qt Widgets

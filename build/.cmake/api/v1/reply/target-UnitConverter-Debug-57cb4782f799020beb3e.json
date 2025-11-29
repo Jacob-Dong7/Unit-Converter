@@ -23,7 +23,8 @@
 			"find_package",
 			"__find_dependency_common",
 			"find_dependency",
-			"_qt_internal_find_qt_dependencies"
+			"_qt_internal_find_qt_dependencies",
+			"target_include_directories"
 		],
 		"files" : 
 		[
@@ -48,7 +49,7 @@
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 29,
+				"line" : 31,
 				"parent" : 0
 			},
 			{
@@ -72,7 +73,7 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 34,
+				"line" : 40,
 				"parent" : 0
 			},
 			{
@@ -208,6 +209,12 @@
 				"file" : 10,
 				"line" : 61,
 				"parent" : 29
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 35,
+				"parent" : 0
 			}
 		]
 	},
@@ -286,6 +293,10 @@
 					"path" : "C:/Programming/CPP/Unit-Converter/build/UnitConverter_autogen/include"
 				},
 				{
+					"backtrace" : 31,
+					"path" : "C:/Programming/CPP/Unit-Converter/UnitConverter"
+				},
+				{
 					"backtrace" : 13,
 					"isSystem" : true,
 					"path" : "C:/Qt/6.10.1/mingw_64/include/QtCore"
@@ -327,18 +338,19 @@
 				1,
 				2,
 				6,
-				7
+				7,
+				8
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"id" : "UnitConverter_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "UnitConverter_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "UnitConverter_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "UnitConverter::@6890427a1f51a3e7e1df",
@@ -424,11 +436,11 @@
 			"id" : "Qt6::uic::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "UnitConverter_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "UnitConverter_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "UnitConverter_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"paths" : 
@@ -446,7 +458,8 @@
 				1,
 				2,
 				6,
-				7
+				7,
+				8
 			]
 		},
 		{
@@ -455,7 +468,8 @@
 			[
 				3,
 				5,
-				8
+				9,
+				10
 			]
 		},
 		{
@@ -463,14 +477,14 @@
 			"sourceIndexes" : 
 			[
 				4,
-				9
+				11
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				10
+				12
 			]
 		}
 	],
@@ -521,6 +535,17 @@
 			"compileGroupIndex" : 0,
 			"path" : "UnitConverter/weight.cpp",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "UnitConverter/scientific.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "UnitConverter/scientific.h",
+			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,

@@ -1,9 +1,8 @@
-CMakeFiles/UnitConverter.dir/UnitConverter_autogen/mocs_compilation.cpp.obj: \
- C:\Programming\CPP\Unit-Converter\build\UnitConverter_autogen\mocs_compilation.cpp \
- C:\Programming\CPP\Unit-Converter\build\UnitConverter_autogen\EIFJRY36SK/moc_mainwindow.cpp \
- C:/Programming/CPP/Unit-Converter/UnitConverter/mainwindow.h \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/QMainWindow \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/qmainwindow.h \
+CMakeFiles/UnitConverter.dir/UnitConverter/scientific.cpp.obj: \
+ C:\Programming\CPP\Unit-Converter\UnitConverter\scientific.cpp \
+ C:\Programming\CPP\Unit-Converter\UnitConverter\scientific.h \
+ C:/Qt/6.10.1/mingw_64/include/QtWidgets/QDoubleSpinBox \
+ C:/Qt/6.10.1/mingw_64/include/QtWidgets/qspinbox.h \
  C:/Qt/6.10.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
  C:/Qt/6.10.1/mingw_64/include/QtGui/qtguiglobal.h \
  C:/Qt/6.10.1/mingw_64/include/QtCore/qglobal.h \
@@ -157,6 +156,7 @@ CMakeFiles/UnitConverter.dir/UnitConverter_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.10.1/mingw_64/include/QtGui/qtguiexports.h \
  C:/Qt/6.10.1/mingw_64/include/QtWidgets/qtwidgets-config.h \
  C:/Qt/6.10.1/mingw_64/include/QtWidgets/qtwidgetsexports.h \
+ C:/Qt/6.10.1/mingw_64/include/QtWidgets/qabstractspinbox.h \
  C:/Qt/6.10.1/mingw_64/include/QtWidgets/qwidget.h \
  C:/Qt/6.10.1/mingw_64/include/QtGui/qwindowdefs.h \
  C:/Qt/6.10.1/mingw_64/include/QtCore/qobjectdefs.h \
@@ -384,19 +384,21 @@ CMakeFiles/UnitConverter.dir/UnitConverter_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.10.1/mingw_64/include/QtWidgets/qsizepolicy.h \
  C:/Qt/6.10.1/mingw_64/include/QtGui/qcursor.h \
  C:/Qt/6.10.1/mingw_64/include/QtGui/qbitmap.h \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/qtabwidget.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/QString \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qstring.h \
- C:/Programming/CPP/Unit-Converter/UnitConverter/length.h \
- C:/Programming/CPP/Unit-Converter/UnitConverter/weight.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qtmochelpers.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qtmocconstants.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/q20algorithm.h \
- C:\Programming\CPP\Unit-Converter\build\UnitConverter_autogen\EIFJRY36SK/moc_scientific.cpp \
- C:/Programming/CPP/Unit-Converter/UnitConverter/scientific.h \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/QDoubleSpinBox \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/qspinbox.h \
- C:/Qt/6.10.1/mingw_64/include/QtWidgets/qabstractspinbox.h \
  C:/Qt/6.10.1/mingw_64/include/QtGui/qvalidator.h \
  C:/Qt/6.10.1/mingw_64/include/QtCore/qregularexpression.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qlocale.h
+ C:/Qt/6.10.1/mingw_64/include/QtCore/qlocale.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/iostream \
+ C:/msys64/ucrt64/include/c++/15.2.0/ostream \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/ios \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_ios.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/locale_facets.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/cwctype \
+ C:/msys64/ucrt64/include/wctype.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/ctype_base.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/ctype_inline.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/locale_facets.tcc \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_ios.tcc \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.tcc \
+ C:/msys64/ucrt64/include/c++/15.2.0/istream \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/istream.tcc

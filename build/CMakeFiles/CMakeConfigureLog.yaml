@@ -41,12 +41,12 @@ events:
       - "C:/Program Files/Razer Chroma SDK/bin/"
       - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Program Files/Crucial/Crucial Storage Executive/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Qt/6.10.1/mingw_64/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "/REGISTRY-NOTFOUND/bin/"
       - "c:/MinGW/bin/"
@@ -73,12 +73,12 @@ events:
         - "C:\\Program Files\\Razer Chroma SDK\\bin"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:/Program Files/CMake/bin"
-        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:/Program Files/Crucial/Crucial Storage Executive"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Qt/6.10.1/mingw_64/bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Users\\jdon2\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:/msys64/ucrt64/bin"
@@ -125,12 +125,12 @@ events:
         - "C:\\Program Files\\Razer Chroma SDK\\bin"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:/Program Files/CMake/bin"
-        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:/Program Files/Crucial/Crucial Storage Executive"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Qt/6.10.1/mingw_64/bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Users\\jdon2\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:/msys64/ucrt64/bin"
@@ -190,12 +190,12 @@ events:
       - "C:/Program Files/Razer Chroma SDK/bin/"
       - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Program Files/Crucial/Crucial Storage Executive/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Qt/6.10.1/mingw_64/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/ar.com"
@@ -218,12 +218,12 @@ events:
         - "C:\\Program Files\\Razer Chroma SDK\\bin"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:/Program Files/CMake/bin"
-        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:/Program Files/Crucial/Crucial Storage Executive"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Qt/6.10.1/mingw_64/bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Users\\jdon2\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:/msys64/ucrt64/bin"
@@ -261,12 +261,12 @@ events:
       - "C:/Program Files/Razer Chroma SDK/bin/"
       - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Program Files/Crucial/Crucial Storage Executive/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Qt/6.10.1/mingw_64/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/ranlib.com"
@@ -289,12 +289,12 @@ events:
         - "C:\\Program Files\\Razer Chroma SDK\\bin"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:/Program Files/CMake/bin"
-        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:/Program Files/Crucial/Crucial Storage Executive"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Qt/6.10.1/mingw_64/bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Users\\jdon2\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:/msys64/ucrt64/bin"
@@ -332,12 +332,12 @@ events:
       - "C:/Program Files/Razer Chroma SDK/bin/"
       - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Program Files/Crucial/Crucial Storage Executive/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Qt/6.10.1/mingw_64/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/strip.com"
@@ -360,12 +360,12 @@ events:
         - "C:\\Program Files\\Razer Chroma SDK\\bin"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:/Program Files/CMake/bin"
-        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:/Program Files/Crucial/Crucial Storage Executive"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Qt/6.10.1/mingw_64/bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Users\\jdon2\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:/msys64/ucrt64/bin"
@@ -403,12 +403,12 @@ events:
       - "C:/Program Files/Razer Chroma SDK/bin/"
       - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Program Files/Crucial/Crucial Storage Executive/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Qt/6.10.1/mingw_64/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/ld.com"
@@ -431,12 +431,12 @@ events:
         - "C:\\Program Files\\Razer Chroma SDK\\bin"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:/Program Files/CMake/bin"
-        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:/Program Files/Crucial/Crucial Storage Executive"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Qt/6.10.1/mingw_64/bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Users\\jdon2\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:/msys64/ucrt64/bin"
@@ -474,12 +474,12 @@ events:
       - "C:/Program Files/Razer Chroma SDK/bin/"
       - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Program Files/Crucial/Crucial Storage Executive/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Qt/6.10.1/mingw_64/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/nm.com"
@@ -502,12 +502,12 @@ events:
         - "C:\\Program Files\\Razer Chroma SDK\\bin"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:/Program Files/CMake/bin"
-        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:/Program Files/Crucial/Crucial Storage Executive"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Qt/6.10.1/mingw_64/bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Users\\jdon2\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:/msys64/ucrt64/bin"
@@ -545,12 +545,12 @@ events:
       - "C:/Program Files/Razer Chroma SDK/bin/"
       - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Program Files/Crucial/Crucial Storage Executive/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Qt/6.10.1/mingw_64/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/objdump.com"
@@ -573,12 +573,12 @@ events:
         - "C:\\Program Files\\Razer Chroma SDK\\bin"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:/Program Files/CMake/bin"
-        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:/Program Files/Crucial/Crucial Storage Executive"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Qt/6.10.1/mingw_64/bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Users\\jdon2\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:/msys64/ucrt64/bin"
@@ -616,12 +616,12 @@ events:
       - "C:/Program Files/Razer Chroma SDK/bin/"
       - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Program Files/Crucial/Crucial Storage Executive/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Qt/6.10.1/mingw_64/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/objcopy.com"
@@ -644,12 +644,12 @@ events:
         - "C:\\Program Files\\Razer Chroma SDK\\bin"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:/Program Files/CMake/bin"
-        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:/Program Files/Crucial/Crucial Storage Executive"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Qt/6.10.1/mingw_64/bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Users\\jdon2\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:/msys64/ucrt64/bin"
@@ -687,12 +687,12 @@ events:
       - "C:/Program Files/Razer Chroma SDK/bin/"
       - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Program Files/Crucial/Crucial Storage Executive/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Qt/6.10.1/mingw_64/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/readelf.com"
@@ -715,12 +715,12 @@ events:
         - "C:\\Program Files\\Razer Chroma SDK\\bin"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:/Program Files/CMake/bin"
-        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:/Program Files/Crucial/Crucial Storage Executive"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Qt/6.10.1/mingw_64/bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Users\\jdon2\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:/msys64/ucrt64/bin"
@@ -758,12 +758,12 @@ events:
       - "C:/Program Files/Razer Chroma SDK/bin/"
       - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Program Files/Crucial/Crucial Storage Executive/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Qt/6.10.1/mingw_64/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/dlltool.com"
@@ -786,12 +786,12 @@ events:
         - "C:\\Program Files\\Razer Chroma SDK\\bin"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:/Program Files/CMake/bin"
-        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:/Program Files/Crucial/Crucial Storage Executive"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Qt/6.10.1/mingw_64/bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Users\\jdon2\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:/msys64/ucrt64/bin"
@@ -829,12 +829,12 @@ events:
       - "C:/Program Files/Razer Chroma SDK/bin/"
       - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Program Files/Crucial/Crucial Storage Executive/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Qt/6.10.1/mingw_64/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/addr2line.com"
@@ -857,12 +857,12 @@ events:
         - "C:\\Program Files\\Razer Chroma SDK\\bin"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:/Program Files/CMake/bin"
-        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:/Program Files/Crucial/Crucial Storage Executive"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Qt/6.10.1/mingw_64/bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Users\\jdon2\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:/msys64/ucrt64/bin"
@@ -900,12 +900,12 @@ events:
       - "C:/Program Files/Razer Chroma SDK/bin/"
       - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Program Files/Crucial/Crucial Storage Executive/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Qt/6.10.1/mingw_64/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/tapi.com"
@@ -950,9 +950,6 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/tapi.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/tapi.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/tapi"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi.com"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi.exe"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi"
       - "C:/Program Files/Crucial/Crucial Storage Executive/tapi.com"
       - "C:/Program Files/Crucial/Crucial Storage Executive/tapi.exe"
       - "C:/Program Files/Crucial/Crucial Storage Executive/tapi"
@@ -968,6 +965,9 @@ events:
       - "C:/Qt/6.10.1/mingw_64/bin/tapi.com"
       - "C:/Qt/6.10.1/mingw_64/bin/tapi.exe"
       - "C:/Qt/6.10.1/mingw_64/bin/tapi"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/tapi.com"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/tapi.exe"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/tapi"
@@ -990,12 +990,12 @@ events:
         - "C:\\Program Files\\Razer Chroma SDK\\bin"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:/Program Files/CMake/bin"
-        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:/Program Files/Crucial/Crucial Storage Executive"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Qt/6.10.1/mingw_64/bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Users\\jdon2\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:/msys64/ucrt64/bin"
@@ -1036,12 +1036,12 @@ events:
       - "C:/Program Files/Razer Chroma SDK/bin/"
       - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Program Files/Crucial/Crucial Storage Executive/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Qt/6.10.1/mingw_64/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/gcc-ar-15.2.com"
@@ -1086,9 +1086,6 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar-15.2.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar-15.2.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar-15.2"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-15.2.com"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-15.2.exe"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-15.2"
       - "C:/Program Files/Crucial/Crucial Storage Executive/gcc-ar-15.2.com"
       - "C:/Program Files/Crucial/Crucial Storage Executive/gcc-ar-15.2.exe"
       - "C:/Program Files/Crucial/Crucial Storage Executive/gcc-ar-15.2"
@@ -1104,6 +1101,9 @@ events:
       - "C:/Qt/6.10.1/mingw_64/bin/gcc-ar-15.2.com"
       - "C:/Qt/6.10.1/mingw_64/bin/gcc-ar-15.2.exe"
       - "C:/Qt/6.10.1/mingw_64/bin/gcc-ar-15.2"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-15.2.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-15.2.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-15.2"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15.2.com"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15.2.exe"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15.2"
@@ -1149,9 +1149,6 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar-15.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar-15.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar-15"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-15.com"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-15.exe"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-15"
       - "C:/Program Files/Crucial/Crucial Storage Executive/gcc-ar-15.com"
       - "C:/Program Files/Crucial/Crucial Storage Executive/gcc-ar-15.exe"
       - "C:/Program Files/Crucial/Crucial Storage Executive/gcc-ar-15"
@@ -1167,6 +1164,9 @@ events:
       - "C:/Qt/6.10.1/mingw_64/bin/gcc-ar-15.com"
       - "C:/Qt/6.10.1/mingw_64/bin/gcc-ar-15.exe"
       - "C:/Qt/6.10.1/mingw_64/bin/gcc-ar-15"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-15.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-15.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-15"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15.com"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15.exe"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15"
@@ -1212,9 +1212,6 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar15.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar15.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar15"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar15.com"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar15.exe"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar15"
       - "C:/Program Files/Crucial/Crucial Storage Executive/gcc-ar15.com"
       - "C:/Program Files/Crucial/Crucial Storage Executive/gcc-ar15.exe"
       - "C:/Program Files/Crucial/Crucial Storage Executive/gcc-ar15"
@@ -1230,6 +1227,9 @@ events:
       - "C:/Qt/6.10.1/mingw_64/bin/gcc-ar15.com"
       - "C:/Qt/6.10.1/mingw_64/bin/gcc-ar15.exe"
       - "C:/Qt/6.10.1/mingw_64/bin/gcc-ar15"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar15.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar15.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar15"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar15.com"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar15.exe"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar15"
@@ -1253,12 +1253,12 @@ events:
         - "C:\\Program Files\\Razer Chroma SDK\\bin"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:/Program Files/CMake/bin"
-        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:/Program Files/Crucial/Crucial Storage Executive"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Qt/6.10.1/mingw_64/bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Users\\jdon2\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:/msys64/ucrt64/bin"
@@ -1299,12 +1299,12 @@ events:
       - "C:/Program Files/Razer Chroma SDK/bin/"
       - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Program Files/Crucial/Crucial Storage Executive/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Qt/6.10.1/mingw_64/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/gcc-ranlib-15.2.com"
@@ -1349,9 +1349,6 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib-15.2.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib-15.2.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib-15.2"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-15.2.com"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-15.2.exe"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-15.2"
       - "C:/Program Files/Crucial/Crucial Storage Executive/gcc-ranlib-15.2.com"
       - "C:/Program Files/Crucial/Crucial Storage Executive/gcc-ranlib-15.2.exe"
       - "C:/Program Files/Crucial/Crucial Storage Executive/gcc-ranlib-15.2"
@@ -1367,6 +1364,9 @@ events:
       - "C:/Qt/6.10.1/mingw_64/bin/gcc-ranlib-15.2.com"
       - "C:/Qt/6.10.1/mingw_64/bin/gcc-ranlib-15.2.exe"
       - "C:/Qt/6.10.1/mingw_64/bin/gcc-ranlib-15.2"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-15.2.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-15.2.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-15.2"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15.2.com"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15.2.exe"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15.2"
@@ -1412,9 +1412,6 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib-15.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib-15.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib-15"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-15.com"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-15.exe"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-15"
       - "C:/Program Files/Crucial/Crucial Storage Executive/gcc-ranlib-15.com"
       - "C:/Program Files/Crucial/Crucial Storage Executive/gcc-ranlib-15.exe"
       - "C:/Program Files/Crucial/Crucial Storage Executive/gcc-ranlib-15"
@@ -1430,6 +1427,9 @@ events:
       - "C:/Qt/6.10.1/mingw_64/bin/gcc-ranlib-15.com"
       - "C:/Qt/6.10.1/mingw_64/bin/gcc-ranlib-15.exe"
       - "C:/Qt/6.10.1/mingw_64/bin/gcc-ranlib-15"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-15.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-15.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-15"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15.com"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15.exe"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15"
@@ -1475,9 +1475,6 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib15.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib15.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib15"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib15.com"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib15.exe"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib15"
       - "C:/Program Files/Crucial/Crucial Storage Executive/gcc-ranlib15.com"
       - "C:/Program Files/Crucial/Crucial Storage Executive/gcc-ranlib15.exe"
       - "C:/Program Files/Crucial/Crucial Storage Executive/gcc-ranlib15"
@@ -1493,6 +1490,9 @@ events:
       - "C:/Qt/6.10.1/mingw_64/bin/gcc-ranlib15.com"
       - "C:/Qt/6.10.1/mingw_64/bin/gcc-ranlib15.exe"
       - "C:/Qt/6.10.1/mingw_64/bin/gcc-ranlib15"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib15.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib15.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib15"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib15.com"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib15.exe"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib15"
@@ -1516,12 +1516,12 @@ events:
         - "C:\\Program Files\\Razer Chroma SDK\\bin"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:/Program Files/CMake/bin"
-        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:/Program Files/Crucial/Crucial Storage Executive"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Qt/6.10.1/mingw_64/bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Users\\jdon2\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:/msys64/ucrt64/bin"
@@ -1562,12 +1562,12 @@ events:
       - "C:/Program Files/Razer Chroma SDK/bin/"
       - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Program Files/Crucial/Crucial Storage Executive/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Qt/6.10.1/mingw_64/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/ucrt64/sbin/"
@@ -1605,12 +1605,12 @@ events:
         - "C:\\Program Files\\Razer Chroma SDK\\bin"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:/Program Files/CMake/bin"
-        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:/Program Files/Crucial/Crucial Storage Executive"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Qt/6.10.1/mingw_64/bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Users\\jdon2\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:/msys64/ucrt64/bin"
@@ -1630,8 +1630,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Programming/CPP/Unit-Converter/build/CMakeFiles/CMakeScratch/TryCompile-pirovp"
-      binary: "C:/Programming/CPP/Unit-Converter/build/CMakeFiles/CMakeScratch/TryCompile-pirovp"
+      source: "C:/Programming/CPP/Unit-Converter/build/CMakeFiles/CMakeScratch/TryCompile-e75qm5"
+      binary: "C:/Programming/CPP/Unit-Converter/build/CMakeFiles/CMakeScratch/TryCompile-e75qm5"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1641,13 +1641,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Programming/CPP/Unit-Converter/build/CMakeFiles/CMakeScratch/TryCompile-pirovp'
+        Change Dir: 'C:/Programming/CPP/Unit-Converter/build/CMakeFiles/CMakeScratch/TryCompile-e75qm5'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_1bb2c/fast
-        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_1bb2c.dir\\build.make CMakeFiles/cmTC_1bb2c.dir/build
-        mingw32-make[1]: Entering directory 'C:/Programming/CPP/Unit-Converter/build/CMakeFiles/CMakeScratch/TryCompile-pirovp'
-        Building CXX object CMakeFiles/cmTC_1bb2c.dir/CMakeCXXCompilerABI.cpp.obj
-        C:\\msys64\\ucrt64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_1bb2c.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_d6921/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d6921.dir\\build.make CMakeFiles/cmTC_d6921.dir/build
+        mingw32-make[1]: Entering directory 'C:/Programming/CPP/Unit-Converter/build/CMakeFiles/CMakeScratch/TryCompile-e75qm5'
+        Building CXX object CMakeFiles/cmTC_d6921.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\msys64\\ucrt64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_d6921.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\g++.exe
         Target: x86_64-w64-mingw32
@@ -1655,8 +1655,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.0 (Rev8, Built by MSYS2 project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_1bb2c.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_1bb2c.dir\\'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_1bb2c.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\jdon2\\AppData\\Local\\Temp\\ccwCeZrk.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d6921.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_d6921.dir\\'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_d6921.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\jdon2\\AppData\\Local\\Temp\\ccHTH2q9.s
         GNU C++17 (Rev8, Built by MSYS2 project) version 15.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -1681,14 +1681,14 @@ events:
          C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed
         End of search list.
         Compiler executable checksum: 3a1a95c83f0136a64748ec8c5a2a87f3
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_1bb2c.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_1bb2c.dir\\'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_1bb2c.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\jdon2\\AppData\\Local\\Temp\\ccwCeZrk.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d6921.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_d6921.dir\\'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_d6921.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\jdon2\\AppData\\Local\\Temp\\ccHTH2q9.s
         GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45
         COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_1bb2c.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_1bb2c.dir\\CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_1bb2c.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_1bb2c.dir\\link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d6921.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_d6921.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_d6921.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_d6921.dir\\link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\g++.exe
         COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe
@@ -1699,16 +1699,16 @@ events:
         gcc version 15.2.0 (Rev8, Built by MSYS2 project) 
         COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1bb2c.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_1bb2c.'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\jdon2\\AppData\\Local\\Temp\\ccoC5D7y.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_1bb2c.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_1bb2c.dir/objects.a --no-whole-archive --out-implib libcmTC_1bb2c.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d6921.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_d6921.'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\jdon2\\AppData\\Local\\Temp\\cc0Sy9ae.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_d6921.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_d6921.dir/objects.a --no-whole-archive --out-implib libcmTC_d6921.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         collect2 version 15.2.0
-        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\jdon2\\AppData\\Local\\Temp\\ccoC5D7y.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_1bb2c.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_1bb2c.dir/objects.a --no-whole-archive --out-implib libcmTC_1bb2c.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\jdon2\\AppData\\Local\\Temp\\cc0Sy9ae.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_d6921.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_d6921.dir/objects.a --no-whole-archive --out-implib libcmTC_d6921.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         GNU ld (GNU Binutils) 2.45
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1bb2c.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_1bb2c.'
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_1bb2c.dir/objects.a
-        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_1bb2c.dir/objects.a @CMakeFiles\\cmTC_1bb2c.dir\\objects1.rsp
-        C:\\msys64\\ucrt64\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_1bb2c.dir/objects.a -Wl,--no-whole-archive -o cmTC_1bb2c.exe -Wl,--out-implib,libcmTC_1bb2c.dll.a -Wl,--major-image-version,0,--minor-image-version,0
-        mingw32-make[1]: Leaving directory 'C:/Programming/CPP/Unit-Converter/build/CMakeFiles/CMakeScratch/TryCompile-pirovp'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d6921.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_d6921.'
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_d6921.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_d6921.dir/objects.a @CMakeFiles\\cmTC_d6921.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_d6921.dir/objects.a -Wl,--no-whole-archive -o cmTC_d6921.exe -Wl,--out-implib,libcmTC_d6921.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'C:/Programming/CPP/Unit-Converter/build/CMakeFiles/CMakeScratch/TryCompile-e75qm5'
         
       exitCode: 0
   -
@@ -1747,13 +1747,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Programming/CPP/Unit-Converter/build/CMakeFiles/CMakeScratch/TryCompile-pirovp']
+        ignore line: [Change Dir: 'C:/Programming/CPP/Unit-Converter/build/CMakeFiles/CMakeScratch/TryCompile-e75qm5']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_1bb2c/fast]
-        ignore line: [C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_1bb2c.dir\\build.make CMakeFiles/cmTC_1bb2c.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'C:/Programming/CPP/Unit-Converter/build/CMakeFiles/CMakeScratch/TryCompile-pirovp']
-        ignore line: [Building CXX object CMakeFiles/cmTC_1bb2c.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [C:\\msys64\\ucrt64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_1bb2c.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_d6921/fast]
+        ignore line: [C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d6921.dir\\build.make CMakeFiles/cmTC_d6921.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Programming/CPP/Unit-Converter/build/CMakeFiles/CMakeScratch/TryCompile-e75qm5']
+        ignore line: [Building CXX object CMakeFiles/cmTC_d6921.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\msys64\\ucrt64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_d6921.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\g++.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -1761,8 +1761,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.0 (Rev8  Built by MSYS2 project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_1bb2c.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_1bb2c.dir\\']
-        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_1bb2c.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\jdon2\\AppData\\Local\\Temp\\ccwCeZrk.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d6921.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_d6921.dir\\']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_d6921.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\jdon2\\AppData\\Local\\Temp\\ccHTH2q9.s]
         ignore line: [GNU C++17 (Rev8  Built by MSYS2 project) version 15.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -1787,8 +1787,8 @@ events:
         ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 3a1a95c83f0136a64748ec8c5a2a87f3]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_1bb2c.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_1bb2c.dir\\']
-        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_1bb2c.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\jdon2\\AppData\\Local\\Temp\\ccwCeZrk.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d6921.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_d6921.dir\\']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_d6921.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\jdon2\\AppData\\Local\\Temp\\ccHTH2q9.s]
         ignore line: [GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45]
         ignore line: [COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
@@ -1799,9 +1799,9 @@ events:
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_1bb2c.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_1bb2c.dir\\CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_1bb2c.exe]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_1bb2c.dir\\link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d6921.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_d6921.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_d6921.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_d6921.dir\\link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\g++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe]
@@ -1819,13 +1819,13 @@ events:
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1bb2c.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_1bb2c.']
-        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\jdon2\\AppData\\Local\\Temp\\ccoC5D7y.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_1bb2c.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_1bb2c.dir/objects.a --no-whole-archive --out-implib libcmTC_1bb2c.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d6921.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_d6921.']
+        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\jdon2\\AppData\\Local\\Temp\\cc0Sy9ae.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_d6921.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_d6921.dir/objects.a --no-whole-archive --out-implib libcmTC_d6921.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\jdon2\\AppData\\Local\\Temp\\ccoC5D7y.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\jdon2\\AppData\\Local\\Temp\\cc0Sy9ae.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -1847,7 +1847,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_1bb2c.exe] ==> ignore
+          arg [cmTC_d6921.exe] ==> ignore
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0]
@@ -1858,10 +1858,10 @@ events:
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_1bb2c.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_d6921.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_1bb2c.dll.a] ==> ignore
+          arg [libcmTC_d6921.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -1887,7 +1887,7 @@ events:
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
         ignore line: [collect2 version 15.2.0]
-        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\jdon2\\AppData\\Local\\Temp\\ccoC5D7y.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_1bb2c.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_1bb2c.dir/objects.a --no-whole-archive --out-implib libcmTC_1bb2c.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\jdon2\\AppData\\Local\\Temp\\cc0Sy9ae.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_d6921.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_d6921.dir/objects.a --no-whole-archive --out-implib libcmTC_d6921.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
         linker tool for 'CXX': C:/msys64/ucrt64/x86_64-w64-mingw32/bin/ld.exe
         remove lib [msvcrt]
         remove lib [msvcrt]
@@ -1933,8 +1933,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Programming/CPP/Unit-Converter/build/CMakeFiles/CMakeScratch/TryCompile-nqv3sz"
-      binary: "C:/Programming/CPP/Unit-Converter/build/CMakeFiles/CMakeScratch/TryCompile-nqv3sz"
+      source: "C:/Programming/CPP/Unit-Converter/build/CMakeFiles/CMakeScratch/TryCompile-sogx8l"
+      binary: "C:/Programming/CPP/Unit-Converter/build/CMakeFiles/CMakeScratch/TryCompile-sogx8l"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1944,19 +1944,19 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Programming/CPP/Unit-Converter/build/CMakeFiles/CMakeScratch/TryCompile-nqv3sz'
+        Change Dir: 'C:/Programming/CPP/Unit-Converter/build/CMakeFiles/CMakeScratch/TryCompile-sogx8l'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_9a264/fast
-        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_9a264.dir\\build.make CMakeFiles/cmTC_9a264.dir/build
-        mingw32-make[1]: Entering directory 'C:/Programming/CPP/Unit-Converter/build/CMakeFiles/CMakeScratch/TryCompile-nqv3sz'
-        Building CXX object CMakeFiles/cmTC_9a264.dir/src.cxx.obj
-        C:\\msys64\\ucrt64\\bin\\g++.exe -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++17 -o CMakeFiles\\cmTC_9a264.dir\\src.cxx.obj -c C:\\Programming\\CPP\\Unit-Converter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nqv3sz\\src.cxx
-        Linking CXX executable cmTC_9a264.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_9a264.dir\\link.txt --verbose=1
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_9a264.dir/objects.a
-        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_9a264.dir/objects.a @CMakeFiles\\cmTC_9a264.dir\\objects1.rsp
-        C:\\msys64\\ucrt64\\bin\\g++.exe -Wl,--whole-archive CMakeFiles\\cmTC_9a264.dir/objects.a -Wl,--no-whole-archive -o cmTC_9a264.exe -Wl,--out-implib,libcmTC_9a264.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_9a264.dir\\linkLibs.rsp
-        mingw32-make[1]: Leaving directory 'C:/Programming/CPP/Unit-Converter/build/CMakeFiles/CMakeScratch/TryCompile-nqv3sz'
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_20397/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_20397.dir\\build.make CMakeFiles/cmTC_20397.dir/build
+        mingw32-make[1]: Entering directory 'C:/Programming/CPP/Unit-Converter/build/CMakeFiles/CMakeScratch/TryCompile-sogx8l'
+        Building CXX object CMakeFiles/cmTC_20397.dir/src.cxx.obj
+        C:\\msys64\\ucrt64\\bin\\g++.exe -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++17 -o CMakeFiles\\cmTC_20397.dir\\src.cxx.obj -c C:\\Programming\\CPP\\Unit-Converter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sogx8l\\src.cxx
+        Linking CXX executable cmTC_20397.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_20397.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_20397.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_20397.dir/objects.a @CMakeFiles\\cmTC_20397.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\g++.exe -Wl,--whole-archive CMakeFiles\\cmTC_20397.dir/objects.a -Wl,--no-whole-archive -o cmTC_20397.exe -Wl,--out-implib,libcmTC_20397.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_20397.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Programming/CPP/Unit-Converter/build/CMakeFiles/CMakeScratch/TryCompile-sogx8l'
         
       exitCode: 0
   -
@@ -2119,14 +2119,6 @@ events:
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/Qt6CoreToolsConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/qt6coretools-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
         path: "C:/Program Files/Crucial/Crucial Storage Executive/Qt6CoreToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -2188,12 +2180,12 @@ events:
         - "C:\\Program Files\\Razer Chroma SDK\\bin"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:/Program Files/CMake/bin"
-        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:/Program Files/Crucial/Crucial Storage Executive"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Qt/6.10.1/mingw_64/bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Users\\jdon2\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:/msys64/ucrt64/bin"
@@ -2364,14 +2356,6 @@ events:
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/Qt6GuiToolsConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/qt6guitools-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
         path: "C:/Program Files/Crucial/Crucial Storage Executive/Qt6GuiToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -2433,12 +2417,12 @@ events:
         - "C:\\Program Files\\Razer Chroma SDK\\bin"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:/Program Files/CMake/bin"
-        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:/Program Files/Crucial/Crucial Storage Executive"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Qt/6.10.1/mingw_64/bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Users\\jdon2\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:/msys64/ucrt64/bin"
@@ -2606,14 +2590,6 @@ events:
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/Qt6WidgetsToolsConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/qt6widgetstools-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
         path: "C:/Program Files/Crucial/Crucial Storage Executive/Qt6WidgetsToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -2675,12 +2651,12 @@ events:
         - "C:\\Program Files\\Razer Chroma SDK\\bin"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:/Program Files/CMake/bin"
-        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:/Program Files/Crucial/Crucial Storage Executive"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Qt/6.10.1/mingw_64/bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Users\\jdon2\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:/msys64/ucrt64/bin"
@@ -2712,8 +2688,8 @@ events:
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "C:/Programming/CPP/Unit-Converter/build/CMakeFiles/CMakeScratch/TryCompile-f4b71l"
-      binary: "C:/Programming/CPP/Unit-Converter/build/CMakeFiles/CMakeScratch/TryCompile-f4b71l"
+      source: "C:/Programming/CPP/Unit-Converter/build/CMakeFiles/CMakeScratch/TryCompile-95q8rp"
+      binary: "C:/Programming/CPP/Unit-Converter/build/CMakeFiles/CMakeScratch/TryCompile-95q8rp"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -2723,19 +2699,19 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: 'C:/Programming/CPP/Unit-Converter/build/CMakeFiles/CMakeScratch/TryCompile-f4b71l'
+        Change Dir: 'C:/Programming/CPP/Unit-Converter/build/CMakeFiles/CMakeScratch/TryCompile-95q8rp'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_aa09b/fast
-        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_aa09b.dir\\build.make CMakeFiles/cmTC_aa09b.dir/build
-        mingw32-make[1]: Entering directory 'C:/Programming/CPP/Unit-Converter/build/CMakeFiles/CMakeScratch/TryCompile-f4b71l'
-        Building CXX object CMakeFiles/cmTC_aa09b.dir/src.cxx.obj
-        C:\\msys64\\ucrt64\\bin\\g++.exe -DHAVE_STDATOMIC  -std=gnu++17 -o CMakeFiles\\cmTC_aa09b.dir\\src.cxx.obj -c C:\\Programming\\CPP\\Unit-Converter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f4b71l\\src.cxx
-        Linking CXX executable cmTC_aa09b.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_aa09b.dir\\link.txt --verbose=1
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_aa09b.dir/objects.a
-        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_aa09b.dir/objects.a @CMakeFiles\\cmTC_aa09b.dir\\objects1.rsp
-        C:\\msys64\\ucrt64\\bin\\g++.exe -Wl,--whole-archive CMakeFiles\\cmTC_aa09b.dir/objects.a -Wl,--no-whole-archive -o cmTC_aa09b.exe -Wl,--out-implib,libcmTC_aa09b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_aa09b.dir\\linkLibs.rsp
-        mingw32-make[1]: Leaving directory 'C:/Programming/CPP/Unit-Converter/build/CMakeFiles/CMakeScratch/TryCompile-f4b71l'
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_61bd6/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_61bd6.dir\\build.make CMakeFiles/cmTC_61bd6.dir/build
+        mingw32-make[1]: Entering directory 'C:/Programming/CPP/Unit-Converter/build/CMakeFiles/CMakeScratch/TryCompile-95q8rp'
+        Building CXX object CMakeFiles/cmTC_61bd6.dir/src.cxx.obj
+        C:\\msys64\\ucrt64\\bin\\g++.exe -DHAVE_STDATOMIC  -std=gnu++17 -o CMakeFiles\\cmTC_61bd6.dir\\src.cxx.obj -c C:\\Programming\\CPP\\Unit-Converter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-95q8rp\\src.cxx
+        Linking CXX executable cmTC_61bd6.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_61bd6.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_61bd6.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_61bd6.dir/objects.a @CMakeFiles\\cmTC_61bd6.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\g++.exe -Wl,--whole-archive CMakeFiles\\cmTC_61bd6.dir/objects.a -Wl,--no-whole-archive -o cmTC_61bd6.exe -Wl,--out-implib,libcmTC_61bd6.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_61bd6.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Programming/CPP/Unit-Converter/build/CMakeFiles/CMakeScratch/TryCompile-95q8rp'
         
       exitCode: 0
   -
@@ -2827,12 +2803,12 @@ events:
         - "C:\\Program Files\\Razer Chroma SDK\\bin"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:/Program Files/CMake/bin"
-        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:/Program Files/Crucial/Crucial Storage Executive"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Qt/6.10.1/mingw_64/bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Users\\jdon2\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:/msys64/ucrt64/bin"
@@ -2885,11 +2861,11 @@ events:
       - "C:/Program Files/Razer Chroma SDK/bin/"
       - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Program Files/Crucial/Crucial Storage Executive/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/ucrt64/sbin/"
@@ -2927,12 +2903,12 @@ events:
         - "C:\\Program Files\\Razer Chroma SDK\\bin"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:/Program Files/CMake/bin"
-        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:/Program Files/Crucial/Crucial Storage Executive"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Qt/6.10.1/mingw_64/bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Users\\jdon2\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:/msys64/ucrt64/bin"
@@ -3043,12 +3019,12 @@ events:
         - "C:\\Program Files\\Razer Chroma SDK\\bin"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:/Program Files/CMake/bin"
-        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:/Program Files/Crucial/Crucial Storage Executive"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Qt/6.10.1/mingw_64/bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Users\\jdon2\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:/msys64/ucrt64/bin"
@@ -3103,12 +3079,12 @@ events:
       - "C:/Program Files/Razer Chroma SDK/bin/"
       - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Program Files/Crucial/Crucial Storage Executive/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Qt/6.10.1/mingw_64/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/msys64/ucrt64/include/"
       - "C:/msys64/ucrt64/"
@@ -3136,12 +3112,12 @@ events:
       - "C:/Program Files/Razer Chroma SDK/bin/vulkan/vulkan.h"
       - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps/vulkan/vulkan.h"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/vulkan/vulkan.h"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/vulkan/vulkan.h"
       - "C:/Program Files/Crucial/Crucial Storage Executive/vulkan/vulkan.h"
       - "C:/Program Files/dotnet/vulkan/vulkan.h"
       - "C:/Program Files/Git/cmd/vulkan/vulkan.h"
       - "C:/Program Files/CMake/bin/vulkan/vulkan.h"
       - "C:/Qt/6.10.1/mingw_64/bin/vulkan/vulkan.h"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/vulkan/vulkan.h"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/vulkan/vulkan.h"
       - "C:/msys64/ucrt64/include/vulkan/vulkan.h"
       - "C:/msys64/ucrt64/vulkan/vulkan.h"
@@ -3172,12 +3148,12 @@ events:
         - "C:\\Program Files\\Razer Chroma SDK\\bin"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:/Program Files/CMake/bin"
-        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:/Program Files/Crucial/Crucial Storage Executive"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Qt/6.10.1/mingw_64/bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Users\\jdon2\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:/msys64/ucrt64/bin"
@@ -3233,12 +3209,12 @@ events:
       - "C:/Program Files/Razer Chroma SDK/bin/"
       - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Program Files/Crucial/Crucial Storage Executive/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Qt/6.10.1/mingw_64/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/msys64/ucrt64/lib/"
       - "C:/msys64/ucrt64/"
@@ -3268,12 +3244,12 @@ events:
       - "C:/Program Files/Razer Chroma SDK/bin/"
       - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Program Files/Crucial/Crucial Storage Executive/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Qt/6.10.1/mingw_64/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/msys64/ucrt64/lib/"
       - "C:/msys64/ucrt64/"
@@ -3305,12 +3281,12 @@ events:
         - "C:\\Program Files\\Razer Chroma SDK\\bin"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:/Program Files/CMake/bin"
-        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:/Program Files/Crucial/Crucial Storage Executive"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Qt/6.10.1/mingw_64/bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Users\\jdon2\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:/msys64/ucrt64/bin"
@@ -3369,12 +3345,12 @@ events:
       - "C:/Program Files/Razer Chroma SDK/bin/"
       - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Program Files/Crucial/Crucial Storage Executive/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Qt/6.10.1/mingw_64/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/ucrt64/sbin/"
@@ -3437,9 +3413,6 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/glslc.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/glslc.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/glslc"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslc.com"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslc.exe"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslc"
       - "C:/Program Files/Crucial/Crucial Storage Executive/glslc.com"
       - "C:/Program Files/Crucial/Crucial Storage Executive/glslc.exe"
       - "C:/Program Files/Crucial/Crucial Storage Executive/glslc"
@@ -3455,6 +3428,9 @@ events:
       - "C:/Qt/6.10.1/mingw_64/bin/glslc.com"
       - "C:/Qt/6.10.1/mingw_64/bin/glslc.exe"
       - "C:/Qt/6.10.1/mingw_64/bin/glslc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslc"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/glslc.com"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/glslc.exe"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/glslc"
@@ -3522,12 +3498,12 @@ events:
         - "C:\\Program Files\\Razer Chroma SDK\\bin"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:/Program Files/CMake/bin"
-        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:/Program Files/Crucial/Crucial Storage Executive"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Qt/6.10.1/mingw_64/bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Users\\jdon2\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:/msys64/ucrt64/bin"
@@ -3582,12 +3558,12 @@ events:
       - "C:/Program Files/Razer Chroma SDK/bin/"
       - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Program Files/Crucial/Crucial Storage Executive/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Qt/6.10.1/mingw_64/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/ucrt64/sbin/"
@@ -3650,9 +3626,6 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/glslangValidator.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/glslangValidator.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/glslangValidator"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslangValidator.com"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslangValidator.exe"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslangValidator"
       - "C:/Program Files/Crucial/Crucial Storage Executive/glslangValidator.com"
       - "C:/Program Files/Crucial/Crucial Storage Executive/glslangValidator.exe"
       - "C:/Program Files/Crucial/Crucial Storage Executive/glslangValidator"
@@ -3668,6 +3641,9 @@ events:
       - "C:/Qt/6.10.1/mingw_64/bin/glslangValidator.com"
       - "C:/Qt/6.10.1/mingw_64/bin/glslangValidator.exe"
       - "C:/Qt/6.10.1/mingw_64/bin/glslangValidator"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslangValidator.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslangValidator.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslangValidator"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/glslangValidator.com"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/glslangValidator.exe"
       - "C:/Users/jdon2/AppData/Local/Programs/Microsoft VS Code/bin/glslangValidator"
@@ -3735,12 +3711,12 @@ events:
         - "C:\\Program Files\\Razer Chroma SDK\\bin"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:/Program Files/CMake/bin"
-        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:/Program Files/Crucial/Crucial Storage Executive"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Qt/6.10.1/mingw_64/bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Users\\jdon2\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:/msys64/ucrt64/bin"
@@ -3851,12 +3827,12 @@ events:
         - "C:\\Program Files\\Razer Chroma SDK\\bin"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:/Program Files/CMake/bin"
-        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:/Program Files/Crucial/Crucial Storage Executive"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Qt/6.10.1/mingw_64/bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Users\\jdon2\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:/msys64/ucrt64/bin"
@@ -3959,12 +3935,12 @@ events:
         - "C:\\Program Files\\Razer Chroma SDK\\bin"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:/Program Files/CMake/bin"
-        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:/Program Files/Crucial/Crucial Storage Executive"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Qt/6.10.1/mingw_64/bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Users\\jdon2\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:/msys64/ucrt64/bin"
@@ -4125,14 +4101,6 @@ events:
         reason: "no_exist"
       -
         path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/qt6-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/Qt6Config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/qt6-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -5869,12 +5837,12 @@ events:
         - "C:\\Program Files\\Razer Chroma SDK\\bin"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
-        - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "C:\\Program Files\\Crucial\\Crucial Storage Executive"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:/Program Files/CMake/bin"
-        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:/Program Files/Crucial/Crucial Storage Executive"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Qt/6.10.1/mingw_64/bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:/Users/jdon2/AppData/Local/Microsoft/WindowsApps"
         - "C:\\Users\\jdon2\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:/msys64/ucrt64/bin"

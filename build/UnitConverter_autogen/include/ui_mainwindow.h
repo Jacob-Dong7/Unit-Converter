@@ -12,7 +12,6 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QComboBox>
-#include <QtWidgets/QDoubleSpinBox>
 #include <QtWidgets/QGridLayout>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
@@ -23,6 +22,7 @@
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
+#include <scientific.h>
 
 QT_BEGIN_NAMESPACE
 
@@ -33,7 +33,7 @@ public:
     QStackedWidget *stackedWidget;
     QWidget *mainmenu;
     QLabel *label;
-    QWidget *widget;
+    QWidget *layoutWidget;
     QVBoxLayout *verticalLayout;
     QPushButton *btnLength;
     QPushButton *btnWeight;
@@ -41,32 +41,32 @@ public:
     QPushButton *btnCurrency;
     QWidget *pageLength;
     QLabel *label_2;
-    QDoubleSpinBox *sbLengthOne;
-    QDoubleSpinBox *sbLengthTwo;
+    Scientific *sbLengthOne;
+    Scientific *sbLengthTwo;
     QSplitter *splitter_3;
     QSplitter *splitter;
     QSplitter *splitter_2;
     QComboBox *cmbLengthOne;
     QComboBox *cmbLengthTwo;
-    QWidget *widget1;
+    QWidget *layoutWidget1;
     QVBoxLayout *verticalLayout_2;
     QPushButton *btnConvertLength;
     QPushButton *btnClearLength;
     QPushButton *btnReturnLength;
     QWidget *weight;
     QLabel *label_3;
-    QWidget *layoutWidget;
+    QWidget *layoutWidget2;
     QVBoxLayout *verticalLayout_3;
     QPushButton *btnConvertWeight;
     QPushButton *btnClearWeight;
     QPushButton *btnReturnWeight;
     QSplitter *splitter_5;
-    QWidget *widget2;
+    QWidget *layoutWidget3;
     QGridLayout *gridLayout;
-    QDoubleSpinBox *sbWeightTwo;
+    Scientific *sbWeightTwo;
     QComboBox *cmbWeightOne;
     QComboBox *cmbWeightTwo;
-    QDoubleSpinBox *sbWeightOne;
+    Scientific *sbWeightOne;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -92,13 +92,13 @@ public:
         label->setFont(font);
         label->setFrameShape(QFrame::Shape::NoFrame);
         label->setAlignment(Qt::AlignmentFlag::AlignCenter);
-        widget = new QWidget(mainmenu);
-        widget->setObjectName("widget");
-        widget->setGeometry(QRect(340, 70, 521, 491));
-        verticalLayout = new QVBoxLayout(widget);
+        layoutWidget = new QWidget(mainmenu);
+        layoutWidget->setObjectName("layoutWidget");
+        layoutWidget->setGeometry(QRect(340, 70, 521, 491));
+        verticalLayout = new QVBoxLayout(layoutWidget);
         verticalLayout->setObjectName("verticalLayout");
         verticalLayout->setContentsMargins(0, 0, 0, 0);
-        btnLength = new QPushButton(widget);
+        btnLength = new QPushButton(layoutWidget);
         btnLength->setObjectName("btnLength");
         QFont font1;
         font1.setFamilies({QString::fromUtf8("Modern No. 20")});
@@ -107,19 +107,19 @@ public:
 
         verticalLayout->addWidget(btnLength);
 
-        btnWeight = new QPushButton(widget);
+        btnWeight = new QPushButton(layoutWidget);
         btnWeight->setObjectName("btnWeight");
         btnWeight->setFont(font1);
 
         verticalLayout->addWidget(btnWeight);
 
-        btnTemp = new QPushButton(widget);
+        btnTemp = new QPushButton(layoutWidget);
         btnTemp->setObjectName("btnTemp");
         btnTemp->setFont(font1);
 
         verticalLayout->addWidget(btnTemp);
 
-        btnCurrency = new QPushButton(widget);
+        btnCurrency = new QPushButton(layoutWidget);
         btnCurrency->setObjectName("btnCurrency");
         btnCurrency->setFont(font1);
 
@@ -134,7 +134,7 @@ public:
         label_2->setFont(font);
         label_2->setFrameShape(QFrame::Shape::NoFrame);
         label_2->setAlignment(Qt::AlignmentFlag::AlignCenter);
-        sbLengthOne = new QDoubleSpinBox(pageLength);
+        sbLengthOne = new Scientific(pageLength);
         sbLengthOne->setObjectName("sbLengthOne");
         sbLengthOne->setGeometry(QRect(40, 122, 541, 51));
         QFont font2;
@@ -142,19 +142,20 @@ public:
         font2.setBold(true);
         sbLengthOne->setFont(font2);
         sbLengthOne->setAlignment(Qt::AlignmentFlag::AlignCenter);
-        sbLengthOne->setDecimals(10);
-        sbLengthOne->setMaximum(10000000.000000000000000);
-        sbLengthTwo = new QDoubleSpinBox(pageLength);
+        sbLengthOne->setDecimals(2);
+        sbLengthOne->setMaximum(1000000.000000000000000);
+        sbLengthTwo = new Scientific(pageLength);
         sbLengthTwo->setObjectName("sbLengthTwo");
         sbLengthTwo->setGeometry(QRect(640, 120, 541, 51));
         sbLengthTwo->setFont(font2);
         sbLengthTwo->setWrapping(false);
         sbLengthTwo->setAlignment(Qt::AlignmentFlag::AlignCenter);
-        sbLengthTwo->setDecimals(10);
-        sbLengthTwo->setMaximum(10000000.000000000000000);
+        sbLengthTwo->setDecimals(323);
+        sbLengthTwo->setMinimum(-100000000000000000.000000000000000);
+        sbLengthTwo->setMaximum(100000000000000000.000000000000000);
         splitter_3 = new QSplitter(pageLength);
         splitter_3->setObjectName("splitter_3");
-        splitter_3->setGeometry(QRect(40, 180, 1141, 33));
+        splitter_3->setGeometry(QRect(40, 180, 1141, 32));
         QFont font3;
         font3.setPointSize(18);
         splitter_3->setFont(font3);
@@ -189,25 +190,25 @@ public:
         cmbLengthTwo->setFont(font4);
         splitter_2->addWidget(cmbLengthTwo);
         splitter_3->addWidget(splitter_2);
-        widget1 = new QWidget(pageLength);
-        widget1->setObjectName("widget1");
-        widget1->setGeometry(QRect(40, 270, 1141, 251));
-        verticalLayout_2 = new QVBoxLayout(widget1);
+        layoutWidget1 = new QWidget(pageLength);
+        layoutWidget1->setObjectName("layoutWidget1");
+        layoutWidget1->setGeometry(QRect(40, 270, 1141, 251));
+        verticalLayout_2 = new QVBoxLayout(layoutWidget1);
         verticalLayout_2->setObjectName("verticalLayout_2");
         verticalLayout_2->setContentsMargins(0, 0, 0, 0);
-        btnConvertLength = new QPushButton(widget1);
+        btnConvertLength = new QPushButton(layoutWidget1);
         btnConvertLength->setObjectName("btnConvertLength");
         btnConvertLength->setFont(font1);
 
         verticalLayout_2->addWidget(btnConvertLength);
 
-        btnClearLength = new QPushButton(widget1);
+        btnClearLength = new QPushButton(layoutWidget1);
         btnClearLength->setObjectName("btnClearLength");
         btnClearLength->setFont(font1);
 
         verticalLayout_2->addWidget(btnClearLength);
 
-        btnReturnLength = new QPushButton(widget1);
+        btnReturnLength = new QPushButton(layoutWidget1);
         btnReturnLength->setObjectName("btnReturnLength");
         btnReturnLength->setFont(font1);
 
@@ -222,25 +223,25 @@ public:
         label_3->setFont(font);
         label_3->setFrameShape(QFrame::Shape::NoFrame);
         label_3->setAlignment(Qt::AlignmentFlag::AlignCenter);
-        layoutWidget = new QWidget(weight);
-        layoutWidget->setObjectName("layoutWidget");
-        layoutWidget->setGeometry(QRect(30, 280, 1141, 251));
-        verticalLayout_3 = new QVBoxLayout(layoutWidget);
+        layoutWidget2 = new QWidget(weight);
+        layoutWidget2->setObjectName("layoutWidget2");
+        layoutWidget2->setGeometry(QRect(30, 280, 1141, 251));
+        verticalLayout_3 = new QVBoxLayout(layoutWidget2);
         verticalLayout_3->setObjectName("verticalLayout_3");
         verticalLayout_3->setContentsMargins(0, 0, 0, 0);
-        btnConvertWeight = new QPushButton(layoutWidget);
+        btnConvertWeight = new QPushButton(layoutWidget2);
         btnConvertWeight->setObjectName("btnConvertWeight");
         btnConvertWeight->setFont(font1);
 
         verticalLayout_3->addWidget(btnConvertWeight);
 
-        btnClearWeight = new QPushButton(layoutWidget);
+        btnClearWeight = new QPushButton(layoutWidget2);
         btnClearWeight->setObjectName("btnClearWeight");
         btnClearWeight->setFont(font1);
 
         verticalLayout_3->addWidget(btnClearWeight);
 
-        btnReturnWeight = new QPushButton(layoutWidget);
+        btnReturnWeight = new QPushButton(layoutWidget2);
         btnReturnWeight->setObjectName("btnReturnWeight");
         btnReturnWeight->setFont(font1);
 
@@ -251,24 +252,25 @@ public:
         splitter_5->setGeometry(QRect(30, 190, 16, 16));
         splitter_5->setOrientation(Qt::Orientation::Horizontal);
         splitter_5->setHandleWidth(50);
-        widget2 = new QWidget(weight);
-        widget2->setObjectName("widget2");
-        widget2->setGeometry(QRect(30, 130, 1161, 131));
-        gridLayout = new QGridLayout(widget2);
+        layoutWidget3 = new QWidget(weight);
+        layoutWidget3->setObjectName("layoutWidget3");
+        layoutWidget3->setGeometry(QRect(30, 130, 1161, 131));
+        gridLayout = new QGridLayout(layoutWidget3);
         gridLayout->setObjectName("gridLayout");
         gridLayout->setHorizontalSpacing(20);
         gridLayout->setContentsMargins(0, 0, 0, 0);
-        sbWeightTwo = new QDoubleSpinBox(widget2);
+        sbWeightTwo = new Scientific(layoutWidget3);
         sbWeightTwo->setObjectName("sbWeightTwo");
         sbWeightTwo->setFont(font2);
         sbWeightTwo->setWrapping(false);
         sbWeightTwo->setAlignment(Qt::AlignmentFlag::AlignCenter);
-        sbWeightTwo->setDecimals(10);
-        sbWeightTwo->setMaximum(10000000.000000000000000);
+        sbWeightTwo->setDecimals(323);
+        sbWeightTwo->setMinimum(-100000000000000000.000000000000000);
+        sbWeightTwo->setMaximum(100000000000000000.000000000000000);
 
         gridLayout->addWidget(sbWeightTwo, 0, 2, 1, 1);
 
-        cmbWeightOne = new QComboBox(widget2);
+        cmbWeightOne = new QComboBox(layoutWidget3);
         cmbWeightOne->addItem(QString());
         cmbWeightOne->addItem(QString());
         cmbWeightOne->addItem(QString());
@@ -278,7 +280,7 @@ public:
 
         gridLayout->addWidget(cmbWeightOne, 1, 0, 1, 1);
 
-        cmbWeightTwo = new QComboBox(widget2);
+        cmbWeightTwo = new QComboBox(layoutWidget3);
         cmbWeightTwo->addItem(QString());
         cmbWeightTwo->addItem(QString());
         cmbWeightTwo->addItem(QString());
@@ -288,12 +290,12 @@ public:
 
         gridLayout->addWidget(cmbWeightTwo, 1, 2, 1, 1);
 
-        sbWeightOne = new QDoubleSpinBox(widget2);
+        sbWeightOne = new Scientific(layoutWidget3);
         sbWeightOne->setObjectName("sbWeightOne");
         sbWeightOne->setFont(font2);
         sbWeightOne->setAlignment(Qt::AlignmentFlag::AlignCenter);
-        sbWeightOne->setDecimals(10);
-        sbWeightOne->setMaximum(10000000.000000000000000);
+        sbWeightOne->setDecimals(2);
+        sbWeightOne->setMaximum(1000000.000000000000000);
 
         gridLayout->addWidget(sbWeightOne, 0, 0, 1, 1);
 
@@ -309,7 +311,7 @@ public:
 
         retranslateUi(MainWindow);
 
-        stackedWidget->setCurrentIndex(0);
+        stackedWidget->setCurrentIndex(1);
 
 
         QMetaObject::connectSlotsByName(MainWindow);
