@@ -1,30 +1,18 @@
 #include "weight.h"
 #include <QString>
-double Weight::convert(double curr, const QString &unit, const QString &target) {
-    if (unit == "Tonne") {
-        if (target == "Tonne") return curr;
-        if (target == "Kilogram") return curr * 1000;
-        if (target == "Gram") return curr * 1000000;
-        if (target == "Milligram") return curr * 1000000000;
-    }
-    if (unit == "Kilogram") {
-        if (target == "Tonne") return curr * 0.001;
-        if (target == "Kilogram") return curr;
-        if (target == "Gram") return curr * 1000;
-        if (target == "Milligram") return curr * 1000000;
-    }
-    if (unit == "Gram") {
-        if (target == "Tonne") return curr * 0.000001;
-        if (target == "Kilogram") return curr * 0.001;
-        if (target == "Gram") return curr;
-        if (target == "Milligram") return curr * 1000;
-    }
-    if (unit == "Milligram") {
-        if (target == "Tonne") return curr * 0.000000001;
-        if (target == "Kilogram") return curr * 0.000001;
-        if (target == "Gram") return curr * 0.001;
-        if (target == "Milligram") return curr;
-    }
+double Weight::convert(int curr, const QString &unit, const QString &target) {
 
-    return 0;
+    static const Map<QString, double> toKg = {
+        {"Tonne", 1000}
+        {"Kilogram", 1}
+        {"Gram", 1000}
+        {"Milligram", 1000000000}
+    };
+
+    if ((!toKg.contain(unit)) || (!toKg.contain(target))) return 0;
+
+    double result = toKg.value(unit) * curr; 
+    result = result / toKg.value(target); 
+
+    return result;
 }

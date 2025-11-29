@@ -1,6 +1,7 @@
 #include "length.h"
 #include <QString>
 double Length::convert(double curr, const QString &unit, const QString &target) {
+
     if (unit == "Kilometre") {
         if (target == "Kilometre") return curr;
         if (target == "Metre") return curr * 1000;

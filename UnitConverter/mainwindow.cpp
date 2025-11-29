@@ -12,6 +12,16 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWi
     ui->setupUi(this);
 }
 
+void MainWindow::on_btnCurrency_clicked() {
+    ui->stackedWidget->currentIndex(3);
+}
+
+void MainWindow::on_btnReturnCurr_clicked() {
+    ui->stackedWidget->setCurrentIndex(0);
+}
+
+
+
 void MainWindow::on_btnWeight_clicked() {
     ui->cmbWeightOne->setCurrentIndex(0);
     ui->cmbWeightTwo->setCurrentIndex(0);

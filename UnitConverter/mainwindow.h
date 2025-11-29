@@ -23,6 +23,8 @@ class MainWindow : public QMainWindow {
     private slots:
     void on_btnLength_clicked();
     void on_btnWeight_clicked();
+    void on_btnCurrency_clicked();
+    void on_btnTemperature_clicked();
     
     void on_btnClearLength_clicked();
     void on_btnConvertLength_clicked();
@@ -31,6 +33,10 @@ class MainWindow : public QMainWindow {
     void on_btnReturnWeight_clicked();
     void on_btnConvertWeight_clicked();
     void on_btnClearWeight_clicked();
+
+    void on_btnReturnCurr_clicked();
+    void on_btnClearCurr_clicked();
+    void on_btnConvertCurr_clicked();
 };
 
 #endif

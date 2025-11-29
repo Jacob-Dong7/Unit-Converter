@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>3</number>
     </property>
     <widget class="QWidget" name="mainmenu">
      <widget class="QLabel" name="label">
@@ -358,8 +358,8 @@
      <widget class="QLabel" name="label_3">
       <property name="geometry">
        <rect>
-        <x>10</x>
-        <y>0</y>
+        <x>20</x>
+        <y>-10</y>
         <width>1181</width>
         <height>151</height>
        </rect>
@@ -384,9 +384,9 @@
      <widget class="QWidget" name="layoutWidget">
       <property name="geometry">
        <rect>
-        <x>30</x>
-        <y>280</y>
-        <width>1141</width>
+        <x>10</x>
+        <y>260</y>
+        <width>1191</width>
         <height>251</height>
        </rect>
       </property>
@@ -451,9 +451,9 @@
      <widget class="QWidget" name="layoutWidget">
       <property name="geometry">
        <rect>
-        <x>30</x>
-        <y>130</y>
-        <width>1161</width>
+        <x>10</x>
+        <y>110</y>
+        <width>1191</width>
         <height>131</height>
        </rect>
       </property>
@@ -570,6 +570,267 @@
         </widget>
        </item>
       </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="curr">
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>-10</y>
+        <width>1181</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Elephant</family>
+        <pointsize>28</pointsize>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Shape::NoFrame</enum>
+      </property>
+      <property name="text">
+       <string>UniConvert Pro</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>280</y>
+        <width>1161</width>
+        <height>251</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <widget class="QPushButton" name="btnConvertCurr">
+         <property name="font">
+          <font>
+           <family>Modern No. 20</family>
+           <pointsize>24</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Convert</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnClearCurr">
+         <property name="font">
+          <font>
+           <family>Modern No. 20</family>
+           <pointsize>24</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Clear</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnReturnCurr">
+         <property name="font">
+          <font>
+           <family>Modern No. 20</family>
+           <pointsize>24</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Return</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>180</y>
+        <width>1161</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <property name="horizontalSpacing">
+        <number>20</number>
+       </property>
+       <item row="0" column="0">
+        <widget class="Scientific" name="sbCurrencyFrom">
+         <property name="font">
+          <font>
+           <pointsize>18</pointsize>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignmentFlag::AlignCenter</set>
+         </property>
+         <property name="decimals">
+          <number>2</number>
+         </property>
+         <property name="maximum">
+          <double>1000000.000000000000000</double>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QComboBox" name="cmbCurrencyFrom">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="currentText">
+          <string>Australian Dollar</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>Australian Dollar</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>United States Dollar</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Yuan</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Yen</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Euro</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Ruble</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Hong Kong Dollar</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Iraqi Dinar</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="Scientific" name="sbCurrencyTo">
+         <property name="font">
+          <font>
+           <pointsize>18</pointsize>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="wrapping">
+          <bool>false</bool>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignmentFlag::AlignCenter</set>
+         </property>
+         <property name="decimals">
+          <number>323</number>
+         </property>
+         <property name="minimum">
+          <double>-100000000000000000.000000000000000</double>
+         </property>
+         <property name="maximum">
+          <double>100000000000000000.000000000000000</double>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QComboBox" name="cmbCurrencyTo">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="currentText">
+          <string>Australian Dollar</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>Australian Dollar</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>United States Dollar</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Yuan</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Yen</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Euro</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Ruble</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Hong Kong Dollar</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Iraqi Dinar</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="lblCurrency">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>100</y>
+        <width>221</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>28</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
      </widget>
     </widget>
    </widget>
