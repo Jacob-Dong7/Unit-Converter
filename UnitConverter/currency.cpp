@@ -1,11 +1,9 @@
 #include "currency.h"
+#include "mainwindow.h"
+#include <QMainWindow>
+#include "ui_mainwindow.h"
+Currency::Currency(QWidget *parent) : QDoubleSpinBox(parent) {}
 
-Currency::Currency(Widget *parent) : QDoubleSpinBox(parent) {
-    setDecimals(2);
-}
-
-QString Currency::textFromValue(double val) const {
-    if (val <= 0) return 0;
-
-    return "$" + QString::number(val, 'f', 2);
+QString Currency::textFromValue(double value) const{
+    return QString::number(value, 'f', 2);
 }

@@ -1,6 +1,8 @@
 C:/Programming/CPP/Unit-Converter/build/UnitConverter_autogen/EIFJRY36SK/moc_mainwindow.cpp: C:/Programming/CPP/Unit-Converter/UnitConverter/mainwindow.h \
   C:/Programming/CPP/Unit-Converter/build/UnitConverter_autogen/moc_predefs.h \
+  C:/Programming/CPP/Unit-Converter/UnitConverter/currconvert.h \
   C:/Programming/CPP/Unit-Converter/UnitConverter/length.h \
+  C:/Programming/CPP/Unit-Converter/UnitConverter/temp.h \
   C:/Programming/CPP/Unit-Converter/UnitConverter/weight.h \
   C:/Qt/6.10.1/mingw_64/include/QtCore/QString \
   C:/Qt/6.10.1/mingw_64/include/QtCore/q17memory.h \

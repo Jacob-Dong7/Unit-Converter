@@ -42,6 +42,10 @@ UnitConverter_autogen/timestamp: C:/Program\ Files/CMake/bin/cmake.exe \
   C:/Program\ Files/CMake/share/cmake-4.2/Modules/Platform/Windows.cmake \
   C:/Program\ Files/CMake/share/cmake-4.2/Modules/Platform/WindowsPaths.cmake \
   C:/Programming/CPP/Unit-Converter/CMakeLists.txt \
+  C:/Programming/CPP/Unit-Converter/UnitConverter/currconvert.cpp \
+  C:/Programming/CPP/Unit-Converter/UnitConverter/currconvert.h \
+  C:/Programming/CPP/Unit-Converter/UnitConverter/currency.cpp \
+  C:/Programming/CPP/Unit-Converter/UnitConverter/currency.h \
   C:/Programming/CPP/Unit-Converter/UnitConverter/length.cpp \
   C:/Programming/CPP/Unit-Converter/UnitConverter/length.h \
   C:/Programming/CPP/Unit-Converter/UnitConverter/main.cpp \
@@ -50,6 +54,8 @@ UnitConverter_autogen/timestamp: C:/Program\ Files/CMake/bin/cmake.exe \
   C:/Programming/CPP/Unit-Converter/UnitConverter/mainwindow.ui \
   C:/Programming/CPP/Unit-Converter/UnitConverter/scientific.cpp \
   C:/Programming/CPP/Unit-Converter/UnitConverter/scientific.h \
+  C:/Programming/CPP/Unit-Converter/UnitConverter/temp.cpp \
+  C:/Programming/CPP/Unit-Converter/UnitConverter/temp.h \
   C:/Programming/CPP/Unit-Converter/UnitConverter/weight.cpp \
   C:/Programming/CPP/Unit-Converter/UnitConverter/weight.h \
   CMakeFiles/4.2.0/CMakeCXXCompiler.cmake \
@@ -631,8 +637,6 @@ C:/Program\ Files/CMake/share/cmake-4.2/Modules/CMakeLanguageInformation.cmake:
 
 C:/Qt/6.10.1/mingw_64/include/QtCore/qvariant.h:
 
-C:/Qt/6.10.1/mingw_64/include/QtCore/q20iterator.h:
-
 C:/Program\ Files/CMake/share/cmake-4.2/Modules/CMakeRCInformation.cmake:
 
 C:/Program\ Files/CMake/share/cmake-4.2/Modules/Platform/Linker/GNU.cmake:
@@ -654,6 +658,8 @@ C:/Program\ Files/CMake/share/cmake-4.2/Modules/CheckCXXCompilerFlag.cmake:
 C:/Qt/6.10.1/mingw_64/include/QtCore/qrefcount.h:
 
 C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake:
+
+C:/Programming/CPP/Unit-Converter/UnitConverter/temp.cpp:
 
 C:/Program\ Files/CMake/share/cmake-4.2/Modules/CheckCXXSourceCompiles.cmake:
 
@@ -695,6 +701,12 @@ C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake:
 
 C:/Program\ Files/CMake/share/cmake-4.2/Modules/Compiler/GNU-CXX.cmake:
 
+C:/msys64/ucrt64/include/sys/timeb.h:
+
+C:/Programming/CPP/Unit-Converter/UnitConverter/currency.h:
+
+C:/msys64/ucrt64/include/c++/15.2.0/bits/predefined_ops.h:
+
 C:/Program\ Files/CMake/share/cmake-4.2/Modules/Compiler/GNU.cmake:
 
 C:/Program\ Files/CMake/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake:
@@ -713,10 +725,6 @@ C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake:
 
 C:/Program\ Files/CMake/share/cmake-4.2/Modules/GNUInstallDirs.cmake:
 
-C:/Qt/6.10.1/mingw_64/include/QtCore/q23type_traits.h:
-
-C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake:
-
 C:/Programming/CPP/Unit-Converter/UnitConverter/weight.h:
 
 C:/Program\ Files/CMake/share/cmake-4.2/Modules/Internal/CheckCompilerFlag.cmake:
@@ -728,6 +736,8 @@ C:/Program\ Files/CMake/share/cmake-4.2/Modules/Linker/GNU-CXX.cmake:
 C:/Program\ Files/CMake/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU-CXX.cmake:
 
 C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:
+
+C:/Programming/CPP/Unit-Converter/UnitConverter/temp.h:
 
 C:/Program\ Files/CMake/share/cmake-4.2/Modules/Platform/Windows-GNU-CXX-ABI.cmake:
 
@@ -743,27 +753,29 @@ C:/msys64/ucrt64/include/sdks/_mingw_ddk.h:
 
 C:/Program\ Files/CMake/share/cmake-4.2/Modules/Platform/Windows-windres.cmake:
 
-C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake:
-
-C:/Qt/6.10.1/mingw_64/include/QtCore/q23utility.h:
-
-C:/Programming/CPP/Unit-Converter/UnitConverter/mainwindow.cpp:
-
 C:/Qt/6.10.1/mingw_64/include/QtCore/QString:
 
 C:/Program\ Files/CMake/share/cmake-4.2/Modules/Platform/Windows.cmake:
 
 CMakeFiles/4.2.0/CMakeSystem.cmake:
 
+C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake:
+
+C:/Programming/CPP/Unit-Converter/UnitConverter/mainwindow.cpp:
+
+C:/Qt/6.10.1/mingw_64/include/QtCore/q23utility.h:
+
 C:/Programming/CPP/Unit-Converter/UnitConverter/main.cpp:
-
-C:/msys64/ucrt64/include/sys/types.h:
-
-C:/Qt/6.10.1/mingw_64/include/QtCore/q20utility.h:
 
 C:/Qt/6.10.1/mingw_64/include/QtCore/qsharedpointer.h:
 
 C:/Programming/CPP/Unit-Converter/CMakeLists.txt:
+
+C:/Programming/CPP/Unit-Converter/UnitConverter/currconvert.cpp:
+
+C:/Programming/CPP/Unit-Converter/UnitConverter/currconvert.h:
+
+C:/Programming/CPP/Unit-Converter/UnitConverter/currency.cpp:
 
 C:/msys64/ucrt64/include/c++/15.2.0/bits/uses_allocator.h:
 
@@ -799,6 +811,8 @@ C:/msys64/ucrt64/include/c++/15.2.0/tr1/special_function_util.h:
 
 C:/Qt/6.10.1/mingw_64/include/QtCore/q20functional.h:
 
+C:/Qt/6.10.1/mingw_64/include/QtCore/q20iterator.h:
+
 C:/Qt/6.10.1/mingw_64/include/QtCore/q20memory.h:
 
 C:/Qt/6.10.1/mingw_64/include/QtCore/qmargins.h:
@@ -808,6 +822,14 @@ C:/msys64/ucrt64/include/c++/15.2.0/ext/aligned_buffer.h:
 C:/Qt/6.10.1/mingw_64/include/QtCore/q20type_traits.h:
 
 C:/Qt/6.10.1/mingw_64/include/QtCore/qspan.h:
+
+C:/msys64/ucrt64/include/sys/types.h:
+
+C:/Qt/6.10.1/mingw_64/include/QtCore/q20utility.h:
+
+C:/Qt/6.10.1/mingw_64/include/QtCore/q23type_traits.h:
+
+C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake:
 
 C:/Qt/6.10.1/mingw_64/include/QtCore/qalgorithms.h:
 
@@ -1197,9 +1219,9 @@ C:/msys64/ucrt64/include/c++/15.2.0/bits/align.h:
 
 C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:
 
-C:/Qt/6.10.1/mingw_64/include/QtGui/qicon.h:
-
 C:/msys64/ucrt64/include/c++/15.2.0/ratio:
+
+C:/Qt/6.10.1/mingw_64/include/QtGui/qicon.h:
 
 C:/Qt/6.10.1/mingw_64/include/QtGui/qkeysequence.h:
 
@@ -1575,15 +1597,9 @@ C:/msys64/ucrt64/include/c++/15.2.0/bits/stream_iterator.h:
 
 C:/msys64/ucrt64/include/c++/15.2.0/bits/localefwd.h:
 
-C:/msys64/ucrt64/include/sys/timeb.h:
-
-C:/msys64/ucrt64/include/c++/15.2.0/bits/predefined_ops.h:
-
 C:/msys64/ucrt64/include/c++/15.2.0/bits/requires_hosted.h:
 
 C:/msys64/ucrt64/include/c++/15.2.0/bits/shared_ptr_base.h:
-
-C:/msys64/ucrt64/include/c++/15.2.0/optional:
 
 C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_algo.h:
 
@@ -1604,8 +1620,6 @@ C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_multiset.h:
 C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_pair.h:
 
 C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_raw_storage_iter.h:
-
-C:/msys64/ucrt64/include/c++/15.2.0/pstl/glue_numeric_defs.h:
 
 C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_relops.h:
 
@@ -1659,7 +1673,11 @@ C:/msys64/ucrt64/include/c++/15.2.0/new:
 
 C:/msys64/ucrt64/include/c++/15.2.0/numeric:
 
+C:/msys64/ucrt64/include/c++/15.2.0/optional:
+
 C:/msys64/ucrt64/include/c++/15.2.0/pstl/execution_defs.h:
+
+C:/msys64/ucrt64/include/c++/15.2.0/pstl/glue_numeric_defs.h:
 
 C:/msys64/ucrt64/include/c++/15.2.0/pstl/pstl_config.h:
 

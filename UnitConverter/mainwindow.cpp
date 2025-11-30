@@ -1,24 +1,72 @@
 #include <QMainWindow>
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
+#include "temp.h"
+#include "currconvert.h"
+#include "currency.h"
 #include "scientific.h"
 #include "length.h"
 #include "weight.h"
-#include <iomanip>
 #include <QString>
-#include <iostream>
 
 MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWindow) {
     ui->setupUi(this);
 }
 
+void MainWindow::on_btnTempConvert_clicked() {
+    currentValue = ui->sbTempFrom->value();
+    unit = ui->cmbTempFrom->currentText();
+    target = ui->cmbTempTo->currentText();
+    convertedValue= convertTemp.convert(currentValue, unit, target);
+    ui->sbTempTo->setValue(convertedValue);
+}
+
+void MainWindow::on_btnTempClear_clicked() {
+    ui->sbTempFrom->setValue(0);
+    ui->sbTempTo->setValue(0);
+    ui->cmbTempFrom->setCurrentIndex(0);
+    ui->cmbTempTo->setCurrentIndex(0);
+}
+void MainWindow::on_btnTempReturn_clicked() {
+    ui->stackedWidget->setCurrentIndex(0);
+}
+void MainWindow::on_btnTemp_clicked() {
+    ui->sbTempFrom->setValue(0);
+    ui->sbTempTo->setValue(0);
+    ui->cmbTempFrom->setCurrentIndex(0);
+    ui->cmbTempTo->setCurrentIndex(0);
+    ui->stackedWidget->setCurrentIndex(4);
+}
 void MainWindow::on_btnCurrency_clicked() {
-    ui->stackedWidget->currentIndex(3);
+    ui->sbCurrencyFrom->setValue(0);
+    ui->sbCurrencyTo->setValue(0);
+    ui->cmbCurrencyFrom->setCurrentIndex(0);
+    ui->cmbCurrencyTo->setCurrentIndex(0);
+    ui->lblCurrency->setText("0");
+    ui->stackedWidget->setCurrentIndex(3);
 }
 
 void MainWindow::on_btnReturnCurr_clicked() {
     ui->stackedWidget->setCurrentIndex(0);
 }
+
+void MainWindow::on_btnConvertCurr_clicked() {
+    currentValue = ui->sbCurrencyFrom->value();
+    unit = ui->cmbCurrencyFrom->currentText();
+    target = ui->cmbCurrencyTo->currentText();
+    convertedValue = convertCurrency.convert(currentValue, unit, target);
+    ui->sbCurrencyTo->setValue(convertedValue);
+    ui->lblCurrency->setText(QString::number(convertedValue, 'f', 2));
+}
+
+void MainWindow::on_btnClearCurr_clicked() {
+    ui->sbCurrencyFrom->setValue(0);
+    ui->sbCurrencyTo->setValue(0);
+    ui->cmbCurrencyFrom->setCurrentIndex(0);
+    ui->cmbCurrencyTo->setCurrentIndex(0);
+    ui->lblCurrency->setText("0");
+}
+
 
 
 
@@ -42,7 +90,6 @@ void MainWindow::on_btnConvertLength_clicked() {
     target = ui->cmbLengthTwo->currentText();
     currentValue = ui->sbLengthOne->value();
     convertedValue = convertLength.convert(currentValue, unit, target);
-    std::cout << convertedValue << std::endl;
     ui->sbLengthTwo->setValue(convertedValue);
 }
 

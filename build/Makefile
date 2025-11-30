@@ -154,6 +154,54 @@ UnitConverter_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UnitConverter_autogen.dir\build.make CMakeFiles/UnitConverter_autogen.dir/build
 .PHONY : UnitConverter_autogen/fast
 
+UnitConverter/currconvert.obj: UnitConverter/currconvert.cpp.obj
+.PHONY : UnitConverter/currconvert.obj
+
+# target to build an object file
+UnitConverter/currconvert.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UnitConverter.dir\build.make CMakeFiles/UnitConverter.dir/UnitConverter/currconvert.cpp.obj
+.PHONY : UnitConverter/currconvert.cpp.obj
+
+UnitConverter/currconvert.i: UnitConverter/currconvert.cpp.i
+.PHONY : UnitConverter/currconvert.i
+
+# target to preprocess a source file
+UnitConverter/currconvert.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UnitConverter.dir\build.make CMakeFiles/UnitConverter.dir/UnitConverter/currconvert.cpp.i
+.PHONY : UnitConverter/currconvert.cpp.i
+
+UnitConverter/currconvert.s: UnitConverter/currconvert.cpp.s
+.PHONY : UnitConverter/currconvert.s
+
+# target to generate assembly for a file
+UnitConverter/currconvert.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UnitConverter.dir\build.make CMakeFiles/UnitConverter.dir/UnitConverter/currconvert.cpp.s
+.PHONY : UnitConverter/currconvert.cpp.s
+
+UnitConverter/currency.obj: UnitConverter/currency.cpp.obj
+.PHONY : UnitConverter/currency.obj
+
+# target to build an object file
+UnitConverter/currency.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UnitConverter.dir\build.make CMakeFiles/UnitConverter.dir/UnitConverter/currency.cpp.obj
+.PHONY : UnitConverter/currency.cpp.obj
+
+UnitConverter/currency.i: UnitConverter/currency.cpp.i
+.PHONY : UnitConverter/currency.i
+
+# target to preprocess a source file
+UnitConverter/currency.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UnitConverter.dir\build.make CMakeFiles/UnitConverter.dir/UnitConverter/currency.cpp.i
+.PHONY : UnitConverter/currency.cpp.i
+
+UnitConverter/currency.s: UnitConverter/currency.cpp.s
+.PHONY : UnitConverter/currency.s
+
+# target to generate assembly for a file
+UnitConverter/currency.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UnitConverter.dir\build.make CMakeFiles/UnitConverter.dir/UnitConverter/currency.cpp.s
+.PHONY : UnitConverter/currency.cpp.s
+
 UnitConverter/length.obj: UnitConverter/length.cpp.obj
 .PHONY : UnitConverter/length.obj
 
@@ -250,6 +298,30 @@ UnitConverter/scientific.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UnitConverter.dir\build.make CMakeFiles/UnitConverter.dir/UnitConverter/scientific.cpp.s
 .PHONY : UnitConverter/scientific.cpp.s
 
+UnitConverter/temp.obj: UnitConverter/temp.cpp.obj
+.PHONY : UnitConverter/temp.obj
+
+# target to build an object file
+UnitConverter/temp.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UnitConverter.dir\build.make CMakeFiles/UnitConverter.dir/UnitConverter/temp.cpp.obj
+.PHONY : UnitConverter/temp.cpp.obj
+
+UnitConverter/temp.i: UnitConverter/temp.cpp.i
+.PHONY : UnitConverter/temp.i
+
+# target to preprocess a source file
+UnitConverter/temp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UnitConverter.dir\build.make CMakeFiles/UnitConverter.dir/UnitConverter/temp.cpp.i
+.PHONY : UnitConverter/temp.cpp.i
+
+UnitConverter/temp.s: UnitConverter/temp.cpp.s
+.PHONY : UnitConverter/temp.s
+
+# target to generate assembly for a file
+UnitConverter/temp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UnitConverter.dir\build.make CMakeFiles/UnitConverter.dir/UnitConverter/temp.cpp.s
+.PHONY : UnitConverter/temp.cpp.s
+
 UnitConverter/weight.obj: UnitConverter/weight.cpp.obj
 .PHONY : UnitConverter/weight.obj
 
@@ -309,6 +381,12 @@ help:
 	@echo ... UnitConverter_autogen
 	@echo ... UnitConverter_autogen_timestamp_deps
 	@echo ... UnitConverter
+	@echo ... UnitConverter/currconvert.obj
+	@echo ... UnitConverter/currconvert.i
+	@echo ... UnitConverter/currconvert.s
+	@echo ... UnitConverter/currency.obj
+	@echo ... UnitConverter/currency.i
+	@echo ... UnitConverter/currency.s
 	@echo ... UnitConverter/length.obj
 	@echo ... UnitConverter/length.i
 	@echo ... UnitConverter/length.s
@@ -321,6 +399,9 @@ help:
 	@echo ... UnitConverter/scientific.obj
 	@echo ... UnitConverter/scientific.i
 	@echo ... UnitConverter/scientific.s
+	@echo ... UnitConverter/temp.obj
+	@echo ... UnitConverter/temp.i
+	@echo ... UnitConverter/temp.s
 	@echo ... UnitConverter/weight.obj
 	@echo ... UnitConverter/weight.i
 	@echo ... UnitConverter/weight.s

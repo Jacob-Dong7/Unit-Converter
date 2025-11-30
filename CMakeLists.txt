@@ -25,6 +25,12 @@ set(PROJECT_SOURCES
     UnitConverter/weight.cpp
     UnitConverter/scientific.cpp
     UnitConverter/scientific.h
+    UnitConverter/currconvert.cpp
+    UnitConverter/currconvert.h
+    UnitConverter/currency.cpp
+    UnitConverter/currency.h
+    UnitConverter/temp.h
+    UnitConverter/temp.cpp
 )
 
 # Create the executable

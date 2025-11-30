@@ -3,6 +3,8 @@
 #include <QMainWindow>
 #include <QString>
 #include "length.h"
+#include "currconvert.h"
+#include "temp.h"
 #include "weight.h"
 
 namespace Ui {
@@ -17,6 +19,10 @@ class MainWindow : public QMainWindow {
     Ui::MainWindow *ui;
     Length convertLength;
     Weight convertWeight;
+    CurrConvert convertCurrency;
+    Temp convertTemp;
+
+
     double convertedValue, currentValue;
     QString unit, target;
 
@@ -24,7 +30,7 @@ class MainWindow : public QMainWindow {
     void on_btnLength_clicked();
     void on_btnWeight_clicked();
     void on_btnCurrency_clicked();
-    void on_btnTemperature_clicked();
+    void on_btnTemp_clicked();
     
     void on_btnClearLength_clicked();
     void on_btnConvertLength_clicked();
@@ -37,6 +43,10 @@ class MainWindow : public QMainWindow {
     void on_btnReturnCurr_clicked();
     void on_btnClearCurr_clicked();
     void on_btnConvertCurr_clicked();
+
+    void on_btnTempConvert_clicked();
+    void on_btnTempClear_clicked();
+    void on_btnTempReturn_clicked();
 };
 
 #endif

@@ -43,6 +43,10 @@ C:/Programming/CPP/Unit-Converter/build/UnitConverter_autogen/timestamp
  C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows.cmake
  C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/WindowsPaths.cmake
  C:/Programming/CPP/Unit-Converter/CMakeLists.txt
+ C:/Programming/CPP/Unit-Converter/UnitConverter/currconvert.cpp
+ C:/Programming/CPP/Unit-Converter/UnitConverter/currconvert.h
+ C:/Programming/CPP/Unit-Converter/UnitConverter/currency.cpp
+ C:/Programming/CPP/Unit-Converter/UnitConverter/currency.h
  C:/Programming/CPP/Unit-Converter/UnitConverter/length.cpp
  C:/Programming/CPP/Unit-Converter/UnitConverter/length.h
  C:/Programming/CPP/Unit-Converter/UnitConverter/main.cpp
@@ -51,6 +55,8 @@ C:/Programming/CPP/Unit-Converter/build/UnitConverter_autogen/timestamp
  C:/Programming/CPP/Unit-Converter/UnitConverter/mainwindow.ui
  C:/Programming/CPP/Unit-Converter/UnitConverter/scientific.cpp
  C:/Programming/CPP/Unit-Converter/UnitConverter/scientific.h
+ C:/Programming/CPP/Unit-Converter/UnitConverter/temp.cpp
+ C:/Programming/CPP/Unit-Converter/UnitConverter/temp.h
  C:/Programming/CPP/Unit-Converter/UnitConverter/weight.cpp
  C:/Programming/CPP/Unit-Converter/UnitConverter/weight.h
  C:/Programming/CPP/Unit-Converter/build/CMakeFiles/4.2.0/CMakeCXXCompiler.cmake

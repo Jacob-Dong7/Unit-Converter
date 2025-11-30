@@ -1,10 +1,8 @@
 #include "scientific.h"
 #include <iostream>
-Scientific::Scientific(QWidget *parent) : QDoubleSpinBox(parent) {
-    setDecimals(10);
-}
 
-// 10000
+Scientific::Scientific(QWidget *parent) : QDoubleSpinBox(parent) {};
+
 QString Scientific::textFromValue(double value) const {
     if (value == 0) return "0";
     double mantissa = value;

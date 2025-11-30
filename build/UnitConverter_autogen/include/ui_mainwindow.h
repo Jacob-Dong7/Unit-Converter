@@ -12,6 +12,7 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QComboBox>
+#include <QtWidgets/QDoubleSpinBox>
 #include <QtWidgets/QGridLayout>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
@@ -22,7 +23,8 @@
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
-#include <scientific.h>
+#include <currency.h>
+#include "scientific.h"
 
 QT_BEGIN_NAMESPACE
 
@@ -67,6 +69,33 @@ public:
     QComboBox *cmbWeightOne;
     QComboBox *cmbWeightTwo;
     Scientific *sbWeightOne;
+    QWidget *curr;
+    QLabel *label_4;
+    QWidget *layoutWidget_2;
+    QVBoxLayout *verticalLayout_4;
+    QPushButton *btnConvertCurr;
+    QPushButton *btnClearCurr;
+    QPushButton *btnReturnCurr;
+    QWidget *layoutWidget_3;
+    QGridLayout *gridLayout_2;
+    Currency *sbCurrencyFrom;
+    QComboBox *cmbCurrencyFrom;
+    Currency *sbCurrencyTo;
+    QComboBox *cmbCurrencyTo;
+    QLabel *lblCurrency;
+    QWidget *page;
+    QLabel *label_5;
+    QWidget *layoutWidget_4;
+    QVBoxLayout *verticalLayout_5;
+    QPushButton *btnTempConvert;
+    QPushButton *btnTempClear;
+    QPushButton *btnTempReturn;
+    QWidget *widget;
+    QGridLayout *gridLayout_3;
+    QDoubleSpinBox *sbTempFrom;
+    QDoubleSpinBox *sbTempTo;
+    QComboBox *cmbTempFrom;
+    QComboBox *cmbTempTo;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -84,7 +113,7 @@ public:
         mainmenu->setObjectName("mainmenu");
         label = new QLabel(mainmenu);
         label->setObjectName("label");
-        label->setGeometry(QRect(20, -20, 1181, 151));
+        label->setGeometry(QRect(20, -10, 1181, 151));
         QFont font;
         font.setFamilies({QString::fromUtf8("Elephant")});
         font.setPointSize(28);
@@ -219,13 +248,13 @@ public:
         weight->setObjectName("weight");
         label_3 = new QLabel(weight);
         label_3->setObjectName("label_3");
-        label_3->setGeometry(QRect(10, 0, 1181, 151));
+        label_3->setGeometry(QRect(20, -10, 1181, 151));
         label_3->setFont(font);
         label_3->setFrameShape(QFrame::Shape::NoFrame);
         label_3->setAlignment(Qt::AlignmentFlag::AlignCenter);
         layoutWidget2 = new QWidget(weight);
         layoutWidget2->setObjectName("layoutWidget2");
-        layoutWidget2->setGeometry(QRect(30, 280, 1141, 251));
+        layoutWidget2->setGeometry(QRect(10, 260, 1191, 251));
         verticalLayout_3 = new QVBoxLayout(layoutWidget2);
         verticalLayout_3->setObjectName("verticalLayout_3");
         verticalLayout_3->setContentsMargins(0, 0, 0, 0);
@@ -254,7 +283,7 @@ public:
         splitter_5->setHandleWidth(50);
         layoutWidget3 = new QWidget(weight);
         layoutWidget3->setObjectName("layoutWidget3");
-        layoutWidget3->setGeometry(QRect(30, 130, 1161, 131));
+        layoutWidget3->setGeometry(QRect(10, 110, 1191, 181));
         gridLayout = new QGridLayout(layoutWidget3);
         gridLayout->setObjectName("gridLayout");
         gridLayout->setHorizontalSpacing(20);
@@ -300,6 +329,179 @@ public:
         gridLayout->addWidget(sbWeightOne, 0, 0, 1, 1);
 
         stackedWidget->addWidget(weight);
+        curr = new QWidget();
+        curr->setObjectName("curr");
+        label_4 = new QLabel(curr);
+        label_4->setObjectName("label_4");
+        label_4->setGeometry(QRect(20, -10, 1181, 151));
+        label_4->setFont(font);
+        label_4->setFrameShape(QFrame::Shape::NoFrame);
+        label_4->setAlignment(Qt::AlignmentFlag::AlignCenter);
+        layoutWidget_2 = new QWidget(curr);
+        layoutWidget_2->setObjectName("layoutWidget_2");
+        layoutWidget_2->setGeometry(QRect(30, 280, 1161, 251));
+        verticalLayout_4 = new QVBoxLayout(layoutWidget_2);
+        verticalLayout_4->setObjectName("verticalLayout_4");
+        verticalLayout_4->setContentsMargins(0, 0, 0, 0);
+        btnConvertCurr = new QPushButton(layoutWidget_2);
+        btnConvertCurr->setObjectName("btnConvertCurr");
+        btnConvertCurr->setFont(font1);
+
+        verticalLayout_4->addWidget(btnConvertCurr);
+
+        btnClearCurr = new QPushButton(layoutWidget_2);
+        btnClearCurr->setObjectName("btnClearCurr");
+        btnClearCurr->setFont(font1);
+
+        verticalLayout_4->addWidget(btnClearCurr);
+
+        btnReturnCurr = new QPushButton(layoutWidget_2);
+        btnReturnCurr->setObjectName("btnReturnCurr");
+        btnReturnCurr->setFont(font1);
+
+        verticalLayout_4->addWidget(btnReturnCurr);
+
+        layoutWidget_3 = new QWidget(curr);
+        layoutWidget_3->setObjectName("layoutWidget_3");
+        layoutWidget_3->setGeometry(QRect(30, 180, 1161, 131));
+        gridLayout_2 = new QGridLayout(layoutWidget_3);
+        gridLayout_2->setObjectName("gridLayout_2");
+        gridLayout_2->setHorizontalSpacing(20);
+        gridLayout_2->setContentsMargins(0, 0, 0, 0);
+        sbCurrencyFrom = new Currency(layoutWidget_3);
+        sbCurrencyFrom->setObjectName("sbCurrencyFrom");
+        sbCurrencyFrom->setFont(font2);
+        sbCurrencyFrom->setAlignment(Qt::AlignmentFlag::AlignCenter);
+        sbCurrencyFrom->setDecimals(2);
+        sbCurrencyFrom->setMaximum(1000000.000000000000000);
+
+        gridLayout_2->addWidget(sbCurrencyFrom, 0, 0, 1, 1);
+
+        cmbCurrencyFrom = new QComboBox(layoutWidget_3);
+        cmbCurrencyFrom->addItem(QString());
+        cmbCurrencyFrom->addItem(QString());
+        cmbCurrencyFrom->addItem(QString());
+        cmbCurrencyFrom->addItem(QString());
+        cmbCurrencyFrom->addItem(QString());
+        cmbCurrencyFrom->addItem(QString());
+        cmbCurrencyFrom->addItem(QString());
+        cmbCurrencyFrom->addItem(QString());
+        cmbCurrencyFrom->setObjectName("cmbCurrencyFrom");
+        cmbCurrencyFrom->setFont(font4);
+
+        gridLayout_2->addWidget(cmbCurrencyFrom, 1, 0, 1, 1);
+
+        sbCurrencyTo = new Currency(layoutWidget_3);
+        sbCurrencyTo->setObjectName("sbCurrencyTo");
+        sbCurrencyTo->setFont(font2);
+        sbCurrencyTo->setWrapping(false);
+        sbCurrencyTo->setAlignment(Qt::AlignmentFlag::AlignCenter);
+        sbCurrencyTo->setDecimals(323);
+        sbCurrencyTo->setMinimum(-100000000000000000.000000000000000);
+        sbCurrencyTo->setMaximum(100000000000000000.000000000000000);
+
+        gridLayout_2->addWidget(sbCurrencyTo, 0, 2, 1, 1);
+
+        cmbCurrencyTo = new QComboBox(layoutWidget_3);
+        cmbCurrencyTo->addItem(QString());
+        cmbCurrencyTo->addItem(QString());
+        cmbCurrencyTo->addItem(QString());
+        cmbCurrencyTo->addItem(QString());
+        cmbCurrencyTo->addItem(QString());
+        cmbCurrencyTo->addItem(QString());
+        cmbCurrencyTo->addItem(QString());
+        cmbCurrencyTo->addItem(QString());
+        cmbCurrencyTo->setObjectName("cmbCurrencyTo");
+        cmbCurrencyTo->setFont(font4);
+
+        gridLayout_2->addWidget(cmbCurrencyTo, 1, 2, 1, 1);
+
+        lblCurrency = new QLabel(curr);
+        lblCurrency->setObjectName("lblCurrency");
+        lblCurrency->setGeometry(QRect(30, 100, 221, 51));
+        QFont font5;
+        font5.setPointSize(28);
+        font5.setBold(true);
+        lblCurrency->setFont(font5);
+        stackedWidget->addWidget(curr);
+        page = new QWidget();
+        page->setObjectName("page");
+        label_5 = new QLabel(page);
+        label_5->setObjectName("label_5");
+        label_5->setGeometry(QRect(20, -10, 1181, 151));
+        label_5->setFont(font);
+        label_5->setFrameShape(QFrame::Shape::NoFrame);
+        label_5->setAlignment(Qt::AlignmentFlag::AlignCenter);
+        layoutWidget_4 = new QWidget(page);
+        layoutWidget_4->setObjectName("layoutWidget_4");
+        layoutWidget_4->setGeometry(QRect(19, 288, 1181, 261));
+        verticalLayout_5 = new QVBoxLayout(layoutWidget_4);
+        verticalLayout_5->setObjectName("verticalLayout_5");
+        verticalLayout_5->setContentsMargins(0, 0, 0, 0);
+        btnTempConvert = new QPushButton(layoutWidget_4);
+        btnTempConvert->setObjectName("btnTempConvert");
+        btnTempConvert->setFont(font1);
+
+        verticalLayout_5->addWidget(btnTempConvert);
+
+        btnTempClear = new QPushButton(layoutWidget_4);
+        btnTempClear->setObjectName("btnTempClear");
+        btnTempClear->setFont(font1);
+
+        verticalLayout_5->addWidget(btnTempClear);
+
+        btnTempReturn = new QPushButton(layoutWidget_4);
+        btnTempReturn->setObjectName("btnTempReturn");
+        btnTempReturn->setFont(font1);
+
+        verticalLayout_5->addWidget(btnTempReturn);
+
+        widget = new QWidget(page);
+        widget->setObjectName("widget");
+        widget->setGeometry(QRect(10, 87, 1191, 201));
+        gridLayout_3 = new QGridLayout(widget);
+        gridLayout_3->setObjectName("gridLayout_3");
+        gridLayout_3->setContentsMargins(0, 0, 0, 0);
+        sbTempFrom = new QDoubleSpinBox(widget);
+        sbTempFrom->setObjectName("sbTempFrom");
+        sbTempFrom->setFont(font2);
+        sbTempFrom->setAlignment(Qt::AlignmentFlag::AlignCenter);
+        sbTempFrom->setDecimals(2);
+        sbTempFrom->setMinimum(-1000000.000000000000000);
+        sbTempFrom->setMaximum(1000000.000000000000000);
+
+        gridLayout_3->addWidget(sbTempFrom, 0, 0, 1, 1);
+
+        sbTempTo = new QDoubleSpinBox(widget);
+        sbTempTo->setObjectName("sbTempTo");
+        sbTempTo->setFont(font2);
+        sbTempTo->setWrapping(false);
+        sbTempTo->setAlignment(Qt::AlignmentFlag::AlignCenter);
+        sbTempTo->setDecimals(2);
+        sbTempTo->setMinimum(-100000000000000000.000000000000000);
+        sbTempTo->setMaximum(100000000000000000.000000000000000);
+
+        gridLayout_3->addWidget(sbTempTo, 0, 1, 1, 1);
+
+        cmbTempFrom = new QComboBox(widget);
+        cmbTempFrom->addItem(QString());
+        cmbTempFrom->addItem(QString());
+        cmbTempFrom->addItem(QString());
+        cmbTempFrom->setObjectName("cmbTempFrom");
+        cmbTempFrom->setFont(font4);
+
+        gridLayout_3->addWidget(cmbTempFrom, 1, 0, 1, 1);
+
+        cmbTempTo = new QComboBox(widget);
+        cmbTempTo->addItem(QString());
+        cmbTempTo->addItem(QString());
+        cmbTempTo->addItem(QString());
+        cmbTempTo->setObjectName("cmbTempTo");
+        cmbTempTo->setFont(font4);
+
+        gridLayout_3->addWidget(cmbTempTo, 1, 1, 1, 1);
+
+        stackedWidget->addWidget(page);
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
@@ -311,7 +513,7 @@ public:
 
         retranslateUi(MainWindow);
 
-        stackedWidget->setCurrentIndex(1);
+        stackedWidget->setCurrentIndex(0);
 
 
         QMetaObject::connectSlotsByName(MainWindow);
@@ -358,6 +560,45 @@ public:
         cmbWeightTwo->setItemText(3, QCoreApplication::translate("MainWindow", "Milligram", nullptr));
 
         cmbWeightTwo->setCurrentText(QCoreApplication::translate("MainWindow", "Tonne", nullptr));
+        label_4->setText(QCoreApplication::translate("MainWindow", "UniConvert Pro", nullptr));
+        btnConvertCurr->setText(QCoreApplication::translate("MainWindow", "Convert", nullptr));
+        btnClearCurr->setText(QCoreApplication::translate("MainWindow", "Clear", nullptr));
+        btnReturnCurr->setText(QCoreApplication::translate("MainWindow", "Return", nullptr));
+        cmbCurrencyFrom->setItemText(0, QCoreApplication::translate("MainWindow", "Australian Dollar", nullptr));
+        cmbCurrencyFrom->setItemText(1, QCoreApplication::translate("MainWindow", "United States Dollar", nullptr));
+        cmbCurrencyFrom->setItemText(2, QCoreApplication::translate("MainWindow", "Yuan", nullptr));
+        cmbCurrencyFrom->setItemText(3, QCoreApplication::translate("MainWindow", "Yen", nullptr));
+        cmbCurrencyFrom->setItemText(4, QCoreApplication::translate("MainWindow", "Euro", nullptr));
+        cmbCurrencyFrom->setItemText(5, QCoreApplication::translate("MainWindow", "Ruble", nullptr));
+        cmbCurrencyFrom->setItemText(6, QCoreApplication::translate("MainWindow", "Hong Kong Dollar", nullptr));
+        cmbCurrencyFrom->setItemText(7, QCoreApplication::translate("MainWindow", "Iraqi Dinar", nullptr));
+
+        cmbCurrencyFrom->setCurrentText(QCoreApplication::translate("MainWindow", "Australian Dollar", nullptr));
+        cmbCurrencyTo->setItemText(0, QCoreApplication::translate("MainWindow", "Australian Dollar", nullptr));
+        cmbCurrencyTo->setItemText(1, QCoreApplication::translate("MainWindow", "United States Dollar", nullptr));
+        cmbCurrencyTo->setItemText(2, QCoreApplication::translate("MainWindow", "Yuan", nullptr));
+        cmbCurrencyTo->setItemText(3, QCoreApplication::translate("MainWindow", "Yen", nullptr));
+        cmbCurrencyTo->setItemText(4, QCoreApplication::translate("MainWindow", "Euro", nullptr));
+        cmbCurrencyTo->setItemText(5, QCoreApplication::translate("MainWindow", "Ruble", nullptr));
+        cmbCurrencyTo->setItemText(6, QCoreApplication::translate("MainWindow", "Hong Kong Dollar", nullptr));
+        cmbCurrencyTo->setItemText(7, QCoreApplication::translate("MainWindow", "Iraqi Dinar", nullptr));
+
+        cmbCurrencyTo->setCurrentText(QCoreApplication::translate("MainWindow", "Australian Dollar", nullptr));
+        lblCurrency->setText(QCoreApplication::translate("MainWindow", "0", nullptr));
+        label_5->setText(QCoreApplication::translate("MainWindow", "UniConvert Pro", nullptr));
+        btnTempConvert->setText(QCoreApplication::translate("MainWindow", "Convert", nullptr));
+        btnTempClear->setText(QCoreApplication::translate("MainWindow", "Clear", nullptr));
+        btnTempReturn->setText(QCoreApplication::translate("MainWindow", "Return", nullptr));
+        cmbTempFrom->setItemText(0, QCoreApplication::translate("MainWindow", "Degree Celsius", nullptr));
+        cmbTempFrom->setItemText(1, QCoreApplication::translate("MainWindow", "Fahrenheit", nullptr));
+        cmbTempFrom->setItemText(2, QCoreApplication::translate("MainWindow", "Kelvin", nullptr));
+
+        cmbTempFrom->setCurrentText(QCoreApplication::translate("MainWindow", "Degree Celsius", nullptr));
+        cmbTempTo->setItemText(0, QCoreApplication::translate("MainWindow", "Degree Celsius", nullptr));
+        cmbTempTo->setItemText(1, QCoreApplication::translate("MainWindow", "Fahrenheit", nullptr));
+        cmbTempTo->setItemText(2, QCoreApplication::translate("MainWindow", "Kelvin", nullptr));
+
+        cmbTempTo->setCurrentText(QCoreApplication::translate("MainWindow", "Degree Celsius", nullptr));
     } // retranslateUi
 
 };

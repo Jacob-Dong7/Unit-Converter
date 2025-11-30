@@ -168,6 +168,51 @@ CMakeFiles/UnitConverter.dir/UnitConverter/scientific.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UnitConverter.dir/UnitConverter/scientific.cpp.s"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Programming\CPP\Unit-Converter\UnitConverter\scientific.cpp -o CMakeFiles\UnitConverter.dir\UnitConverter\scientific.cpp.s
 
+CMakeFiles/UnitConverter.dir/UnitConverter/currconvert.cpp.obj: CMakeFiles/UnitConverter.dir/flags.make
+CMakeFiles/UnitConverter.dir/UnitConverter/currconvert.cpp.obj: CMakeFiles/UnitConverter.dir/includes_CXX.rsp
+CMakeFiles/UnitConverter.dir/UnitConverter/currconvert.cpp.obj: C:/Programming/CPP/Unit-Converter/UnitConverter/currconvert.cpp
+CMakeFiles/UnitConverter.dir/UnitConverter/currconvert.cpp.obj: CMakeFiles/UnitConverter.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Programming\CPP\Unit-Converter\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/UnitConverter.dir/UnitConverter/currconvert.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UnitConverter.dir/UnitConverter/currconvert.cpp.obj -MF CMakeFiles\UnitConverter.dir\UnitConverter\currconvert.cpp.obj.d -o CMakeFiles\UnitConverter.dir\UnitConverter\currconvert.cpp.obj -c C:\Programming\CPP\Unit-Converter\UnitConverter\currconvert.cpp
+
+CMakeFiles/UnitConverter.dir/UnitConverter/currconvert.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UnitConverter.dir/UnitConverter/currconvert.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Programming\CPP\Unit-Converter\UnitConverter\currconvert.cpp > CMakeFiles\UnitConverter.dir\UnitConverter\currconvert.cpp.i
+
+CMakeFiles/UnitConverter.dir/UnitConverter/currconvert.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UnitConverter.dir/UnitConverter/currconvert.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Programming\CPP\Unit-Converter\UnitConverter\currconvert.cpp -o CMakeFiles\UnitConverter.dir\UnitConverter\currconvert.cpp.s
+
+CMakeFiles/UnitConverter.dir/UnitConverter/currency.cpp.obj: CMakeFiles/UnitConverter.dir/flags.make
+CMakeFiles/UnitConverter.dir/UnitConverter/currency.cpp.obj: CMakeFiles/UnitConverter.dir/includes_CXX.rsp
+CMakeFiles/UnitConverter.dir/UnitConverter/currency.cpp.obj: C:/Programming/CPP/Unit-Converter/UnitConverter/currency.cpp
+CMakeFiles/UnitConverter.dir/UnitConverter/currency.cpp.obj: CMakeFiles/UnitConverter.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Programming\CPP\Unit-Converter\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/UnitConverter.dir/UnitConverter/currency.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UnitConverter.dir/UnitConverter/currency.cpp.obj -MF CMakeFiles\UnitConverter.dir\UnitConverter\currency.cpp.obj.d -o CMakeFiles\UnitConverter.dir\UnitConverter\currency.cpp.obj -c C:\Programming\CPP\Unit-Converter\UnitConverter\currency.cpp
+
+CMakeFiles/UnitConverter.dir/UnitConverter/currency.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UnitConverter.dir/UnitConverter/currency.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Programming\CPP\Unit-Converter\UnitConverter\currency.cpp > CMakeFiles\UnitConverter.dir\UnitConverter\currency.cpp.i
+
+CMakeFiles/UnitConverter.dir/UnitConverter/currency.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UnitConverter.dir/UnitConverter/currency.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Programming\CPP\Unit-Converter\UnitConverter\currency.cpp -o CMakeFiles\UnitConverter.dir\UnitConverter\currency.cpp.s
+
+CMakeFiles/UnitConverter.dir/UnitConverter/temp.cpp.obj: CMakeFiles/UnitConverter.dir/flags.make
+CMakeFiles/UnitConverter.dir/UnitConverter/temp.cpp.obj: CMakeFiles/UnitConverter.dir/includes_CXX.rsp
+CMakeFiles/UnitConverter.dir/UnitConverter/temp.cpp.obj: C:/Programming/CPP/Unit-Converter/UnitConverter/temp.cpp
+CMakeFiles/UnitConverter.dir/UnitConverter/temp.cpp.obj: CMakeFiles/UnitConverter.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Programming\CPP\Unit-Converter\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/UnitConverter.dir/UnitConverter/temp.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UnitConverter.dir/UnitConverter/temp.cpp.obj -MF CMakeFiles\UnitConverter.dir\UnitConverter\temp.cpp.obj.d -o CMakeFiles\UnitConverter.dir\UnitConverter\temp.cpp.obj -c C:\Programming\CPP\Unit-Converter\UnitConverter\temp.cpp
+
+CMakeFiles/UnitConverter.dir/UnitConverter/temp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UnitConverter.dir/UnitConverter/temp.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Programming\CPP\Unit-Converter\UnitConverter\temp.cpp > CMakeFiles\UnitConverter.dir\UnitConverter\temp.cpp.i
+
+CMakeFiles/UnitConverter.dir/UnitConverter/temp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UnitConverter.dir/UnitConverter/temp.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Programming\CPP\Unit-Converter\UnitConverter\temp.cpp -o CMakeFiles\UnitConverter.dir\UnitConverter\temp.cpp.s
+
 # Object files for target UnitConverter
 UnitConverter_OBJECTS = \
 "CMakeFiles/UnitConverter.dir/UnitConverter_autogen/mocs_compilation.cpp.obj" \
@@ -175,7 +220,10 @@ UnitConverter_OBJECTS = \
 "CMakeFiles/UnitConverter.dir/UnitConverter/mainwindow.cpp.obj" \
 "CMakeFiles/UnitConverter.dir/UnitConverter/length.cpp.obj" \
 "CMakeFiles/UnitConverter.dir/UnitConverter/weight.cpp.obj" \
-"CMakeFiles/UnitConverter.dir/UnitConverter/scientific.cpp.obj"
+"CMakeFiles/UnitConverter.dir/UnitConverter/scientific.cpp.obj" \
+"CMakeFiles/UnitConverter.dir/UnitConverter/currconvert.cpp.obj" \
+"CMakeFiles/UnitConverter.dir/UnitConverter/currency.cpp.obj" \
+"CMakeFiles/UnitConverter.dir/UnitConverter/temp.cpp.obj"
 
 # External object files for target UnitConverter
 UnitConverter_EXTERNAL_OBJECTS =
@@ -186,6 +234,9 @@ UnitConverter.exe: CMakeFiles/UnitConverter.dir/UnitConverter/mainwindow.cpp.obj
 UnitConverter.exe: CMakeFiles/UnitConverter.dir/UnitConverter/length.cpp.obj
 UnitConverter.exe: CMakeFiles/UnitConverter.dir/UnitConverter/weight.cpp.obj
 UnitConverter.exe: CMakeFiles/UnitConverter.dir/UnitConverter/scientific.cpp.obj
+UnitConverter.exe: CMakeFiles/UnitConverter.dir/UnitConverter/currconvert.cpp.obj
+UnitConverter.exe: CMakeFiles/UnitConverter.dir/UnitConverter/currency.cpp.obj
+UnitConverter.exe: CMakeFiles/UnitConverter.dir/UnitConverter/temp.cpp.obj
 UnitConverter.exe: CMakeFiles/UnitConverter.dir/build.make
 UnitConverter.exe: C:/Qt/6.10.1/mingw_64/lib/libQt6Widgets.a
 UnitConverter.exe: C:/Qt/6.10.1/mingw_64/lib/libQt6Gui.a
@@ -193,7 +244,7 @@ UnitConverter.exe: C:/Qt/6.10.1/mingw_64/lib/libQt6Core.a
 UnitConverter.exe: CMakeFiles/UnitConverter.dir/linkLibs.rsp
 UnitConverter.exe: CMakeFiles/UnitConverter.dir/objects1.rsp
 UnitConverter.exe: CMakeFiles/UnitConverter.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Programming\CPP\Unit-Converter\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable UnitConverter.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Programming\CPP\Unit-Converter\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable UnitConverter.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\UnitConverter.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

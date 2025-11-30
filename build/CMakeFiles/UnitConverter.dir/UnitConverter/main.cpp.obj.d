@@ -401,4 +401,6 @@ CMakeFiles/UnitConverter.dir/UnitConverter/main.cpp.obj: \
  C:/Qt/6.10.1/mingw_64/include/QtCore/QString \
  C:/Qt/6.10.1/mingw_64/include/QtCore/qstring.h \
  C:\Programming\CPP\Unit-Converter\UnitConverter\length.h \
+ C:\Programming\CPP\Unit-Converter\UnitConverter\currconvert.h \
+ C:\Programming\CPP\Unit-Converter\UnitConverter\temp.h \
  C:\Programming\CPP\Unit-Converter\UnitConverter\weight.h

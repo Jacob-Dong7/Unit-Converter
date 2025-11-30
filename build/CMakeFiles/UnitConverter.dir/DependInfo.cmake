@@ -9,10 +9,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "UnitConverter_autogen/timestamp" "custom" "UnitConverter_autogen/deps"
+  "C:/Programming/CPP/Unit-Converter/UnitConverter/currconvert.cpp" "CMakeFiles/UnitConverter.dir/UnitConverter/currconvert.cpp.obj" "gcc" "CMakeFiles/UnitConverter.dir/UnitConverter/currconvert.cpp.obj.d"
+  "C:/Programming/CPP/Unit-Converter/UnitConverter/currency.cpp" "CMakeFiles/UnitConverter.dir/UnitConverter/currency.cpp.obj" "gcc" "CMakeFiles/UnitConverter.dir/UnitConverter/currency.cpp.obj.d"
   "C:/Programming/CPP/Unit-Converter/UnitConverter/length.cpp" "CMakeFiles/UnitConverter.dir/UnitConverter/length.cpp.obj" "gcc" "CMakeFiles/UnitConverter.dir/UnitConverter/length.cpp.obj.d"
   "C:/Programming/CPP/Unit-Converter/UnitConverter/main.cpp" "CMakeFiles/UnitConverter.dir/UnitConverter/main.cpp.obj" "gcc" "CMakeFiles/UnitConverter.dir/UnitConverter/main.cpp.obj.d"
   "C:/Programming/CPP/Unit-Converter/UnitConverter/mainwindow.cpp" "CMakeFiles/UnitConverter.dir/UnitConverter/mainwindow.cpp.obj" "gcc" "CMakeFiles/UnitConverter.dir/UnitConverter/mainwindow.cpp.obj.d"
   "C:/Programming/CPP/Unit-Converter/UnitConverter/scientific.cpp" "CMakeFiles/UnitConverter.dir/UnitConverter/scientific.cpp.obj" "gcc" "CMakeFiles/UnitConverter.dir/UnitConverter/scientific.cpp.obj.d"
+  "C:/Programming/CPP/Unit-Converter/UnitConverter/temp.cpp" "CMakeFiles/UnitConverter.dir/UnitConverter/temp.cpp.obj" "gcc" "CMakeFiles/UnitConverter.dir/UnitConverter/temp.cpp.obj.d"
   "C:/Programming/CPP/Unit-Converter/UnitConverter/weight.cpp" "CMakeFiles/UnitConverter.dir/UnitConverter/weight.cpp.obj" "gcc" "CMakeFiles/UnitConverter.dir/UnitConverter/weight.cpp.obj.d"
   "C:/Programming/CPP/Unit-Converter/build/UnitConverter_autogen/mocs_compilation.cpp" "CMakeFiles/UnitConverter.dir/UnitConverter_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/UnitConverter.dir/UnitConverter_autogen/mocs_compilation.cpp.obj.d"
   )

@@ -281,4 +281,22 @@ CMakeFiles/UnitConverter.dir/UnitConverter/length.cpp.obj: \
  C:/Qt/6.10.1/mingw_64/include/QtCore/qstringbuilder.h \
  C:/Qt/6.10.1/mingw_64/include/QtCore/qstring.h \
  C:/Qt/6.10.1/mingw_64/include/QtCore/qstringconverter.h \
- C:/Qt/6.10.1/mingw_64/include/QtCore/qstringconverter_base.h
+ C:/Qt/6.10.1/mingw_64/include/QtCore/qstringconverter_base.h \
+ C:/Qt/6.10.1/mingw_64/include/QtCore/QMap \
+ C:/Qt/6.10.1/mingw_64/include/QtCore/qmap.h \
+ C:/Qt/6.10.1/mingw_64/include/QtCore/qhashfunctions.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/numeric \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_numeric.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/pstl/glue_numeric_defs.h \
+ C:/Qt/6.10.1/mingw_64/include/QtCore/qiterator.h \
+ C:/Qt/6.10.1/mingw_64/include/QtCore/qlist.h \
+ C:/Qt/6.10.1/mingw_64/include/QtCore/qbytearraylist.h \
+ C:/Qt/6.10.1/mingw_64/include/QtCore/qstringlist.h \
+ C:/Qt/6.10.1/mingw_64/include/QtCore/qalgorithms.h \
+ C:/Qt/6.10.1/mingw_64/include/QtCore/qstringmatcher.h \
+ C:/Qt/6.10.1/mingw_64/include/QtCore/qshareddata.h \
+ C:/Qt/6.10.1/mingw_64/include/QtCore/qshareddata_impl.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/map \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_tree.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_map.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_multimap.h

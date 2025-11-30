@@ -8,12 +8,10 @@ namespace Ui {
 
 class Currency : public QDoubleSpinBox {
     Q_OBJECT
-
     public:
     explicit Currency(QWidget *parent = nullptr);
 
     protected:
     QString textFromValue(double) const override;
-
 };
 #endif

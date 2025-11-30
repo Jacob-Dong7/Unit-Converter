@@ -83,16 +83,16 @@ clean: CMakeFiles/UnitConverter_autogen.dir/clean
 # Target rules for target CMakeFiles/UnitConverter.dir
 
 # All Build rule for target.
-CMakeFiles/UnitConverter.dir/all: CMakeFiles/UnitConverter_autogen.dir/all
 CMakeFiles/UnitConverter.dir/all: CMakeFiles/UnitConverter_autogen_timestamp_deps.dir/all
+CMakeFiles/UnitConverter.dir/all: CMakeFiles/UnitConverter_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UnitConverter.dir\build.make CMakeFiles/UnitConverter.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UnitConverter.dir\build.make CMakeFiles/UnitConverter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Programming\CPP\Unit-Converter\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target UnitConverter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Programming\CPP\Unit-Converter\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target UnitConverter"
 .PHONY : CMakeFiles/UnitConverter.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/UnitConverter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Programming\CPP\Unit-Converter\build\CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Programming\CPP\Unit-Converter\build\CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/UnitConverter.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Programming\CPP\Unit-Converter\build\CMakeFiles 0
 .PHONY : CMakeFiles/UnitConverter.dir/rule
@@ -102,10 +102,10 @@ UnitConverter: CMakeFiles/UnitConverter.dir/rule
 .PHONY : UnitConverter
 
 # codegen rule for target.
-CMakeFiles/UnitConverter.dir/codegen: CMakeFiles/UnitConverter_autogen.dir/all
 CMakeFiles/UnitConverter.dir/codegen: CMakeFiles/UnitConverter_autogen_timestamp_deps.dir/all
+CMakeFiles/UnitConverter.dir/codegen: CMakeFiles/UnitConverter_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UnitConverter.dir\build.make CMakeFiles/UnitConverter.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Programming\CPP\Unit-Converter\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Finished codegen for target UnitConverter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Programming\CPP\Unit-Converter\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Finished codegen for target UnitConverter"
 .PHONY : CMakeFiles/UnitConverter.dir/codegen
 
 # clean rule for target.
@@ -152,7 +152,7 @@ CMakeFiles/UnitConverter_autogen_timestamp_deps.dir/clean:
 CMakeFiles/UnitConverter_autogen.dir/all: CMakeFiles/UnitConverter_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UnitConverter_autogen.dir\build.make CMakeFiles/UnitConverter_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UnitConverter_autogen.dir\build.make CMakeFiles/UnitConverter_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Programming\CPP\Unit-Converter\build\CMakeFiles --progress-num=9 "Built target UnitConverter_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Programming\CPP\Unit-Converter\build\CMakeFiles --progress-num=12 "Built target UnitConverter_autogen"
 .PHONY : CMakeFiles/UnitConverter_autogen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -169,7 +169,7 @@ UnitConverter_autogen: CMakeFiles/UnitConverter_autogen.dir/rule
 # codegen rule for target.
 CMakeFiles/UnitConverter_autogen.dir/codegen: CMakeFiles/UnitConverter_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UnitConverter_autogen.dir\build.make CMakeFiles/UnitConverter_autogen.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Programming\CPP\Unit-Converter\build\CMakeFiles --progress-num=9 "Finished codegen for target UnitConverter_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Programming\CPP\Unit-Converter\build\CMakeFiles --progress-num=12 "Finished codegen for target UnitConverter_autogen"
 .PHONY : CMakeFiles/UnitConverter_autogen.dir/codegen
 
 # clean rule for target.
