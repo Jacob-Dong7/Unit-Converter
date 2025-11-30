@@ -3,8 +3,8 @@
 #include <QMap>
 double Length::convert(double curr, const QString &unit, const QString &target) {
     static const QMap<QString, double> toKm = {
-        {"Kilometer", 1},
-        {"Meter", 1000},
+        {"Kilometre", 1},
+        {"Metre", 1000},
         {"Centimetre", 100000},
         {"Millimetre", 1000000},
         {"Micrometre", 1000000000}
