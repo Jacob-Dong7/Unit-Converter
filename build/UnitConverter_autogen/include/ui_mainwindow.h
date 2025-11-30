@@ -67,8 +67,8 @@ public:
     QGridLayout *gridLayout;
     Scientific *sbWeightTwo;
     QComboBox *cmbWeightOne;
-    QComboBox *cmbWeightTwo;
     Scientific *sbWeightOne;
+    QComboBox *cmbWeightTwo;
     QWidget *curr;
     QLabel *label_4;
     QWidget *layoutWidget_2;
@@ -108,12 +108,12 @@ public:
         centralwidget->setObjectName("centralwidget");
         stackedWidget = new QStackedWidget(centralwidget);
         stackedWidget->setObjectName("stackedWidget");
-        stackedWidget->setGeometry(QRect(0, 0, 1211, 531));
+        stackedWidget->setGeometry(QRect(0, 0, 1211, 561));
         mainmenu = new QWidget();
         mainmenu->setObjectName("mainmenu");
         label = new QLabel(mainmenu);
         label->setObjectName("label");
-        label->setGeometry(QRect(20, -10, 1181, 151));
+        label->setGeometry(QRect(0, 0, 1211, 61));
         QFont font;
         font.setFamilies({QString::fromUtf8("Elephant")});
         font.setPointSize(28);
@@ -123,15 +123,16 @@ public:
         label->setAlignment(Qt::AlignmentFlag::AlignCenter);
         layoutWidget = new QWidget(mainmenu);
         layoutWidget->setObjectName("layoutWidget");
-        layoutWidget->setGeometry(QRect(340, 70, 521, 491));
+        layoutWidget->setGeometry(QRect(20, 70, 1181, 491));
         verticalLayout = new QVBoxLayout(layoutWidget);
         verticalLayout->setObjectName("verticalLayout");
         verticalLayout->setContentsMargins(0, 0, 0, 0);
         btnLength = new QPushButton(layoutWidget);
         btnLength->setObjectName("btnLength");
         QFont font1;
-        font1.setFamilies({QString::fromUtf8("Modern No. 20")});
-        font1.setPointSize(24);
+        font1.setFamilies({QString::fromUtf8("Rockwell")});
+        font1.setPointSize(26);
+        font1.setBold(true);
         btnLength->setFont(font1);
 
         verticalLayout->addWidget(btnLength);
@@ -221,7 +222,7 @@ public:
         splitter_3->addWidget(splitter_2);
         layoutWidget1 = new QWidget(pageLength);
         layoutWidget1->setObjectName("layoutWidget1");
-        layoutWidget1->setGeometry(QRect(40, 270, 1141, 251));
+        layoutWidget1->setGeometry(QRect(40, 210, 1141, 341));
         verticalLayout_2 = new QVBoxLayout(layoutWidget1);
         verticalLayout_2->setObjectName("verticalLayout_2");
         verticalLayout_2->setContentsMargins(0, 0, 0, 0);
@@ -254,7 +255,7 @@ public:
         label_3->setAlignment(Qt::AlignmentFlag::AlignCenter);
         layoutWidget2 = new QWidget(weight);
         layoutWidget2->setObjectName("layoutWidget2");
-        layoutWidget2->setGeometry(QRect(10, 260, 1191, 251));
+        layoutWidget2->setGeometry(QRect(10, 210, 1191, 341));
         verticalLayout_3 = new QVBoxLayout(layoutWidget2);
         verticalLayout_3->setObjectName("verticalLayout_3");
         verticalLayout_3->setContentsMargins(0, 0, 0, 0);
@@ -283,7 +284,7 @@ public:
         splitter_5->setHandleWidth(50);
         layoutWidget3 = new QWidget(weight);
         layoutWidget3->setObjectName("layoutWidget3");
-        layoutWidget3->setGeometry(QRect(10, 110, 1191, 181));
+        layoutWidget3->setGeometry(QRect(10, 110, 1191, 111));
         gridLayout = new QGridLayout(layoutWidget3);
         gridLayout->setObjectName("gridLayout");
         gridLayout->setHorizontalSpacing(20);
@@ -309,6 +310,15 @@ public:
 
         gridLayout->addWidget(cmbWeightOne, 1, 0, 1, 1);
 
+        sbWeightOne = new Scientific(layoutWidget3);
+        sbWeightOne->setObjectName("sbWeightOne");
+        sbWeightOne->setFont(font2);
+        sbWeightOne->setAlignment(Qt::AlignmentFlag::AlignCenter);
+        sbWeightOne->setDecimals(2);
+        sbWeightOne->setMaximum(1000000.000000000000000);
+
+        gridLayout->addWidget(sbWeightOne, 0, 0, 1, 1);
+
         cmbWeightTwo = new QComboBox(layoutWidget3);
         cmbWeightTwo->addItem(QString());
         cmbWeightTwo->addItem(QString());
@@ -318,15 +328,6 @@ public:
         cmbWeightTwo->setFont(font4);
 
         gridLayout->addWidget(cmbWeightTwo, 1, 2, 1, 1);
-
-        sbWeightOne = new Scientific(layoutWidget3);
-        sbWeightOne->setObjectName("sbWeightOne");
-        sbWeightOne->setFont(font2);
-        sbWeightOne->setAlignment(Qt::AlignmentFlag::AlignCenter);
-        sbWeightOne->setDecimals(2);
-        sbWeightOne->setMaximum(1000000.000000000000000);
-
-        gridLayout->addWidget(sbWeightOne, 0, 0, 1, 1);
 
         stackedWidget->addWidget(weight);
         curr = new QWidget();
@@ -339,7 +340,7 @@ public:
         label_4->setAlignment(Qt::AlignmentFlag::AlignCenter);
         layoutWidget_2 = new QWidget(curr);
         layoutWidget_2->setObjectName("layoutWidget_2");
-        layoutWidget_2->setGeometry(QRect(30, 280, 1161, 251));
+        layoutWidget_2->setGeometry(QRect(30, 240, 1161, 321));
         verticalLayout_4 = new QVBoxLayout(layoutWidget_2);
         verticalLayout_4->setObjectName("verticalLayout_4");
         verticalLayout_4->setContentsMargins(0, 0, 0, 0);
@@ -363,7 +364,7 @@ public:
 
         layoutWidget_3 = new QWidget(curr);
         layoutWidget_3->setObjectName("layoutWidget_3");
-        layoutWidget_3->setGeometry(QRect(30, 180, 1161, 131));
+        layoutWidget_3->setGeometry(QRect(30, 130, 1161, 151));
         gridLayout_2 = new QGridLayout(layoutWidget_3);
         gridLayout_2->setObjectName("gridLayout_2");
         gridLayout_2->setHorizontalSpacing(20);
@@ -418,11 +419,12 @@ public:
 
         lblCurrency = new QLabel(curr);
         lblCurrency->setObjectName("lblCurrency");
-        lblCurrency->setGeometry(QRect(30, 100, 221, 51));
+        lblCurrency->setGeometry(QRect(0, 90, 1211, 51));
         QFont font5;
         font5.setPointSize(28);
         font5.setBold(true);
         lblCurrency->setFont(font5);
+        lblCurrency->setAlignment(Qt::AlignmentFlag::AlignCenter);
         stackedWidget->addWidget(curr);
         page = new QWidget();
         page->setObjectName("page");
