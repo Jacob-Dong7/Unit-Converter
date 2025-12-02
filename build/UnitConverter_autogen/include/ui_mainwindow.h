@@ -21,6 +21,7 @@
 #include <QtWidgets/QSplitter>
 #include <QtWidgets/QStackedWidget>
 #include <QtWidgets/QStatusBar>
+#include <QtWidgets/QTextBrowser>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 #include <currency.h>
@@ -41,6 +42,7 @@ public:
     QPushButton *btnWeight;
     QPushButton *btnTemp;
     QPushButton *btnCurrency;
+    QPushButton *btnHistory;
     QWidget *pageLength;
     QLabel *label_2;
     Scientific *sbLengthOne;
@@ -90,12 +92,20 @@ public:
     QPushButton *btnTempConvert;
     QPushButton *btnTempClear;
     QPushButton *btnTempReturn;
-    QWidget *widget;
+    QWidget *layoutWidget4;
     QGridLayout *gridLayout_3;
     QDoubleSpinBox *sbTempFrom;
     QDoubleSpinBox *sbTempTo;
     QComboBox *cmbTempFrom;
     QComboBox *cmbTempTo;
+    QWidget *history;
+    QLabel *label_6;
+    QTextBrowser *txtHistory;
+    QWidget *widget;
+    QVBoxLayout *verticalLayout_6;
+    QPushButton *btnShow;
+    QPushButton *btnClearHistory;
+    QPushButton *btnReturnHis;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -154,6 +164,12 @@ public:
         btnCurrency->setFont(font1);
 
         verticalLayout->addWidget(btnCurrency);
+
+        btnHistory = new QPushButton(layoutWidget);
+        btnHistory->setObjectName("btnHistory");
+        btnHistory->setFont(font1);
+
+        verticalLayout->addWidget(btnHistory);
 
         stackedWidget->addWidget(mainmenu);
         pageLength = new QWidget();
@@ -458,13 +474,13 @@ public:
 
         verticalLayout_5->addWidget(btnTempReturn);
 
-        widget = new QWidget(page);
-        widget->setObjectName("widget");
-        widget->setGeometry(QRect(10, 87, 1191, 201));
-        gridLayout_3 = new QGridLayout(widget);
+        layoutWidget4 = new QWidget(page);
+        layoutWidget4->setObjectName("layoutWidget4");
+        layoutWidget4->setGeometry(QRect(10, 87, 1191, 201));
+        gridLayout_3 = new QGridLayout(layoutWidget4);
         gridLayout_3->setObjectName("gridLayout_3");
         gridLayout_3->setContentsMargins(0, 0, 0, 0);
-        sbTempFrom = new QDoubleSpinBox(widget);
+        sbTempFrom = new QDoubleSpinBox(layoutWidget4);
         sbTempFrom->setObjectName("sbTempFrom");
         sbTempFrom->setFont(font2);
         sbTempFrom->setAlignment(Qt::AlignmentFlag::AlignCenter);
@@ -474,7 +490,7 @@ public:
 
         gridLayout_3->addWidget(sbTempFrom, 0, 0, 1, 1);
 
-        sbTempTo = new QDoubleSpinBox(widget);
+        sbTempTo = new QDoubleSpinBox(layoutWidget4);
         sbTempTo->setObjectName("sbTempTo");
         sbTempTo->setFont(font2);
         sbTempTo->setWrapping(false);
@@ -485,7 +501,7 @@ public:
 
         gridLayout_3->addWidget(sbTempTo, 0, 1, 1, 1);
 
-        cmbTempFrom = new QComboBox(widget);
+        cmbTempFrom = new QComboBox(layoutWidget4);
         cmbTempFrom->addItem(QString());
         cmbTempFrom->addItem(QString());
         cmbTempFrom->addItem(QString());
@@ -494,7 +510,7 @@ public:
 
         gridLayout_3->addWidget(cmbTempFrom, 1, 0, 1, 1);
 
-        cmbTempTo = new QComboBox(widget);
+        cmbTempTo = new QComboBox(layoutWidget4);
         cmbTempTo->addItem(QString());
         cmbTempTo->addItem(QString());
         cmbTempTo->addItem(QString());
@@ -504,6 +520,42 @@ public:
         gridLayout_3->addWidget(cmbTempTo, 1, 1, 1, 1);
 
         stackedWidget->addWidget(page);
+        history = new QWidget();
+        history->setObjectName("history");
+        label_6 = new QLabel(history);
+        label_6->setObjectName("label_6");
+        label_6->setGeometry(QRect(20, -10, 1181, 151));
+        label_6->setFont(font);
+        label_6->setFrameShape(QFrame::Shape::NoFrame);
+        label_6->setAlignment(Qt::AlignmentFlag::AlignCenter);
+        txtHistory = new QTextBrowser(history);
+        txtHistory->setObjectName("txtHistory");
+        txtHistory->setGeometry(QRect(10, 110, 1191, 201));
+        widget = new QWidget(history);
+        widget->setObjectName("widget");
+        widget->setGeometry(QRect(10, 310, 1191, 231));
+        verticalLayout_6 = new QVBoxLayout(widget);
+        verticalLayout_6->setObjectName("verticalLayout_6");
+        verticalLayout_6->setContentsMargins(0, 0, 0, 0);
+        btnShow = new QPushButton(widget);
+        btnShow->setObjectName("btnShow");
+        btnShow->setFont(font1);
+
+        verticalLayout_6->addWidget(btnShow);
+
+        btnClearHistory = new QPushButton(widget);
+        btnClearHistory->setObjectName("btnClearHistory");
+        btnClearHistory->setFont(font1);
+
+        verticalLayout_6->addWidget(btnClearHistory);
+
+        btnReturnHis = new QPushButton(widget);
+        btnReturnHis->setObjectName("btnReturnHis");
+        btnReturnHis->setFont(font1);
+
+        verticalLayout_6->addWidget(btnReturnHis);
+
+        stackedWidget->addWidget(history);
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
@@ -529,6 +581,7 @@ public:
         btnWeight->setText(QCoreApplication::translate("MainWindow", "Weight", nullptr));
         btnTemp->setText(QCoreApplication::translate("MainWindow", "Temperature", nullptr));
         btnCurrency->setText(QCoreApplication::translate("MainWindow", "Currency", nullptr));
+        btnHistory->setText(QCoreApplication::translate("MainWindow", "History", nullptr));
         label_2->setText(QCoreApplication::translate("MainWindow", "UniConvert Pro", nullptr));
         cmbLengthOne->setItemText(0, QCoreApplication::translate("MainWindow", "Kilometre", nullptr));
         cmbLengthOne->setItemText(1, QCoreApplication::translate("MainWindow", "Metre", nullptr));
@@ -601,6 +654,10 @@ public:
         cmbTempTo->setItemText(2, QCoreApplication::translate("MainWindow", "Kelvin", nullptr));
 
         cmbTempTo->setCurrentText(QCoreApplication::translate("MainWindow", "Degree Celsius", nullptr));
+        label_6->setText(QCoreApplication::translate("MainWindow", "UniConvert Pro", nullptr));
+        btnShow->setText(QCoreApplication::translate("MainWindow", "Show", nullptr));
+        btnClearHistory->setText(QCoreApplication::translate("MainWindow", "Clear", nullptr));
+        btnReturnHis->setText(QCoreApplication::translate("MainWindow", "Return", nullptr));
     } // retranslateUi
 
 };

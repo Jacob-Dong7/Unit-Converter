@@ -448,6 +448,14 @@ CMakeFiles/UnitConverter.dir/UnitConverter/mainwindow.cpp.obj: \
  C:/Qt/6.10.1/mingw_64/include/QtWidgets/qstackedwidget.h \
  C:/Qt/6.10.1/mingw_64/include/QtWidgets/QStatusBar \
  C:/Qt/6.10.1/mingw_64/include/QtWidgets/qstatusbar.h \
+ C:/Qt/6.10.1/mingw_64/include/QtWidgets/QTextBrowser \
+ C:/Qt/6.10.1/mingw_64/include/QtWidgets/qtextbrowser.h \
+ C:/Qt/6.10.1/mingw_64/include/QtWidgets/qtextedit.h \
+ C:/Qt/6.10.1/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+ C:/Qt/6.10.1/mingw_64/include/QtGui/qtextoption.h \
+ C:/Qt/6.10.1/mingw_64/include/QtGui/qtextcursor.h \
+ C:/Qt/6.10.1/mingw_64/include/QtGui/qtextformat.h \
+ C:/Qt/6.10.1/mingw_64/include/QtGui/qpen.h \
  C:/Qt/6.10.1/mingw_64/include/QtWidgets/QVBoxLayout \
  C:/Qt/6.10.1/mingw_64/include/QtWidgets/qboxlayout.h \
  C:/Qt/6.10.1/mingw_64/include/QtWidgets/QWidget \
@@ -456,4 +464,28 @@ CMakeFiles/UnitConverter.dir/UnitConverter/mainwindow.cpp.obj: \
  C:/Qt/6.10.1/mingw_64/include/QtWidgets/QDoubleSpinBox \
  C:/Programming/CPP/Unit-Converter/UnitConverter/scientific.h \
  C:\Programming\CPP\Unit-Converter\UnitConverter\currency.h \
- C:\Programming\CPP\Unit-Converter\UnitConverter\scientific.h
+ C:\Programming\CPP\Unit-Converter\UnitConverter\scientific.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/fstream \
+ C:/msys64/ucrt64/include/c++/15.2.0/istream \
+ C:/msys64/ucrt64/include/c++/15.2.0/ios \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_ios.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/locale_facets.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/cwctype \
+ C:/msys64/ucrt64/include/wctype.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/ctype_base.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/ctype_inline.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/locale_facets.tcc \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_ios.tcc \
+ C:/msys64/ucrt64/include/c++/15.2.0/ostream \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.tcc \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/istream.tcc \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/codecvt.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/basic_file.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++io.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/fstream.tcc \
+ C:/Qt/6.10.1/mingw_64/include/QtWidgets/QMessageBox \
+ C:/Qt/6.10.1/mingw_64/include/QtWidgets/qmessagebox.h \
+ C:/Qt/6.10.1/mingw_64/include/QtWidgets/qdialog.h \
+ C:/Qt/6.10.1/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/iostream

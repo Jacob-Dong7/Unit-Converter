@@ -450,6 +450,14 @@ CMakeFiles/UnitConverter.dir/UnitConverter/currency.cpp.obj: \
  C:/Qt/6.10.1/mingw_64/include/QtWidgets/qstackedwidget.h \
  C:/Qt/6.10.1/mingw_64/include/QtWidgets/QStatusBar \
  C:/Qt/6.10.1/mingw_64/include/QtWidgets/qstatusbar.h \
+ C:/Qt/6.10.1/mingw_64/include/QtWidgets/QTextBrowser \
+ C:/Qt/6.10.1/mingw_64/include/QtWidgets/qtextbrowser.h \
+ C:/Qt/6.10.1/mingw_64/include/QtWidgets/qtextedit.h \
+ C:/Qt/6.10.1/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+ C:/Qt/6.10.1/mingw_64/include/QtGui/qtextoption.h \
+ C:/Qt/6.10.1/mingw_64/include/QtGui/qtextcursor.h \
+ C:/Qt/6.10.1/mingw_64/include/QtGui/qtextformat.h \
+ C:/Qt/6.10.1/mingw_64/include/QtGui/qpen.h \
  C:/Qt/6.10.1/mingw_64/include/QtWidgets/QVBoxLayout \
  C:/Qt/6.10.1/mingw_64/include/QtWidgets/qboxlayout.h \
  C:/Qt/6.10.1/mingw_64/include/QtWidgets/QWidget \

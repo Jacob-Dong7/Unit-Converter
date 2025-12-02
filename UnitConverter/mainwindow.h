@@ -6,6 +6,7 @@
 #include "currconvert.h"
 #include "temp.h"
 #include "weight.h"
+#include <string>
 
 namespace Ui {
     class MainWindow;
@@ -14,6 +15,10 @@ class MainWindow : public QMainWindow {
     Q_OBJECT
     public:
     explicit MainWindow(QWidget *parent = 0);
+
+    void writeToFile(std::string &filename, QString from, QString to, double numFrom, double numTo);
+    void clearFile(std::string &filename);
+    void readFile(std::string &filename);
 
     private:
     Ui::MainWindow *ui;
@@ -25,6 +30,8 @@ class MainWindow : public QMainWindow {
 
     double convertedValue, currentValue;
     QString unit, target;
+
+    std::string fileName = "history.txt";
 
     private slots:
     void on_btnLength_clicked();
@@ -47,6 +54,11 @@ class MainWindow : public QMainWindow {
     void on_btnTempConvert_clicked();
     void on_btnTempClear_clicked();
     void on_btnTempReturn_clicked();
+
+    void on_btnClearHistory_clicked();
+    void on_btnShow_clicked();
+    void on_btnReturnHis_clicked();
+    void on_btnHistory_clicked();
 };
 
 #endif

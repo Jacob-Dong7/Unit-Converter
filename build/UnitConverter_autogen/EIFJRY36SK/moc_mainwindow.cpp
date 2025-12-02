@@ -55,7 +55,11 @@ template <> constexpr inline auto MainWindow::qt_create_metaobjectdata<qt_meta_t
         "on_btnConvertCurr_clicked",
         "on_btnTempConvert_clicked",
         "on_btnTempClear_clicked",
-        "on_btnTempReturn_clicked"
+        "on_btnTempReturn_clicked",
+        "on_btnClearHistory_clicked",
+        "on_btnShow_clicked",
+        "on_btnReturnHis_clicked",
+        "on_btnHistory_clicked"
     };
 
     QtMocHelpers::UintData qt_methods {
@@ -91,6 +95,14 @@ template <> constexpr inline auto MainWindow::qt_create_metaobjectdata<qt_meta_t
         QtMocHelpers::SlotData<void()>(16, 2, QMC::AccessPrivate, QMetaType::Void),
         // Slot 'on_btnTempReturn_clicked'
         QtMocHelpers::SlotData<void()>(17, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_btnClearHistory_clicked'
+        QtMocHelpers::SlotData<void()>(18, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_btnShow_clicked'
+        QtMocHelpers::SlotData<void()>(19, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_btnReturnHis_clicked'
+        QtMocHelpers::SlotData<void()>(20, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_btnHistory_clicked'
+        QtMocHelpers::SlotData<void()>(21, 2, QMC::AccessPrivate, QMetaType::Void),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -130,6 +142,10 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 13: _t->on_btnTempConvert_clicked(); break;
         case 14: _t->on_btnTempClear_clicked(); break;
         case 15: _t->on_btnTempReturn_clicked(); break;
+        case 16: _t->on_btnClearHistory_clicked(); break;
+        case 17: _t->on_btnShow_clicked(); break;
+        case 18: _t->on_btnReturnHis_clicked(); break;
+        case 19: _t->on_btnHistory_clicked(); break;
         default: ;
         }
     }
@@ -155,14 +171,14 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 16)
+        if (_id < 20)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 16;
+        _id -= 20;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 16)
+        if (_id < 20)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 16;
+        _id -= 20;
     }
     return _id;
 }

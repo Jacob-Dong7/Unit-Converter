@@ -7,10 +7,61 @@
 #include "scientific.h"
 #include "length.h"
 #include "weight.h"
+
 #include <QString>
+#include <string>
+#include <fstream>
+#include <QMessageBox>
+#include <iostream>
 
 MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWindow) {
     ui->setupUi(this);
+}
+
+void MainWindow::writeToFile(std::string &filename, QString from, QString to, double numFrom, double numTo) {
+    std::ofstream outFS(filename, std::ios::app);
+    if (!outFS.is_open()) {
+        return;
+    } 
+
+    outFS << numFrom << " " << from.toStdString() << " = " << numTo << " " << to.toStdString() << "\n";
+    outFS.close();
+}
+
+void MainWindow::clearFile(std::string &filename) {
+    std::ofstream outFS(filename, std::ios::trunc);
+    outFS.close();
+}
+
+void MainWindow::readFile(std::string &filename) {
+    std::string line;
+    QString convertedString;
+    std::ifstream inFS;
+    inFS.open(filename);
+    if (!inFS.is_open()) return;
+
+    while (std::getline(inFS, line)) {
+        convertedString = QString::fromStdString(line);
+        ui->txtHistory->append(convertedString);
+    }
+    inFS.close();
+}
+
+void MainWindow::on_btnClearHistory_clicked() {
+    clearFile(fileName);
+    ui->txtHistory->clear();
+}
+
+void MainWindow::on_btnShow_clicked() {
+    readFile(fileName);
+}
+
+void MainWindow::on_btnReturnHis_clicked() {
+    ui->stackedWidget->setCurrentIndex(0);
+}
+
+void MainWindow::on_btnHistory_clicked() {
+    ui->stackedWidget->setCurrentIndex(5);
 }
 
 void MainWindow::on_btnTempConvert_clicked() {
@@ -19,6 +70,8 @@ void MainWindow::on_btnTempConvert_clicked() {
     target = ui->cmbTempTo->currentText();
     convertedValue= convertTemp.convert(currentValue, unit, target);
     ui->sbTempTo->setValue(convertedValue);
+
+    writeToFile(fileName, unit, target, currentValue, convertedValue);
 }
 
 void MainWindow::on_btnTempClear_clicked() {
@@ -57,6 +110,7 @@ void MainWindow::on_btnConvertCurr_clicked() {
     convertedValue = convertCurrency.convert(currentValue, unit, target);
     ui->sbCurrencyTo->setValue(convertedValue);
     ui->lblCurrency->setText(QString::number(convertedValue, 'f', 2));
+    writeToFile(fileName, unit, target, currentValue, convertedValue);
 }
 
 void MainWindow::on_btnClearCurr_clicked() {
@@ -91,6 +145,7 @@ void MainWindow::on_btnConvertLength_clicked() {
     currentValue = ui->sbLengthOne->value();
     convertedValue = convertLength.convert(currentValue, unit, target);
     ui->sbLengthTwo->setValue(convertedValue);
+    writeToFile(fileName, unit, target, currentValue, convertedValue);
 }
 
 void MainWindow::on_btnClearLength_clicked() {
@@ -115,6 +170,7 @@ void MainWindow::on_btnConvertWeight_clicked() {
     convertedValue = convertWeight.convert(currentValue, unit, target);
 
     ui->sbWeightTwo->setValue(convertedValue);
+    writeToFile(fileName, unit, target, currentValue, convertedValue);
 }
 void MainWindow::on_btnClearWeight_clicked() {
     ui->cmbWeightOne->setCurrentIndex(0);

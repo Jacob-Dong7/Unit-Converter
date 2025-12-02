@@ -1062,6 +1062,7 @@ CMakeFiles/UnitConverter.dir/UnitConverter/currency.cpp.obj: C:/Programming/CPP/
   C:/Qt/6.10.1/mingw_64/include/QtGui/qkeysequence.h \
   C:/Qt/6.10.1/mingw_64/include/QtGui/qpaintdevice.h \
   C:/Qt/6.10.1/mingw_64/include/QtGui/qpalette.h \
+  C:/Qt/6.10.1/mingw_64/include/QtGui/qpen.h \
   C:/Qt/6.10.1/mingw_64/include/QtGui/qpicture.h \
   C:/Qt/6.10.1/mingw_64/include/QtGui/qpixelformat.h \
   C:/Qt/6.10.1/mingw_64/include/QtGui/qpixmap.h \
@@ -1069,7 +1070,10 @@ CMakeFiles/UnitConverter.dir/UnitConverter/currency.cpp.obj: C:/Programming/CPP/
   C:/Qt/6.10.1/mingw_64/include/QtGui/qregion.h \
   C:/Qt/6.10.1/mingw_64/include/QtGui/qrgb.h \
   C:/Qt/6.10.1/mingw_64/include/QtGui/qrgba64.h \
+  C:/Qt/6.10.1/mingw_64/include/QtGui/qtextcursor.h \
   C:/Qt/6.10.1/mingw_64/include/QtGui/qtextdocument.h \
+  C:/Qt/6.10.1/mingw_64/include/QtGui/qtextformat.h \
+  C:/Qt/6.10.1/mingw_64/include/QtGui/qtextoption.h \
   C:/Qt/6.10.1/mingw_64/include/QtGui/qtgui-config.h \
   C:/Qt/6.10.1/mingw_64/include/QtGui/qtguiexports.h \
   C:/Qt/6.10.1/mingw_64/include/QtGui/qtguiglobal.h \
@@ -1088,10 +1092,12 @@ CMakeFiles/UnitConverter.dir/UnitConverter/currency.cpp.obj: C:/Programming/CPP/
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/QSplitter \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/QStackedWidget \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/QStatusBar \
+  C:/Qt/6.10.1/mingw_64/include/QtWidgets/QTextBrowser \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/QVBoxLayout \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/QWidget \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/qabstractbutton.h \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+  C:/Qt/6.10.1/mingw_64/include/QtWidgets/qabstractscrollarea.h \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/qabstractslider.h \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/qabstractspinbox.h \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/qapplication.h \
@@ -1117,6 +1123,8 @@ CMakeFiles/UnitConverter.dir/UnitConverter/currency.cpp.obj: C:/Programming/CPP/
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/qstyleoption.h \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/qtabbar.h \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/qtabwidget.h \
+  C:/Qt/6.10.1/mingw_64/include/QtWidgets/qtextbrowser.h \
+  C:/Qt/6.10.1/mingw_64/include/QtWidgets/qtextedit.h \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/qtwidgets-config.h \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/qtwidgetsexports.h \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -2237,6 +2245,7 @@ CMakeFiles/UnitConverter.dir/UnitConverter/mainwindow.cpp.obj: C:/Programming/CP
   C:/Qt/6.10.1/mingw_64/include/QtGui/qkeysequence.h \
   C:/Qt/6.10.1/mingw_64/include/QtGui/qpaintdevice.h \
   C:/Qt/6.10.1/mingw_64/include/QtGui/qpalette.h \
+  C:/Qt/6.10.1/mingw_64/include/QtGui/qpen.h \
   C:/Qt/6.10.1/mingw_64/include/QtGui/qpicture.h \
   C:/Qt/6.10.1/mingw_64/include/QtGui/qpixelformat.h \
   C:/Qt/6.10.1/mingw_64/include/QtGui/qpixmap.h \
@@ -2244,7 +2253,10 @@ CMakeFiles/UnitConverter.dir/UnitConverter/mainwindow.cpp.obj: C:/Programming/CP
   C:/Qt/6.10.1/mingw_64/include/QtGui/qregion.h \
   C:/Qt/6.10.1/mingw_64/include/QtGui/qrgb.h \
   C:/Qt/6.10.1/mingw_64/include/QtGui/qrgba64.h \
+  C:/Qt/6.10.1/mingw_64/include/QtGui/qtextcursor.h \
   C:/Qt/6.10.1/mingw_64/include/QtGui/qtextdocument.h \
+  C:/Qt/6.10.1/mingw_64/include/QtGui/qtextformat.h \
+  C:/Qt/6.10.1/mingw_64/include/QtGui/qtextoption.h \
   C:/Qt/6.10.1/mingw_64/include/QtGui/qtgui-config.h \
   C:/Qt/6.10.1/mingw_64/include/QtGui/qtguiexports.h \
   C:/Qt/6.10.1/mingw_64/include/QtGui/qtguiglobal.h \
@@ -2259,19 +2271,24 @@ CMakeFiles/UnitConverter.dir/UnitConverter/mainwindow.cpp.obj: C:/Programming/CP
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/QLabel \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/QMainWindow \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/QMenuBar \
+  C:/Qt/6.10.1/mingw_64/include/QtWidgets/QMessageBox \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/QPushButton \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/QSplitter \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/QStackedWidget \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/QStatusBar \
+  C:/Qt/6.10.1/mingw_64/include/QtWidgets/QTextBrowser \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/QVBoxLayout \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/QWidget \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/qabstractbutton.h \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+  C:/Qt/6.10.1/mingw_64/include/QtWidgets/qabstractscrollarea.h \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/qabstractslider.h \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/qabstractspinbox.h \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/qapplication.h \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/qboxlayout.h \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/qcombobox.h \
+  C:/Qt/6.10.1/mingw_64/include/QtWidgets/qdialog.h \
+  C:/Qt/6.10.1/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/qframe.h \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/qgridlayout.h \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/qlabel.h \
@@ -2280,6 +2297,7 @@ CMakeFiles/UnitConverter.dir/UnitConverter/mainwindow.cpp.obj: C:/Programming/CP
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/qmainwindow.h \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/qmenu.h \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/qmenubar.h \
+  C:/Qt/6.10.1/mingw_64/include/QtWidgets/qmessagebox.h \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/qpushbutton.h \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/qrubberband.h \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/qsizepolicy.h \
@@ -2292,6 +2310,8 @@ CMakeFiles/UnitConverter.dir/UnitConverter/mainwindow.cpp.obj: C:/Programming/CP
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/qstyleoption.h \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/qtabbar.h \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/qtabwidget.h \
+  C:/Qt/6.10.1/mingw_64/include/QtWidgets/qtextbrowser.h \
+  C:/Qt/6.10.1/mingw_64/include/QtWidgets/qtextedit.h \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/qtwidgets-config.h \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/qtwidgetsexports.h \
   C:/Qt/6.10.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -2317,11 +2337,14 @@ CMakeFiles/UnitConverter.dir/UnitConverter/mainwindow.cpp.obj: C:/Programming/CP
   C:/msys64/ucrt64/include/c++/15.2.0/bits/allocator.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/atomic_base.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/atomic_lockfree_defines.h \
+  C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_ios.h \
+  C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_ios.tcc \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.tcc \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/char_traits.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/charconv.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/chrono.h \
+  C:/msys64/ucrt64/include/c++/15.2.0/bits/codecvt.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/concept_check.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/cpp_type_traits.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/cxxabi_forced.h \
@@ -2331,6 +2354,7 @@ CMakeFiles/UnitConverter.dir/UnitConverter/mainwindow.cpp.obj: C:/Programming/CP
   C:/msys64/ucrt64/include/c++/15.2.0/bits/exception.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/exception_defines.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/exception_ptr.h \
+  C:/msys64/ucrt64/include/c++/15.2.0/bits/fstream.tcc \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/functexcept.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/functional_hash.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/hash_bytes.h \
@@ -2338,9 +2362,12 @@ CMakeFiles/UnitConverter.dir/UnitConverter/mainwindow.cpp.obj: C:/Programming/CP
   C:/msys64/ucrt64/include/c++/15.2.0/bits/hashtable_policy.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/invoke.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/ios_base.h \
+  C:/msys64/ucrt64/include/c++/15.2.0/bits/istream.tcc \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/list.tcc \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/locale_classes.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/locale_classes.tcc \
+  C:/msys64/ucrt64/include/c++/15.2.0/bits/locale_facets.h \
+  C:/msys64/ucrt64/include/c++/15.2.0/bits/locale_facets.tcc \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/localefwd.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/memory_resource.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/memoryfwd.h \
@@ -2349,6 +2376,8 @@ CMakeFiles/UnitConverter.dir/UnitConverter/mainwindow.cpp.obj: C:/Programming/CP
   C:/msys64/ucrt64/include/c++/15.2.0/bits/nested_exception.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/new_allocator.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/node_handle.h \
+  C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h \
+  C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.tcc \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream_insert.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/parse_numbers.h \
   C:/msys64/ucrt64/include/c++/15.2.0/bits/postypes.h \
@@ -2415,6 +2444,7 @@ CMakeFiles/UnitConverter.dir/UnitConverter/mainwindow.cpp.obj: C:/Programming/CP
   C:/msys64/ucrt64/include/c++/15.2.0/cstring \
   C:/msys64/ucrt64/include/c++/15.2.0/ctime \
   C:/msys64/ucrt64/include/c++/15.2.0/cwchar \
+  C:/msys64/ucrt64/include/c++/15.2.0/cwctype \
   C:/msys64/ucrt64/include/c++/15.2.0/debug/assertions.h \
   C:/msys64/ucrt64/include/c++/15.2.0/debug/debug.h \
   C:/msys64/ucrt64/include/c++/15.2.0/exception \
@@ -2425,9 +2455,13 @@ CMakeFiles/UnitConverter.dir/UnitConverter/mainwindow.cpp.obj: C:/Programming/CP
   C:/msys64/ucrt64/include/c++/15.2.0/ext/numeric_traits.h \
   C:/msys64/ucrt64/include/c++/15.2.0/ext/string_conversions.h \
   C:/msys64/ucrt64/include/c++/15.2.0/ext/type_traits.h \
+  C:/msys64/ucrt64/include/c++/15.2.0/fstream \
   C:/msys64/ucrt64/include/c++/15.2.0/functional \
   C:/msys64/ucrt64/include/c++/15.2.0/initializer_list \
+  C:/msys64/ucrt64/include/c++/15.2.0/ios \
   C:/msys64/ucrt64/include/c++/15.2.0/iosfwd \
+  C:/msys64/ucrt64/include/c++/15.2.0/iostream \
+  C:/msys64/ucrt64/include/c++/15.2.0/istream \
   C:/msys64/ucrt64/include/c++/15.2.0/iterator \
   C:/msys64/ucrt64/include/c++/15.2.0/limits \
   C:/msys64/ucrt64/include/c++/15.2.0/list \
@@ -2436,6 +2470,7 @@ CMakeFiles/UnitConverter.dir/UnitConverter/mainwindow.cpp.obj: C:/Programming/CP
   C:/msys64/ucrt64/include/c++/15.2.0/new \
   C:/msys64/ucrt64/include/c++/15.2.0/numeric \
   C:/msys64/ucrt64/include/c++/15.2.0/optional \
+  C:/msys64/ucrt64/include/c++/15.2.0/ostream \
   C:/msys64/ucrt64/include/c++/15.2.0/pstl/execution_defs.h \
   C:/msys64/ucrt64/include/c++/15.2.0/pstl/glue_algorithm_defs.h \
   C:/msys64/ucrt64/include/c++/15.2.0/pstl/glue_memory_defs.h \
@@ -2471,10 +2506,14 @@ CMakeFiles/UnitConverter.dir/UnitConverter/mainwindow.cpp.obj: C:/Programming/CP
   C:/msys64/ucrt64/include/c++/15.2.0/vector \
   C:/msys64/ucrt64/include/c++/15.2.0/version \
   C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/atomic_word.h \
+  C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/basic_file.h \
   C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
   C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
+  C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++io.h \
   C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++locale.h \
   C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/ctype_base.h \
+  C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/ctype_inline.h \
   C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/error_constants.h \
   C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/gthr-default.h \
   C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/gthr.h \
@@ -2517,6 +2556,7 @@ CMakeFiles/UnitConverter.dir/UnitConverter/mainwindow.cpp.obj: C:/Programming/CP
   C:/msys64/ucrt64/include/time.h \
   C:/msys64/ucrt64/include/vadefs.h \
   C:/msys64/ucrt64/include/wchar.h \
+  C:/msys64/ucrt64/include/wctype.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
@@ -4166,6 +4206,8 @@ C:/Programming/CPP/Unit-Converter/UnitConverter/length.h:
 
 UnitConverter_autogen/EIFJRY36SK/moc_scientific.cpp:
 
+C:/Qt/6.10.1/mingw_64/include/QtWidgets/qmessagebox.h:
+
 CMakeFiles/4.2.0/CMakeCXXCompiler.cmake:
 
 C:/Qt/6.10.1/mingw_64/include/QtCore/qlocale.h:
@@ -4534,11 +4576,15 @@ C:/Qt/6.10.1/mingw_64/include/QtCore/qtclasshelpermacros.h:
 
 C:/Qt/6.10.1/mingw_64/include/QtCore/qtconfiginclude.h:
 
+C:/Qt/6.10.1/mingw_64/include/QtWidgets/qtextedit.h:
+
 C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_iterator_base_funcs.h:
 
 C:/Qt/6.10.1/mingw_64/include/QtCore/qtconfigmacros.h:
 
 C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake:
+
+C:/msys64/ucrt64/include/c++/15.2.0/fstream:
 
 C:/Qt/6.10.1/mingw_64/include/QtCore/qtcore-config.h:
 
@@ -4812,6 +4858,8 @@ C:/msys64/ucrt64/include/c++/15.2.0/bits/std_function.h:
 
 C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake:
 
+C:/msys64/ucrt64/include/c++/15.2.0/bits/fstream.tcc:
+
 C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake:
 
 C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake:
@@ -4857,6 +4905,8 @@ C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake:
 C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake:
 
 C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake:
+
+C:/Qt/6.10.1/mingw_64/include/QtWidgets/qabstractscrollarea.h:
 
 C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake:
 
@@ -4946,6 +4996,8 @@ C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake:
 
 C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake:
 
+C:/Qt/6.10.1/mingw_64/include/QtGui/qtextformat.h:
+
 C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake:
 
 C:/msys64/ucrt64/include/c++/15.2.0/iostream:
@@ -5020,6 +5072,8 @@ C:/msys64/ucrt64/include/c++/15.2.0/bits/exception_defines.h:
 
 C:/msys64/ucrt64/include/c++/15.2.0/bits/cpp_type_traits.h:
 
+C:/Qt/6.10.1/mingw_64/include/QtGui/qtextoption.h:
+
 C:/msys64/ucrt64/include/c++/15.2.0/bits/cxxabi_forced.h:
 
 C:/msys64/ucrt64/include/c++/15.2.0/bits/erase_if.h:
@@ -5079,6 +5133,8 @@ C:/msys64/ucrt64/include/c++/15.2.0/bits/streambuf_iterator.h:
 C:/msys64/ucrt64/include/c++/15.2.0/bits/stringfwd.h:
 
 C:/msys64/ucrt64/include/c++/15.2.0/bits/uniform_int_dist.h:
+
+C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++io.h:
 
 C:/msys64/ucrt64/include/c++/15.2.0/bits/unordered_set.h:
 
@@ -5216,6 +5272,8 @@ C:/msys64/ucrt64/include/swprintf.inl:
 
 C:/msys64/ucrt64/include/time.h:
 
+C:/Qt/6.10.1/mingw_64/include/QtWidgets/qdialog.h:
+
 C:/msys64/ucrt64/include/vadefs.h:
 
 C:/msys64/ucrt64/include/wchar.h:
@@ -5264,7 +5322,11 @@ C:/Qt/6.10.1/mingw_64/include/QtCore/qurl.h:
 
 C:/Qt/6.10.1/mingw_64/include/QtGui/qguiapplication.h:
 
+C:/Qt/6.10.1/mingw_64/include/QtGui/qpen.h:
+
 C:/Qt/6.10.1/mingw_64/include/QtGui/qpicture.h:
+
+C:/Qt/6.10.1/mingw_64/include/QtGui/qtextcursor.h:
 
 C:/Qt/6.10.1/mingw_64/include/QtWidgets/QComboBox:
 
@@ -5275,6 +5337,8 @@ C:/Qt/6.10.1/mingw_64/include/QtWidgets/QLabel:
 C:/Qt/6.10.1/mingw_64/include/QtWidgets/QStackedWidget:
 
 C:/Qt/6.10.1/mingw_64/include/QtWidgets/QStatusBar:
+
+C:/Qt/6.10.1/mingw_64/include/QtWidgets/QTextBrowser:
 
 C:/Qt/6.10.1/mingw_64/include/QtWidgets/QWidget:
 
@@ -5298,7 +5362,15 @@ C:/Qt/6.10.1/mingw_64/include/QtWidgets/qstyle.h:
 
 C:/Qt/6.10.1/mingw_64/include/QtWidgets/qstyleoption.h:
 
+C:/Qt/6.10.1/mingw_64/include/QtWidgets/qtextbrowser.h:
+
+C:/Qt/6.10.1/mingw_64/include/QtWidgets/QMessageBox:
+
+C:/Qt/6.10.1/mingw_64/include/QtWidgets/qdialogbuttonbox.h:
+
 C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_ios.tcc:
+
+C:/msys64/ucrt64/include/c++/15.2.0/bits/codecvt.h:
 
 C:/msys64/ucrt64/include/c++/15.2.0/bits/locale_facets.h:
 
@@ -5309,6 +5381,8 @@ C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.h:
 C:/msys64/ucrt64/include/c++/15.2.0/cwctype:
 
 C:/msys64/ucrt64/include/c++/15.2.0/ios:
+
+C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/basic_file.h:
 
 C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/ctype_inline.h:
 
